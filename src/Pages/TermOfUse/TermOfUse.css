@@ -1,0 +1,48 @@
+.Terms-heading{
+  color: #721965;
+  font-weight: 700;
+}
+.annexure-4-para{
+    font-size: 15px;
+    text-align: justify;
+}
+
+.annexure-4-para h3{
+  color: #721965;
+  text-align: center;
+}
+
+
+.term-table-font{
+  font-size: 15px;  
+}
+.term-thead{
+  background-color: #721965;
+  color: white;
+  width: 400px;
+}
+.term-ordered-list li { 
+  margin-top: 8px; 
+
+}
+.term-ordered-list li span {
+    position: relative;
+    left: 15px;
+}
+.term-ordered-list {
+margin-left: -25px;
+}
+.default-sapcing{
+  padding: 60px 110px 25px ;
+}
+
+/* .link-style p {
+  text-align: justify;
+} */
+
+@media only screen and (max-width: 600px) {
+  .default-sapcing{
+    padding: 0px ;
+  }
+  
+}

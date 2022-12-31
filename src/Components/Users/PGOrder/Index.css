@@ -1,0 +1,43 @@
+.UserIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: #f2f3f8;
+    border-radius: 50%;
+    border: 1px solid #cecbcf;
+  }
+  .UserIcon img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 1px;
+  }
+  .ActiveCurrentUser {
+    background: #721a65;
+    color: #fff !important;
+  }
+  tr.ActiveCurrentUser:hover{
+    background: #721a65 !important;
+    color: #fff;
+  }
+  
+  .success, .failed {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+  }
+
+  .icon {
+    transform: scale(2.8);
+  }
+  .red {
+    color: #FF4D4F;
+  }
+
+  .green {
+    color: #00CC83;
+  }

@@ -1,0 +1,35 @@
+.transaction_detail{
+    background: rgba(46, 56, 77, 0.03);
+    width: 350px;
+    margin-top: 20px;
+    border-radius: 0px 20px 20px 20px;
+    padding-left: 14px;
+
+}
+.transaction_row{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 16px;
+    color: #2E384D;
+}
+.transaction_first_row{
+    font-weight: 600;
+    font-size: 22px;
+    color: #721B65;
+}
+.transaction_total{
+    font-weight: 500;
+    font-size: 16px;
+    color: #721B65;
+    background: #FBFBFF;
+    
+}
+.transaction_horizontal_line{
+    border: 1px solid #CFCBCF;
+    width: 100%;
+}
+.including_gst{
+    font-size: 10px;
+    line-height: 12px;
+}

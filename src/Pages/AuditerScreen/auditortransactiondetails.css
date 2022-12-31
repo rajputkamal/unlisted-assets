@@ -1,0 +1,19 @@
+.auditorscreen_transactionDetails{
+    display: flex;
+    justify-content: space-between;
+}
+.auditorscreen_taransaction_total{
+    border-top: 2px solid rgba(207, 203, 207, 0.5);
+    color: #721B65;
+    /* font-weight: bold; */
+}
+.auditorscreen_Timer{
+    border: 1px solid #721B65;
+    color: #721B65;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+}
+.transactiondetails-cmp.mt-4 {
+    text-align: left !important;
+}

@@ -1,0 +1,38 @@
+.Inventory_company_cell{
+    display: flex;
+    align-items: center;
+    padding-left: 1%;
+
+}
+.Inventory_company_details{
+    padding-left: 2%;
+    margin-left: 10%;
+}
+.Inventory_company_name{
+    margin: 0%;
+}
+.Inventory_category_category{
+    margin: 0%;
+}
+.Inventory_company_id{
+    margin: 0%;
+}
+.Inventory_Table_title{
+    display: flex;
+    width: 100%;
+    color: #2E384D;
+    font-weight: 600;
+    font-size: 22px;
+    justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+.makeStyles-container {
+background-color: green;
+width: 768px;
+}
+}
+.makeStyles-container-14 {
+    border: 0px solid #E5E5E5 !important;
+    border-radius: 10px !important;
+}

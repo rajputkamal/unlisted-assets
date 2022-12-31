@@ -1,0 +1,206 @@
+.listing {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.col-0 {
+    display: flex;
+    align-items: center;
+}
+
+.col-0 p {
+    margin: 5px 0 5px 0;
+}
+
+.col-0 p:nth-child(2) {
+    font-size: 14px;
+}
+
+.col-0 p:nth-child(3) {
+    font-size: 14px;
+}
+
+
+.bold {
+    font-weight: bold;
+}
+.Negotiation_logo {
+    /* border: 1px solid #dee2e6; 
+    border-radius: 50%; */
+    /* height: 40px;
+    width: 40px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+
+    height: 50px !important;
+}
+.Negotiation_logo img {
+    /* border-radius: 50%; */
+    /* width: 100%;
+    height: 100%; */
+
+    height: 50px !important;
+    padding: 8px 0px;
+}
+
+
+.listing p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+}
+.bold-text {
+    font-weight: 600;
+    color: #333b3f;
+    font-size: 12px;
+}
+.Negotiation-right-details ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+.Negotiation-right-details li {
+    color: #3b4043;
+    font-size: 14px;
+    padding: 5px 12px;
+}
+.dots-link{
+    cursor: pointer;
+    display: block;
+}
+.dots-link.desktop-none {
+    display: none;
+}
+.negotiation-selectedSsets-horizontalrow{
+    margin: 14px 0px;    
+    height: 1px;
+    background: #CFCBCF;
+}
+.nego_companyname{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+@media only screen and (max-width: 600px) {
+    .dots-link.desktop-none {
+        display: block !important;
+    }
+    .Negotiation-right-details ul {
+        display: inline-grid !important;
+    }
+    .Negotiations-right-section {
+        border-left: 0px solid #dee2e6;
+        padding-left: 0px;
+    }
+    .Negotiation_logo img {
+        /* border-radius: 50%; */
+        width: 40px;
+        height: 40px;
+    }
+    .Negotiation_logo {
+        margin: 15px 0px;
+        height: 40px;
+        width: 40px;
+    }
+    .buyercard {
+        padding: 0px 0px !important;
+    }
+    .buyer-card {
+        width: 85% !important;
+        padding: 10px 15px
+    }
+    .lastseen {
+        margin: 15px 0px;
+        font-size: 12px;
+    }
+    .seller-side-info {
+        margin: 10px 0px;
+        margin-right: 20px;
+    }
+    .seller-side-info h6{
+        margin: 0px;
+    }
+    .lastseen:before {
+        width: 25%;
+    }
+    .lastseen:after {
+        width: 25%;
+    }
+    .buyer-card-desc p {
+        font-size: 13px;
+    }
+    p.buyer-proposed-amt-in-numbers {
+        font-size: 15px;
+    }
+    .negotiation_buttons_container button {
+        width: 100% !important;
+        margin: 10px 5px !important;
+        padding: 0;
+        font-size: 10px !important;
+    }
+    .dots-link {
+        text-align: right;
+    }
+    .dots-link img{
+        width: 30px;
+    }
+    .dots-link {
+        position: absolute;
+        right: 0;
+        top: 20px;
+    }
+    .buyer-form-sec {
+        width: 100%;
+    }
+    .buyerform-section .form-group {
+        width: 100%;
+        margin: 0px 2px;
+    }
+    .buyerform-section .form-group label{
+        margin: 0px 0px !important;
+    }
+    .buyerform-section .form-group input{
+        width: 100%;
+    }
+    p.m-0.ml-2.text-small b {
+        font-size: 11px !important;
+    }
+    .buyerform-total-section label {
+        font-size: 11px !important;
+    }
+    .flex-column-reverse-mobile {
+        flex-direction: column-reverse!important;
+    }
+}
+.p-margin p{
+    margin-bottom: 5px;
+}
+.Other_transaction_costs{
+    padding: 10px 10px;
+    border: 1px solid rgb(209, 200, 200);
+    border-radius: 10px;
+}
+.nego_headings{
+    font-weight: 500;
+}
+.nego_headings2{
+    font-weight: 500;
+}
+.nego_title_transationid{
+    font-weight: 700;
+}
+.nego_title{
+    font-weight: 600;
+}
+.SelectedAssest-text{
+    font-weight: 700;
+    color: #000000;
+    font-size: 14px;
+    text-decoration: underline;
+}

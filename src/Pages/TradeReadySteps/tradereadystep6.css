@@ -1,0 +1,113 @@
+.Trade_ready_step_6_text{
+    font-family: Montserrat;
+    font-style: normal;
+    color: #2E384D;
+}
+.Trade_ready_step_6_container{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+.Trade_ready_step_6_who_are_you{
+    font-weight: 600;
+}
+.Trade_ready_step_6_Choose_radio_group{
+    /* margin-top: 12px; */
+    font-weight: 500;
+    font-size: 14px;
+    color: #2E384D;
+    
+}
+.Trade_ready_step_6_Choose_radio_border{
+    
+    height: 40px;
+    border: 1px solid #CFCBCF;
+    /* box-sizing: border-box; */
+    border-radius: 4px;
+
+}
+
+.Trade_ready_step_6_bank_image_area{
+    width: 187.23px;
+    height: 134px;
+    background: url(https://www.google.co.in/);
+    border-radius: 10px;
+    padding-bottom: 40px;
+}
+.Trade_ready_step_6_bank_image_container{
+    margin:20px ;
+    border: 1px solid #CFCBCF;
+    height: fit-content;
+    filter: drop-shadow(0px 5px 50px #E5E9F3);
+    border-radius: 22px;
+    padding: 20px;
+
+}
+.Trade_ready_step_6_save_button{
+    margin-top: 30px;
+    border-top: 1px solid #CFCBCF;
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.Trade_ready_step_6_radio-btn-group {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+.Trade_ready_step_6_radio-btn {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 48%;
+    border-radius: 4px;
+    padding: 0px 10px;
+    margin-right: 5px;
+ }
+  
+.radiosize{
+      width: 15px;
+ }
+.info{
+      font-size: 12px;
+      color: red;
+  }
+  .Aadharlink-tab-section{
+      overflow: hidden;
+  }
+  .Trade_ready_step_6 .aadhar-input{
+    width: 100%;
+    padding: 16px;
+    border: 1px solid rgb(206 203 207);
+    border-radius: 4px;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 0px;
+  }
+  @media(max-width: 600px){
+    .Trade_ready_step_6_container{
+        display: flex;
+        flex-direction: column;
+    }
+    .PAN_KYC-Tab-section .p-4{
+        padding: 0 !important;
+    }
+    .PAN_KYC-Tab-section .mt-5{
+        margin: 0 !important;
+    }
+    .PAN_KYC-Tab-section .my-4{
+        margin: 0 !important;
+    }
+    .Aadharlink-tab-section .p-3{
+        padding: 0px !important;
+    }
+    .Aadharlink-tab-section .my-4{
+        margin: 0px !important;
+    }
+}
+.Verification{
+    font-size: 12px !important;
+    color: red;
+}

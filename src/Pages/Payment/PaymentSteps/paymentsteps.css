@@ -1,0 +1,68 @@
+.CustomMobileStepper .MuiStepIcon-root.Mui-active {
+    color: #25A9EF;
+}
+.CustomMobileStepper .MuiStepIcon-root.Mui-completed {
+    color: #2cbd60;
+}
+.CustomMobileStepper .MuiStepIcon-root {
+    width: 25px;
+    height: 25px;
+}
+.CustomMobileStepper .labelname {
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+.CustomMobileStepper .MuiStepLabel-labelContainer span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.CustomMobileStepper .labelname {
+    margin: 5px 10px;
+}
+.mobileStepcard {
+    box-shadow: 0px 2px 10px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+
+.CustomMobileStepper .Mui-disabled svg path {
+    fill: #A5A5A5;
+}
+.CustomMobileStepper .Mui-disabled .labelname {
+    color: #A5A5A5;
+}
+
+.buystock_logo {
+    /* height: 50px !important; */
+}
+.buystock_logo img {
+    height: 50px ;
+    padding: 8px 0px;
+}
+
+.profile_widget_UserIcon{
+    width: 18px !important;
+    height: 18px !important;
+    /* margin: 0px 5px; */
+    fill: #2E384D !important;
+}
+.profile_widget_UserIcon.Mui-completed{
+    width: 18px !important;
+    height: 18px !important;
+    /* margin: 0px 5px; */
+    fill: #2E384D !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .buystock-rightside-section{
+        padding: 10px;
+        padding-bottom: 50px;
+    }
+    
+    .buystock_logo img {
+        height: 50px !important;
+        padding: 8px 0px;
+    }
+  }

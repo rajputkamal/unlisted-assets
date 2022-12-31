@@ -1,0 +1,88 @@
+.TFA_mobile-verification {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+.unlisted-assests-logo-header{
+    margin-top: 5px;
+    margin-left: 32px;
+    margin-bottom: 0px;
+    width: 200px;
+    height: 42px;
+}
+
+.horizontal-line {
+    margin: 0;
+}
+
+.TFA_mobile-verification .back-button {
+    width: 70px;
+    margin-left: 32px;
+    margin-top: 20px;
+}
+
+.TFA_mobile-verification .TFA_main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.TFA_mobile-verification .TFA_main-content .TFA_main-image {
+    width: 60px;
+    height: 70px;
+}
+
+.TFA_mobile-verification .TFA_main-content .TFA_description{
+    width: 33%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.TFA_mobile-verification .TFA_otp-boxes-group {
+    flex-direction: row;
+}
+
+.TFA_mobile-verification .TFA_otp-boxes-group input {
+    height: 42px;
+    width: 65px;
+    margin: 12px;
+    text-align: center;
+    border-radius: 4px;
+    border-color: #CFCBCF;
+}
+
+
+.TFA_submit-button {
+    border-color: #721B65;
+    background: #721B65;
+    margin-top: 25px;
+    height: 35px;
+    color: white;
+    width: 100%;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+.TFA_submit-container {
+    margin: 0 2% 0 2%;
+}
+
+a {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.TFA_post-script-container p {
+    font-size: 12px;
+}
+
+.TFA_heading {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 0;
+}

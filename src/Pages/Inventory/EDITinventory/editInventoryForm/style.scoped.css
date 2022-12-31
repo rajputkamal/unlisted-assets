@@ -1,0 +1,260 @@
+.editinventory-form {
+  width: 100%;
+}
+.NegotiableListing-btn span.MuiTypography-root.MuiTypography-body1.MuiFormControlLabel-label.css-ahj2mt-MuiTypography-root {
+  font-family: 'Montserrat' !important;
+}
+.editinventory-form_radio-btn-group {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.editinventory-form_radio-btn {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 48%;
+  border-radius: 4px;
+  padding: 0px 10px;
+  margin-right: 5px;
+}
+
+.editinventory-form_radio-btn > label {
+  margin: 0px !important;
+}
+
+.editinventory-form_radio-btn > input {
+  margin: 0px !important;
+}
+
+.editinventory-form_field > div {
+  margin-top: 5px;
+}
+
+.editinventory-form_field > div > label {
+  margin-bottom: 5px;
+}
+
+.editinventory-form_field > div > input {
+  height: 35px;
+  border-radius: 5px;
+}
+.editinventory-form_field input {
+  padding: 0px 8px;
+  width: 100%;
+}
+
+.editinventory-form_field-2 {
+  display: flex;
+  
+}
+
+.editinventory-form_field-2 > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+}
+
+.editinventory-form_button_container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5px;
+  border: 1px solid #cfcbcf;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #FAFAFF;
+}
+
+.editinventory-form_button_container > button {
+  /* padding: 10px; */
+  outline: none;
+}
+
+.editinventory-form_button_container > button:focus {
+  outline: none;
+}
+
+.editinventory-form_button_container > button:nth-child(2) {
+  background: #721b65;
+  color: #fff;
+}
+
+.editinventory-form_upload-photo {
+  border: 1px solid #000;
+  border-radius: 4px;
+  border-style: dashed;
+  display: flex;
+  flex-direction: row;
+  padding: 5px 10px;
+  justify-content: center;
+  margin-top: 10px;
+  background-color: #FAFAFF;
+  font-size: 14px;
+}
+.custom-file-upload {
+  cursor: pointer !important;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.custom-file-upload input {
+  position: absolute;
+  height: 100% !important;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.editinventory-form_upload-photo > p {
+  width: 60%;
+  margin-left: 30px;
+}
+
+.editinventory-form_note {
+  display: flex;
+  background: #2E384D;
+  color: #FFFFFF;
+  padding: 5px 10px;
+  margin-top: 5px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+.editinventory-form_field-select {
+  height: 10px;
+}
+
+input {
+  margin-top: 0px !important;
+}
+
+.seperator {
+  margin: -300px;
+}
+.discard_button {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  text-align: center;
+  border: 2px solid #721b65;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #721b65;
+  height: 40px;
+  width: 139px;
+  left: 1061px;
+  top: 1307px;
+  margin: 15px; /* it shows all four sides 15px space */
+  background-color: white;
+  cursor: pointer;
+}
+.AddListing_Disclaimer{
+font-size: 14px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+color: #000000;
+
+
+}
+.AddListing_Disclaimer_checkBox{
+width: 36.6px;
+height: 36px;
+margin:10px ;
+}
+.addlist-title{
+  margin-top: 20px;
+}
+.addlist-title h4 {
+  font-size: 18px !important;
+  margin: 0;
+  letter-spacing: 1px;
+  font-family: 'Montserrat';
+  font-weight: 600 !important;
+}
+.addlist-title hr {
+  border-top: 2px solid #721c65 !important;
+  width: 10% !important;
+  float: left;
+  margin: 0 !important;
+}
+
+
+
+.listing-img{
+  /* width: 50px;
+  height: 50px;
+  margin: 0px 10px;
+  border: 1px solid #d0cdd0;
+  border-radius: 50%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+
+  height: 50px !important;
+  /* padding: 5px; */
+}
+.listing-img img {
+  /* width: 30px;
+  height: 30px; */
+
+  height: 50px !important;
+  padding: 8px 0px;
+}
+.radiobuttons input{
+  width: 100% !important;
+}
+
+
+
+.radiobuttons .css-1f2kvjf-MuiFormControlLabel-root {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px !important;
+  cursor: pointer;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+  margin-left: 16px;
+  margin-right: -11px;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  margin: 0px;
+  padding: 3px;
+  background: #FAFAFA;
+  border: 1px solid #757575;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.radiobuttons .css-vqmohf-MuiButtonBase-root-MuiRadio-root { 
+  color: #CFCBCF ;
+}
+.radiobuttons .css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked {
+  color: #721B65;
+}
+.NegotiableListing-btn label .MuiTypography-root{
+  font-family: 'Montserrat' !important;
+  font-weight: 600;
+  font-size: 14px !important;
+}
+@media(max-width: 768px){
+  .editinventory-form_field-2 {
+    display: flex;
+    flex-direction: column; 
+  }
+}

@@ -1,0 +1,149 @@
+.chat-action {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 0px #d5d5d5;
+    border: none !important;
+    border-radius: 15px !important;
+    padding: 15px 20px;
+    position: absolute;
+    bottom: 0;
+}
+
+.error-msg{
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+    padding: 2px 2px 0px !important;
+}
+ .error-msg p{  
+    font-size: 10px !important;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.create-offer-card{
+    background-color: #FBFBFF;
+    border: 1px solid rgba(117, 117, 117, 0.2);
+    border-radius: 12px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+.create-offer-card .text-size{
+    font-size: 12px;
+    color: #000000;
+}
+.create-offer-card .text-size2{
+    font-size: 10px;
+    color: #000000;
+}
+.create-offer-card svg.MuiSvgIcon-root {
+    width: 13px;
+    height: 13px;    
+}
+.create-offer-card .styled-checkbox:checked + label:before {
+    background: #721a65;
+    border-radius: 5px;
+}
+.create-offer-card .styled-checkbox + label:before {
+    content: '';
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: text-top;
+    
+    background: white;
+    border: 2px solid #721a65;
+    border-radius: 5px;
+}
+ .create-offer-card-btns .set-timer-btn{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-align: center;
+    border: 1px solid #721B65;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #721B65;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 8px 15px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+.create-offer-card-btns .set-timer-btn:hover {    
+    color: #fff;
+    background-color: #721B65;    
+}
+.create-offer-card-btns .secondary-button{
+    font-weight: 700 !important;
+}
+.create-offer-card-btns .primary-button{
+    font-weight: 700 !important;
+}
+.negotioatin-settimer-input label, input {
+    position: relative;
+    display: block;
+    /* padding-right: 76px;
+    width: 174px;
+    box-sizing: border-box; */
+}
+
+.negotioatin-settimer-input label::after {
+    content: '' attr(data-domain);
+    position: absolute;
+    top: 9px;
+    right: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #0D223C;
+    display: inline-block;
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .validit_input{
+        padding: 0px 5px !important;
+    }
+   
+  }
+  .MuiPickersDay-root.Mui-selected {
+    background: #721b65 !important;
+}
+.negotiation-datepicke{
+    height: 330px;
+}
+/* .css-1dozdou {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 0px !important;
+    margin-bottom: 2px !important;
+    padding-left: 24px;
+    padding-right: 12px;
+    max-height: 13px !important;
+    min-height: 10px !important;
+} */
+/* .css-dhopo2 {
+    display: block;
+    position: relative;
+    overflow-x: hidden;
+    min-height: 216px !important;
+}
+.css-mvmu1r {
+    margin: 0px 0 !important;
+} */
+
+/* scroll-default */

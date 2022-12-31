@@ -1,0 +1,133 @@
+.seller-card {
+    /* width: 350px; */
+    width: 50%;
+    padding: 3px 15px;
+    float: right;
+    background: rgba(114, 27, 101, 0.03);
+    border: 1px solid rgba(114, 27, 101, 0.6);
+    box-sizing: border-box;
+    border-radius: 12px 12px 0px 12px;
+    
+}
+.seller-card-invalid{
+    filter: blur(2px);
+    /*background: #ffdffa8f;*/
+}
+.seller_card_rejected{
+    width: 350px;
+    padding: 10px;
+    float: right;
+    background: red;
+    border: 1px solid rgba(114, 27, 101, 0.6);
+    box-sizing: border-box;
+    border-radius: 12px 12px 0px 12px;
+  
+
+}
+.seller-card .row {
+    display: flex;
+    justify-content: space-between;
+}
+.seller-card .seller_card_Company_logo{
+    position: absolute;
+}
+.seller_card_first_row{
+    display: flex;
+    padding-left: 10%;
+    justify-content: space-between;
+    
+}
+.Sellercard_horizontal_line{
+    border: 1px solid #CFCBCF;
+    width: 100%;
+}
+.user-comment{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2E384D;}
+
+.user-message{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+text-align: right;
+color: #2E384D;
+
+    }
+    .seller-proposed_amt{
+        font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    
+    /* identical to box height */
+    
+    color: #721B65;
+    }
+    .seller-proposed-amt-in-numbers{
+        font-weight: bold;
+    font-size: 16px;
+    color: #721B65;
+    }
+    .time {
+        font-size: 12px;
+        margin-left: 6px;
+    }
+    .lastseen {
+        font-size: 13px;
+        width: 100%;
+        margin: 15px 0px;
+        padding: 0;
+        text-align: center;
+        font-family: 'Montserrat';
+        text-transform: capitalize;
+    }
+    .lastseen:after {
+        display: inline-block;
+        margin: 0 0 5px 8px;
+        height: 1px;
+        content: " ";
+        text-shadow: none;
+        background-color: #CFCBCF;
+        width: 40%;
+    }
+    .lastseen:before {
+        display: inline-block;
+        margin: 0 8px 5px 0;
+        height: 1px;
+        content: " ";
+        text-shadow: none;
+        background-color: #CFCBCF;
+        width: 40%;
+    }
+    .seller_card_first_row p {
+        font-size: 14px !important;
+        font-weight: 600;
+    }
+    @media only screen and (max-width: 600px) {
+        .sellercard {
+            padding: 0px 0px !important;
+        }
+        .seller-card {
+            width: 85%;
+        }
+        .seller-side-info .time {
+            margin: 0px;
+        }
+        .accept-tost-msg p {
+            font-size: 13px;
+            margin-left: 0px;
+        }
+        .seller_card_first_row p {
+            margin-left: 10px !important;
+            font-size: 14px !important;
+            font-weight: 600;
+        }
+      }

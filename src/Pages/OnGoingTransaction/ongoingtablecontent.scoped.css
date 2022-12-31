@@ -1,0 +1,259 @@
+
+h6.company_name {
+    font-size: 14px;
+}
+/* .ongoing-transaction-table-section tr td{
+    padding: 15px 10px !important;
+} */
+.company_cell{
+    display: flex;
+    align-items: center;
+    padding-left: 1%;
+}
+
+.MuiTableCell-root {
+    padding: 16px 0 !important;
+}
+.company_details{
+    padding-left: 2%;
+    margin-left: 10%;
+}
+/* .filter-potision{
+    top: 39%;
+    left: 55%;
+} */
+
+
+.Table_title{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 27px;
+}
+.company-logo-img img {
+    /* width: 40px;
+    height: 40px !important;
+    border-radius: 50%;
+    border: 1px solid #e0e0e0 !important;
+    padding: 2px; */
+
+    height: 50px !important;
+    padding: 8px 5px;
+}
+button#add-holdings-button {
+    padding: 0px 30px;
+    height: 30px;
+    background: transparent;
+}
+
+.makeStyles-container-5 {
+    border: 0px solid #E5E5E5 !important;
+    border-radius: 10px !important;
+}
+.makeStyles-container-14 {
+    border: 0px solid #E5E5E5 !important;
+    border-radius: 10px !important;
+}
+.ongoing-transaction-table-section {
+    border: 1px solid #e6e6e6;
+    border-radius: 8px;
+}
+.ongoing-transaction-table-section .button{
+    background-color: #721B65;
+    border: 1px solid #721B65;
+    border-radius: 4px;
+    height: 34px;
+    width: 70px !important;
+    left: 0;
+    top: 1260px;
+    font-weight: bold;
+    font-size: 10px !important;
+    color: #FFFFFF;
+    margin: 0;
+    cursor: pointer;
+}
+.MuiTableContainer-root{
+border: none !important;
+}
+.See-Negotiatin-btn {
+    display: none;
+}
+.See-Agreement-btn {
+    display: none;
+}
+.ongoing-transaction-table-section tr:hover .See-Negotiatin-btn{
+    display: block;
+}
+.ongoing-transaction-table-section tr:hover .See-Agreement-btn{
+    display: block;
+}
+.ongoing-transaction-table-section tr:hover .Inprogress-btn {
+    display: none;
+} 
+.ongoing-transaction-table-section tr:hover .Cancel-btn {
+    display: none;
+} 
+.ongoing-transaction-table-section tr:hover .Expired-btn {
+    display: none;
+} 
+
+button.btn.btn-inprogess {
+    font-size: 11px;
+    padding: 8px 8px;
+    background: #e3fff3;
+    color: #00CC83;
+    font-weight: 600;
+    width: 125px;
+}
+button.btn.btn-cancel {
+    font-size: 11px;
+    padding: 8px 8px;
+    background: #FFF6F5;
+    color: #FF4D4F;
+    font-weight: 600;
+    width: 100px;
+}
+button.btn.btn-progress {
+    font-size: 11px;
+    padding: 8px 8px;
+    background:  #E4F6FF;
+    color: #067EBE;
+    font-weight: 600;
+    width: 125px;
+}
+button.btn.btn-expired {
+    font-size: 11px;
+    padding: 8px 8px;
+    background: #FFF6F5;
+    color: #FF4D4F;
+    font-weight: 600;
+    width: 125px;
+}
+.eye {
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: #f9f9f9;
+    padding: 0 4px;
+    border-radius: 4px;
+    margin-left: 0.5rem;
+}
+.eye:hover {
+    background-color: #721B65;
+    border: 1px solid #721B65;
+    color: #FFFFFF;
+}
+
+.chip:hover{
+    background-color: #721B65 !important;
+    color: #FFFFFF !important;
+    border: 1px solid #721B65 !important;
+}
+.active_chip {
+    background-color: #721B65;
+    color: #FFFFFF;
+}
+
+/* .marketplace-Chip-main .css-6od3lo-MuiChip-label {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 5px;
+    padding-right: 5px;
+    white-space: nowrap;
+} */
+#scroll-default::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#scroll-default::-webkit-scrollbar
+{
+	width: 5px;
+	background-color: #F5F5F5;
+    height: 5px;
+}
+
+#scroll-default::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #721B65;
+}
+.ongoing-logo-img img {
+    /* width: 40px;
+    height: 40px !important;
+    padding: 3px; */
+
+    height: 50px !important;
+    padding: 8px 5px;
+}
+.ongoing-logo{
+    /* width: 150px; */
+    height: 50px !important;
+    padding: 5px;
+}
+.text_limit {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 170px;
+}
+@media only screen and (max-width: 600px) {
+    .MuiTableCell-root {
+        padding: 16px !important;
+    }
+    .Sell-table-section .MuiTableContainer-root{
+        border: none;
+    }
+    .ongoing-transaction-table-section {
+        border: 0px solid #e6e6e6;
+    }
+    .ongoing-transaction-table-section tr th {
+        padding: 5px 5px !important;
+    }
+    .ongoing-transaction-table-section table tr td {
+        padding: 5px 5px;
+        font-size: 11px;
+    }
+    .ongoing-transaction-table-section .company_cell1 p {
+        font-size: 10px;
+        white-space: nowrap;
+        width: 10%;
+    }
+    
+    /* .company-logo-img {
+        width: 40px;
+        height: 40px;
+    } */
+
+    
+    .marketplace-Chips .ongoing-chip{
+        padding: 0px 6px;
+        margin: 2px;
+    }  
+    
+    h6.company_name {
+        font-size: 13px;
+    }
+    button.btn.btn-cancel {
+        font-size: 10px;
+        padding: 5px 5px;
+        width: 75px;
+    }
+    button.btn.btn-inprogess {
+        font-size: 10px;
+        padding: 5px 5px;
+        width: 75px;
+    }
+    .mobile_tab {
+        overflow: scroll;
+        height: 60px;
+    }
+  }
+
+
+  /* .company_details1{
+width: 30%;
+  } */

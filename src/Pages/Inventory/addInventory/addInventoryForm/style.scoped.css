@@ -1,0 +1,254 @@
+.addinventory-form {
+  width: 100%;
+}
+.addinventory-form .radio-heading{
+  font-size: 3px;
+}
+
+.addinventory-form_radio-btn-group {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.addinventory-form_radio-btn {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 48%;
+  border-radius: 4px;
+  padding: 0px 10px;
+  margin-right: 5px;
+}
+
+.addinventory-form_radio-btn > label {
+  margin: 0px !important;
+}
+
+.addinventory-form_radio-btn > input {
+  margin: 0px !important;
+}
+
+.addinventory-form_field {
+  margin-top: 5px;
+}
+
+.addinventory-form_field > div {
+  margin-top: 5px;
+}
+
+.addinventory-form_field > div > label {
+  margin-bottom: 5px;
+}
+
+.addInventory-form_field > div > input {
+  height: 35px;
+  border-radius: 5px;
+  padding: 0px 10px;
+  width: 100%;
+}
+
+.addinventory-form_field-2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.addinventory-form_field-2 > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+}
+
+.addinventory-form_button_container {
+  margin-top: 5px;
+  border: 1px solid #CFCBCF;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.addinventory-form_button_container > button {
+  /* padding: 10px; */
+  outline: none;
+}
+
+.addinventory-form_button_container > button:focus {
+  outline: none;
+}
+
+.addinventory-form_button_container > button:nth-child(2) {
+  background: #721b65;
+  color: #fff;
+}
+
+.addinventory-form_upload-photo {
+  border-radius: 4px;
+    border: 2px dashed #cecbcf;
+    display: flex;
+    flex-direction: row;
+    padding: 15px 10px;
+    justify-content: center;
+    margin: 15px 0px;
+    background: #FBFBFF;
+}
+
+.addinventory-form_upload-photo > p {
+  margin-left: 30px;
+  font-size: 15px;
+}
+.addinventory-form_note p{
+  font-size: 11px;
+  padding: 8px 0px
+}
+.addinventory-form_note {
+  display: flex;
+  flex-direction: column;
+  background:#2E384D;
+  color: #fff;
+  padding: 5px 10px;
+  margin-top: 5px;
+  border-radius: 4px;
+}
+
+.addinventory-form_field-select {
+  height: 10px;
+}
+.addinventory-form_field.addinventory-form_upload-photo {
+  position: relative;
+  cursor: pointer;
+  z-index: 999;
+}
+.custom-file-upload {
+  cursor: pointer !important;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.custom-file-upload input {
+  position: absolute;
+  height: 100% !important;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+input {
+  margin-top: 0px !important;
+}
+
+.seperator {
+  margin: -300px;
+}
+.discard_button{
+  font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    text-align: center;
+    border: 2px solid #721B65;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #721B65;
+    height: 40px;
+    width: 139px;
+    left: 1061px;
+    top: 1307px;
+    margin: 15px; /* it shows all four sides 15px space */  
+    background-color: white;
+    cursor: pointer;
+}
+.addlist-title h4 {
+  font-size: 18px !important;
+  margin: 0;
+  letter-spacing: 1px;
+  font-family: 'Montserrat';
+  font-weight: 600 !important;
+}
+.addlist-title hr {
+
+  border-top: 2px solid #721c65 !important;
+  width: 10% !important;
+  float: left;
+  margin: 0 !important;
+}
+.listing-img{
+
+  height: 50px !important;
+}
+.listing-img img {
+
+  height: 50px !important;
+  padding: 8px 0px;
+}
+/* .listing-img{
+  width: 50px;
+  height: 50px;
+  margin: 0px 10px;
+  border: 1px solid #d0cdd0;
+  border-radius: 50%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.listing-img img {
+  width: 30px;
+  height: 30px;
+} */
+.play-video {
+  position: relative;
+  width: 50%;
+}
+.play-video .play-icon {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  cursor: pointer;
+}
+.holding-desc p {
+  font-size: 13px;
+}
+
+
+
+.radiobuttons .css-1f2kvjf-MuiFormControlLabel-root {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+  margin-left: 16px;
+  margin-right: -11px;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+
+  margin: 0px;
+  padding: 3px;
+  background: #FAFAFA;
+  border: 1px solid #757575;
+  border-radius: 4px;
+  width: 200px;
+}
+
+.radiobuttons .css-vqmohf-MuiButtonBase-root-MuiRadio-root { 
+  color: #CFCBCF ;
+}
+.radiobuttons .css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked {
+  color: #721B65;
+}
+
+@media only screen and (max-width: 768px) {
+ form label {
+  font-size: 11px !important;
+}
+}

@@ -1,0 +1,144 @@
+.editholding-form {
+  width: 100%;
+}
+
+.editholding-form_radio-btn-group {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.editholding-form_radio-btn {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 48%;
+  border-radius: 4px;
+  padding: 0px 10px;
+  margin-right: 5px;
+}
+
+.editholding-form_radio-btn > label {
+  margin: 0px !important;
+}
+
+.editholding-form_radio-btn > input {
+  margin: 0px !important;
+}
+
+.editholding-form_field {
+  margin-top: 5px;
+}
+
+.editholding-form_field > div {
+  margin-top: 5px;
+}
+
+.editholding-form_field > div > label {
+  margin-bottom: 5px;
+}
+
+.editholding-form_field-2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.editholding-form_field-2 > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+}
+
+.editholding-form_button_container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.editholding-form_button_container > button {
+  padding: 10px;
+  outline: none;
+}
+
+.editholding-form_button_container > button:focus {
+  outline: none;
+}
+
+.editholding-form_button_container > button:nth-child(1) {
+  background: #721b65;
+  color: #fff;
+}
+
+.editholding-form_upload-photo {
+  border: 1px solid #000;
+  border-radius: 4px;
+  border-style: dashed;
+  display: flex;
+  flex-direction: row;
+  padding: 5px 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+.addinventory-form_upload-photo {
+  padding: 15px 10px !important;
+}
+.custom-file-upload {
+  cursor: pointer !important;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.custom-file-upload input {
+  position: absolute;
+  height: 100% !important;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.editholding-form_upload-photo > p {
+  width: 60%;
+  margin-left: 30px;
+}
+
+.editholding-form_note {
+  background: #000;
+  color: #fff;
+  padding: 5px 10px;
+  margin-top: 5px;
+  border-radius: 4px;
+}
+
+.editholding-form_field-select {
+  height: 10px;
+}
+
+input {
+  margin-top: 0px !important;
+}
+
+.editholding-form_qty {
+  color: #000;
+  font-size: 16px;
+  padding: 0px 5px;
+}
+@media only screen and (max-width: 600px) {
+  .addholding-form_field-2 {
+    display: block !important;
+}
+.editholding-form .profile-form_field-container .profile-form_field-radio {
+  margin-top: 0px !important;
+}
+.EditHolding-Section .mt-5 {
+  margin: 0 !important;
+}
+.EditHolding-Section .my-5 {
+  margin: 0 !important;
+}
+.EditHolding-Section .py-5.px-5 {
+  padding: 15px !important;
+}
+}

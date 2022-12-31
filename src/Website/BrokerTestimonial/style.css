@@ -1,0 +1,186 @@
+.Testimonials-container{
+padding: 140px 0px;
+}
+
+.Testimonials-container .Testimonials-heading{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 45px;
+    color: #0D223C;
+}
+.Testimonials-main{
+    background: #fff !important;
+}
+/* .for-mobile-view{
+    display: flex;
+    justify-content: center;
+} */
+.Testimonials-main .carousel .carousel-status {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    font-size: 10px;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 90%);
+    color: #fff;
+    display: none;
+}
+.Testimonials-main .broker-details h3{
+    font-weight: 600 ;
+    font-size: 20px ;
+    text-align: left;
+
+}
+.Testimonials-main .broker-details p{
+    font-weight: normal;
+    font-size: 14px;
+    text-align: left;
+}
+.Testimonials-main .broker-image {
+    width: 255px;
+    height: auto;
+}
+.Testimonials-main .broker-image img {
+    border-radius: 7px;
+}
+
+.Testimonials-container .carousel .control-prev.control-arrow:before {
+    border: none;
+    background: none;  
+}
+.Testimonials-container .carousel .control-next.control-arrow:before {
+    border: none;
+    background: none;
+}
+.Testimonials-container .carousel .control-arrow, .carousel.carousel-slider .control-arrow {
+    transition: all .25s ease-in;
+    opacity: 1;
+    filter: alpha(opacity=40);
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+    background: none;
+    border: 0;
+    font-size: 32px;
+    cursor: pointer;
+}
+.Testimonials-container .carousel .control-dots .dot {
+    transition: opacity .25s ease-in;
+    opacity: none;
+    filter: alpha(opacity=30);
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 90%);
+    background: #000;
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 5px;
+}
+.Testimonials-container .carousel .carousel-status {    
+    display: none;
+}
+.Testimonials-container .carousel.carousel-slider .control-arrow:hover {
+    background: transparent;
+}
+.Testimonials-container .carousel.carousel-slider {
+    position: relative;
+    margin: 0;
+    overflow: hidden;
+    height: 300px;
+}
+.Carousel-arrow{
+    background-color: #2E384D !important;    
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+.Carousel-arrow-ArrowForward{
+    background-color: #2E384D !important;    
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+.for-mobile-view-ArrowBackward{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.for-mobile-view-ArrowForward{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.for-mobile-view-arrow {
+    display: none;
+}
+@media (max-width: 768px){
+    .for-mobile-view-ArrowBackward{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .for-mobile-view-ArrowForward{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Carousel-arrow {
+        background-color: #2E384D !important;
+        border-radius: 50%;
+        width: 28px;
+        height: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Carousel-arrow-ArrowForward{
+        display: none;
+    }
+    .for-mobile-view-arrow {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /* .for-mobile-view{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } */
+.Testimonials-container .Testimonials-heading{
+    font-size: 26px;    
+}
+.Testimonials-main  .broker-details{
+    padding: 0px 20px;
+    margin: 20px 0px;
+}
+.Testimonials-main .broker-details h3 {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+.Testimonials-main .broker-details p {
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+}
+.Testimonials-container .carousel.carousel-slider {    
+    height: 460px;
+}
+.DidYouKnow-container .carousel .control-arrow, .carousel.carousel-slider .control-arrow {    
+    top: -195px !important;    
+}
+.Testimonials-container .carousel .control-dots .dot {    
+    width: 4px;
+    height: 4px;    
+    margin: 0 2px;
+}
+
+}

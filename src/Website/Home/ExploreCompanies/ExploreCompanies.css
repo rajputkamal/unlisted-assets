@@ -1,0 +1,120 @@
+.ExploreCompanies-section-main{
+    padding: 15px 0px;
+}
+.ExploreCompanies-section-main .primary-button {
+    width: 250px;
+}
+.ExploreCompanies-main{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.allcompanies-heading {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.company-col-main {
+    background: #fff;
+    border: 1px solid #d7ced7;
+    border-radius: 8px;
+    padding: 10px;
+}
+.company-col-bottom {
+    border-top: 1px solid #e5e8ed; 
+}
+.ExploreCompanies-thumbnail {
+    height: 45px;
+}
+.ExploreCompanies-thumbnail img {
+    /* max-height: 100%;
+    min-height: fit-content;
+    min-width: inherit;
+    max-width: fit-content; */ 
+
+    max-width: 100%;
+    max-height: 100%;
+    /* min-height: fit-content; */
+}
+
+.ExploreCompanies-top-detail p {
+    color: #A5A5A5;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+button.btn.btn-explore {
+    background: #F9F9F9;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 500;
+}
+a.btn.btn-explore {
+    background: #F9F9F9;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 500;      
+}
+.marketplace-company-col-main .marketplace-tags p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+
+@media (max-width: 768px){
+    .allcompanies-heading {
+        font-weight: bold;
+        font-size: 26px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .Company-thumbnail {
+        height: 50px ;
+    }
+    .allcompany-custom-filter {
+        border: 1px solid #e0e0e0;
+        border-top: none !important;
+        width: 350px !important;
+        position: fixed;
+        right: -35px !important;
+        box-shadow: 0px 0px 10px 0px #c1c1c1;
+    }
+    .company-filter-mobile {
+        padding: 0 !important;
+        margin: 0px 3px;
+    }
+    .marketplace-company-col-main {
+        background: #fff;
+        border: 1px solid #d7ced7;
+        border-radius: 8px;
+        padding: 10px;
+        margin: 0px 20px;
+    }
+    .ExploreCompanies-main{
+        padding: 0 40px;
+    }
+    .mobile-on {
+        display: block;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,66 @@
+.create-holdings-page {
+    display: flex;
+    justify-content: center;
+}
+.add_holdings_interest{
+    width: 590px;
+    height: 40px;
+    border: 1px solid #CFCBCF;
+
+border-radius: 4px;
+margin-top: 5px;
+margin-bottom:7px ;
+/* margin-left:3px; */
+}
+.add_holdings_radio_border{
+    width: 283px;
+height: 40px;
+border: 1px solid #CFCBCF;
+/* box-sizing: border-box; */
+border-radius: 4px;
+
+}
+.add_holdings_radio_group{
+    margin-top: 12px;
+    font-weight: 500;
+font-size: 14px;
+color: #2E384D;
+}
+.add_holdings_radio_right{
+    padding-left: 10px;
+}
+.add_holdings_upload{
+    padding-left: 20px;
+}
+.add_holdings_row{
+    display: flex;
+    /* justify-content: space-around; */
+    /* align-items: left; */
+    /* justify-content: space-between; */
+}
+.add_holdings_text{
+    font-family: Montserrat;
+font-style: normal;
+color: #2E384D;
+}
+.add_holdings_proof_container{
+    display: flex;
+    width: 597px;
+height: 170px;
+background: #FBFBFF;
+border: 2px dashed #CFCBCF;
+box-sizing: border-box;
+border-radius: 10px;
+align-items: center;
+justify-content: space-between;
+margin-top: 20px;
+padding-left: 20px;
+}
+
+.inline-validation-box {
+    background: rgb(237,41,57, 0.05)
+}
+
+.inline-validation-box p {
+    color: #ED2939; 
+}

@@ -1,0 +1,275 @@
+
+.MarketPlace-jorney-section{
+  flex-grow: 1;
+  display: flex;
+  height: 230;
+}
+.jorney-tabpanel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+#jorney-sec .MuiTabs-flexContainer.MuiTabs-flexContainerVertical {
+  width: 250px;
+  text-align: left;
+  padding: 0px 0px;
+}
+#jorney-sec .MuiTabs-flexContainerVertical span.MuiTab-wrapper {
+  text-align: left;
+  display: flex;
+  justify-content: flex-start !important;
+  align-items: center;
+  flex-direction: initial !important;
+  font-size: 11px;
+}
+#jorney-sec .MuiTabs-flexContainerVertical button{
+  text-align: left;
+  display: flex;
+  justify-content: flex-start !important;
+  align-items: center;
+  min-height: 33px !important;
+}
+#jorney-sec .MuiCircularProgress-colorPrimary{
+color: #2DBE60 !important;
+}
+.jorney-tabpanel .MuiBox-root {
+  padding: 0px !important;
+  width: 100%;
+}
+.right-tab-sec{
+  padding: 0px 20px;
+}
+.journey_radio_btns input[type="radio"]{
+ display: none;
+}
+.journey_radio_btns input[type="radio"] + label{
+  position: relative;
+  display: inline-block;
+  padding-left: 2.5em;
+  margin-right: 0em;
+  cursor: pointer;
+  line-height: 1.5em;
+  transition: all 0.3s ease-in-out;
+  font-size: 12px;
+  white-space: nowrap;
+}
+.journey_radio_btns input[type="radio"] + label:before,
+.journey_radio_btns input[type="radio"] + label:after{
+ content: '';
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 1.5em;
+ height: 1.5em;
+ text-align: center;
+ color: white;
+ font-family: Times;
+ border-radius: 50%;
+ -webkit-transition: all .3s ease;
+ transition: all .3s ease;
+}
+.journey_radio_btns input[type="radio"] + label:before {
+ -webkit-transition: all .3s ease;
+ transition: all .3s ease;
+ border: 1px solid #cecbcf;
+ box-shadow: inset 0 0 0 0.2em #eeeeee, inset 0 0 0 1em #ffd767;
+
+}
+/* .journey_radio_btns input[type="radio"] + label:hover:before {
+ -webkit-transition: all .3s ease;
+ transition: all .3s ease;
+ box-shadow: inset 0 0 0 0.3em white, inset 0 0 0 1em #c6c6c6;
+} */
+.journey_radio_btns input[type="radio"]:checked + label:before {
+ -webkit-transition: all .3s ease;
+ transition: all .3s ease;
+ box-shadow: inset 0 0 0 0.2em #eeeeee, inset 0 0 0 1em #2cbd60;
+}
+.text-normal{
+  font-size: 14px;
+}
+.useful-link {
+  text-decoration: underline;
+  font-weight: 200;
+}
+.text-primary-color {
+  color: #721c65;
+}
+button.Mui-selected {
+  background: #F9F9FF;
+}
+span.MuiTabs-indicator {
+  background: #ffffff !important;
+}
+.OnboardingJourneyMobile-progress {
+    background: #f2f3f8;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#jorney-sec .MuiTabScrollButton-vertical {
+  width: 100%;
+  height: 20px !important;
+}
+.fw-400{
+  font-weight: 400;
+}
+.OnboardingJourneyMobile {
+  position: relative;
+}
+.OnboardingJourneyMobile-Card {
+  background-image: url('./FancyCard.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  max-height: 150px;
+  min-height: 170px;
+  border-radius: 10px;
+}
+.OnboardingJourneyMobile-progress {
+  background: #f2f3f8;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.OnboardingJourneyMobile-progress {
+  background: #efd0ea;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  height: 65px;
+  width: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.OnboardingJourneyMobile-progress .MuiCircularProgress-root.MuiCircularProgress-colorPrimary.MuiCircularProgress-determinate {
+  width: 55px !important;
+  height: 55px !important;
+}
+.OnboardingJourneyMobile-progress .MuiCircularProgress-colorPrimary {
+  color: #2cbd60 !important;
+}
+.OnboardingJourneyMobile-progress .MuiTypography-colorTextSecondary {
+  color: rgb(114 26 101);
+  font-weight: 700;
+  font-size: 15px;
+}
+.text-extra-small{
+  font-size: 12px;
+}
+.text-medium {
+  font-size: 14px;
+}
+.jorney-steps-mobile .MuiStepper-root {
+  padding: 8px 0 !important;
+}
+.MuiCircularProgress-colorPrimary {
+  color: #18cc52 !important;
+}
+.jorney-steps-mobile .MuiStepLabel-label.MuiStepLabel-alternativeLabel {
+  font-weight: 500;
+  font-family: 'Montserrat';
+  line-height: 1;
+  font-size: 12px;
+}
+.jorney-steps-mobile .MuiStepConnector-alternativeLabel {
+  top: 8px;
+  left: calc(-50% + 8px);
+  right: calc(50% + 8px);
+  position: absolute;
+}
+.jorney-steps-mobile .MuiStepIcon-root.MuiStepIcon-active {
+  color: #ffc107 !important;
+}
+.jorney-steps-mobile .MuiStepIcon-root {
+  color: rgb(255 255 255);
+  border: 1px solid #bdbdbd;
+  display: block;
+  border-radius: 50%;
+}
+.jorney-steps-mobile .MuiStepIcon-text {
+  fill: #fff0;
+  font-size: 0.75rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+.OnboardingJourneyMobile-Card h6 {
+  font-size: 14px;
+}
+.OnboardingJourneyMobile-Card p {
+  line-height: 1.2;
+}
+@media only screen and (max-width: 678px) {
+  .MarketPlace-jorney-section{
+    flex-grow: 1;
+    display: block;
+    height: auto;
+  }
+  .MuiTabs-flexContainer.MuiTabs-flexContainerVertical {
+    width: 100%;
+}
+#jorney-sec .MuiTabs-vertical {
+  border: none !important;
+}
+#jorney-sec .MuiTabs-flexContainerVertical button {
+  min-height: 40px !important;
+}
+.d-flex.align-items-center.border-bottom.pb-2.border-right {
+  border-right: none !important;
+}
+  .MarketPlace-jorney-section .w-75 {
+    width: 100%!important;
+}
+div#vertical-tabpanel-0 {
+  margin-top: 50px;
+}
+div#vertical-tabpanel-1 {
+  margin-top: 50px;
+}
+div#vertical-tabpanel-2 {
+  margin-top: 50px;
+}
+div#vertical-tabpanel-3 {
+  margin-top: 50px;
+}
+.Table_title {
+  display: block !important;
+}
+.Table_title h6 {
+  font-size: 13px;
+}
+.Table_title .d-flex.align-items-center {
+  display: block !important;
+  margin: 10px 0px;
+}
+.form-group.has-search{
+  margin: 0 !important;
+}
+.mobile-display{
+  display: block !important;
+}
+.mobile-display button {
+  margin: 8px auto!important;
+  width: 100%;
+}
+.MarketPlace-jorney-section .w-25 {
+  width: 70%!important;
+}
+.news-title {
+  margin-top: 10px;
+}
+#jorney-sec .MuiStepper-root {
+  display: flex;
+  padding: 0 !important;
+}
+p.w-50 {
+  width: 100% !important;
+}
+}

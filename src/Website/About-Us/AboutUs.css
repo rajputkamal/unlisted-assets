@@ -1,0 +1,108 @@
+
+.aboutus-left h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    /* margin: 35px 10px; */
+    margin-left: 0;
+}
+
+
+.aboutus-left p {
+    font-size: 14px;
+    width: 90%;
+}
+.aboutus-main-section1 .aboutus-right img {
+    margin: auto;
+    width: 400px;
+}
+
+.we-feature-in{
+display:flex;
+align-items: center;
+justify-content: flex-start;
+}
+.we-feature-in-box {
+    background: #21344B;
+    width: 100px;
+    height: 50px;
+    margin: 0px 5px;
+    border-radius: 5px;
+}
+
+
+/* section 2  */
+.aboutus-main-section2 {
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+.aboutus-main-section2 .aboutus-left p {
+    font-size: 15px;
+    font-weight: 500;
+    width: 100%;
+    /* word-break: break-all; */
+    line-height: 2;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+.img-group {
+    position: relative;
+    
+}
+.img1-div{
+    position: absolute;
+    top: 0px;
+    right: 75px;
+}
+.img1-div img{
+    margin: auto;
+    width: 250px;
+}
+.img2-div{
+    position: absolute;
+    top: 180px;
+    left: 0px;
+}
+.img2-div img{
+    margin: auto;
+    width: 220px;
+}
+.img3-div{
+    position: absolute;
+    bottom: 40px;
+    right: 75px;
+}
+.img3-div img{
+    margin: auto;
+    width: 220px;
+}
+
+/* section 3  */
+
+.aboutus-main-section3 h5{
+    font-weight: 600;
+    font-size: 36px;
+}
+.aboutus-main-section3 .ourteam-section{
+    padding: 35px 0px;
+}
+.aboutus-main-section3 .ourteam-section h6{
+    font-weight: 600;
+    font-size: 24px;
+}
+.aboutus-main-section3 .ourteam-section p{
+    font-weight: 500;
+    font-size: 15px;
+}
+.aboutus-main-section3 .ourteam-section span{
+    font-weight: 500;
+    font-size: 18px;
+}
+.ourteam-section .ourteam-img1 img{
+    margin: auto;
+    width: 200px;
+}
+@media screen and (max-width: 600px) {
+    .aboutus-main-section2 {
+        padding-bottom: 0px;
+    }
+  }

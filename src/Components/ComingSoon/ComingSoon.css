@@ -1,0 +1,40 @@
+.ComingSoon_Page{
+    height: 300px;
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+}
+.ComingSoon_Page .error-div h1{   
+font-size: 40px;
+line-height: 37px;
+color: #2E384D;
+}
+.ComingSoon_Page .error-div p{
+font-size: 20px;
+line-height: 29px;
+color: #2E384D;
+}
+/* .ComingSoon_Page_logo{
+    height: 45px;
+    width: 225px;
+} */
+
+@media only screen and (max-width: 768px) {
+    .ComingSoon_Page .error-div h1{   
+        font-size: 26px;
+        line-height: 37px;
+        color: #2E384D;
+        }
+        .ComingSoon_Page .error-div p{
+        font-size: 16px;
+        line-height: 20px;
+        color: #2E384D;
+        }
+        .ComingSoon_Page_logo{
+            height: 35px;
+            width: 165px;
+        }
+  
+
+  }
+

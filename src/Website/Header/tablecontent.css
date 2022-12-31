@@ -1,0 +1,28 @@
+.company_cell{
+    display: flex;
+    align-items: center;
+    padding-left: 1%;
+
+}
+.company_details{
+    padding-left: 2%;
+    margin-left: 10%;
+}
+.company_name{
+    margin: 0%;
+}
+.category_category{
+    margin: 0%;
+}
+.company_id{
+    margin: 0%;
+}
+.Table_title{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.Table_viewall{
+    
+
+}

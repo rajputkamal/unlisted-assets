@@ -1,0 +1,24 @@
+.MuiTabs-flexContainer {
+  background: #fff !important;
+}
+.PrivateTabIndicator-colorSecondary-6 {
+  background-color: #721c65 !important;
+}
+span.MuiTab-wrapper {
+  color: #2E384D;
+}
+.Buyers-tabs {
+  display: none;
+}
+@media only screen and (max-width: 678px) {
+  .MuiTab-root {
+    min-width: 100px !important;
+  }
+  .ml-4.buyers-listing-section {
+    margin: 0 !important;
+}
+.Buyers-tabs {
+  display: block;
+}
+
+}

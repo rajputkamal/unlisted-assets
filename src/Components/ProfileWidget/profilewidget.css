@@ -1,0 +1,189 @@
+.profile_widget_container {
+  width: 100%;
+  border: 1px solid #cfcbcf;
+  border-radius: 12px;
+  background: #fff;
+}
+.profile_widget_head {
+  border-bottom: 1px solid #cfcbcf;
+  width: 100%;
+  font-weight: bold;
+}
+.profile_widget_head > p {
+  margin-left: 15px;
+}
+.profile_widget_list {
+  align-items: center;
+}
+.profile_widget_row.active {
+  color: #2E384D !important;
+  font-weight: 600;
+  font-family: 'Montserrat';
+  /* border-left: 3px solid; */
+}
+.profile_widget_row {
+  display: flex;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+.profile_widget_row img {
+  width: 25px;
+}
+.profile_widget_row_label {
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.profile_widget_row_part2 {
+  margin-left: 10px;
+  justify-content: center;
+  cursor: pointer;
+}
+.profile_widget_head_name {
+  padding-left: 20px;
+}
+.profile_widget_row svg {
+  /* fill: #2e394c; */
+}
+.profile_widget_row.active svg{
+  fill: #2E384D
+}
+@media only screen and (max-width: 1024px) {
+  .profile_widget_row_label {
+    margin-left: 5px !important;
+    font-size: 10px !important;
+  }
+  }
+@media only screen and (max-width: 600px) {
+  .profile_widget_row.active {
+    border-bottom: 2px solid;
+    border-left: none;
+}
+}
+
+
+
+/* new design css */
+
+.profile_widget_head .profile_widget_heading{ 
+
+/* font-family: "Montserrat";
+font-style: normal; */
+font-size: 22px;
+line-height: 27px;
+font-weight: 700;
+/* display: flex; */
+/* align-items: center; */
+color: #000000;
+  
+}
+.profile_widget_head .profile_widget_para{ 
+/* font-family: "Montserrat";
+font-style: normal; */
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: #000000;
+}
+
+.profile_widget_list .MuiStepper-root {
+    padding: 0px !important;
+}
+.profile_widget_UserIcon{
+  width: 18px !important;
+  height: 18px !important;
+  /* margin: 0px 5px; */
+}
+.Mui-completed .active{
+  box-shadow: 0px 2px 10px rgb(0 0 0 / 10%);
+  border-radius: 8px;
+}
+span.MuiStepLabel-root.MuiStepLabel-vertical.Mui-disabled .MuiStepLabel-iconContainer svg{
+  border: 1px solid #CFCBCF;
+  border-radius: 50%;
+  padding: 2px;
+}
+span.MuiStepLabel-root.MuiStepLabel-vertical.Mui-disabled circle{
+  color: #CFCBCF !important;
+}
+span.MuiStepLabel-root.MuiStepLabel-vertical.Mui-disabled .profile_widget_row svg{
+  color: #757575 !important;
+}
+span.MuiStepLabel-root.MuiStepLabel-vertical.Mui-disabled .css-16ubnlw-MuiStepLabel-labelContainer{
+  color: #757575 !important;
+}
+
+
+span.MuiStepLabel-root.MuiStepLabel-vertical.Mui-disabled text{
+  color: #CFCBCF !important;
+  fill: #CFCBCF !important;
+
+}
+span.MuiStepLabel-root.MuiStepLabel-vertical.Mui-disabled .MuiChip-root{
+  display: none;
+  
+}
+.profile_widget_list .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+  color: #25A9EF !important;
+}
+.profile_widget_list .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed {
+  color: #2DBE60;
+}
+.profile_widget_list .css-1pe7n21-MuiStepConnector-root {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  margin-left: 8px;
+  margin-top: -10px !important;
+  margin-bottom: -20px !important;
+}
+.profile_widget_list .css-8t49rw-MuiStepConnector-line {
+  display: block;
+  border-color: #bdbdbd;
+  border-left-style: solid;
+  border-left-width: 1px;
+  min-height: 40px !important;
+}
+
+.profile_widget_list .profile_widget_CompleteChip {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  padding: 0px 10px;  
+  height: 25px;
+  color: #106D31 !important;
+  background-color: #D6E5DC !important;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-family: "Montserrat";
+}
+.profile_widget_list .css-1iz24ed-MuiChip-root .MuiChip-icon {
+  color: #106D31;
+  margin-left: 2px;
+}
+.profile_widget_list .css-6od3lo-MuiChip-label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* padding-left: 3px !important; */
+  padding-right: 3px;
+  white-space: nowrap;
+}
+.ArrowForwardIosIcon svg.MuiSvgIcon-root {
+  height: 13px;
+}
+
+
+
+.profile_widget_tab{
+  padding: 10px;
+  margin: 0px 5px;
+ 
+}
+.profile_widget_tab:hover{
+ 
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.Mui-active .profile_widget_tab{
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}

@@ -1,0 +1,128 @@
+.features-main-top{
+    height: 875px;
+}
+.features-main h1{
+    font-size: 2rem; 
+    font-weight: 600;
+    padding-top: 75px;
+    margin-left: 0;
+}
+.features-main p{
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.features-top button {
+    background: #fff;
+    border: none;
+    padding: 8px 70px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #721B65;
+    border-radius: 6px;
+}
+.features-main-top button{
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 45px;
+}
+/* .features-main-top .MarkeplaceImg{
+       
+} */
+.features-MarkeplaceImg-img .MarkeplaceImg{
+    /* width: 950px;
+    height: 440px;
+    background-color: red !important; */
+}
+.features-MarkeplaceImg-img .MarkeplaceImg img{
+    width: 1182px;
+    height: 702px;
+    object-fit: contain;
+    /* image-rendering: pixelated; */
+}
+/* section 2  */
+.features-main-section2-margin{
+    margin-top: 250px !important;
+    margin-bottom: 100px !important;
+}
+.features-main-section2{
+    margin: 50px 0px ;
+}
+.features-main-section2 h1{
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 0px;
+    margin-left: 0;
+    color: #0D223C;
+}
+.features-main-section2 p{
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 10px;
+    color: #2E384D;
+}
+.features-main .features-main-section2 .sell-now-btn{
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 45px;
+    color: #fff;
+    background-color: #2E384D;
+}
+
+.features-main .features-main-section2 .TabledataImg {
+    width: 425px;   
+}
+.features-main .features-main-section2 .TabledataImg-img2 {
+    width: 540px;   
+}
+.features-main .features-main-section2 .Section7Img img {
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+  }
+.we-feature-in{
+display:flex;
+align-items: center;
+justify-content: flex-start;
+}
+.we-feature-in-box {
+    background: #21344B;
+    width: 100px;
+    height: 50px;
+    margin: 0px 5px;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 600px) {
+    .features-main-top {
+        height: 500px;
+    }
+    .features-main h1{
+        font-size: 26px;         
+    }
+    .features-main p{
+        font-size: 16px;       
+    }
+    .features-main-section2 h1{
+        font-size: 26px;
+    }
+    .features-main-section2 p{
+        font-size: 16px; 
+    }
+    .default-order-1{
+        order: 1;        
+    }
+    .default-order-2{
+        order: 2;  
+    }
+    .features-MarkeplaceImg-img .MarkeplaceImg img {
+        width: 380px;
+        height: 225px;
+        object-fit: contain;
+        image-rendering: pixelated;
+    }
+    .features-main-section2-margin{
+        margin-top: 70px !important;
+        margin-bottom: 0px !important;
+    }
+    
+}

@@ -1,0 +1,258 @@
+.did-you-know-heading h3 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #0D223C;
+}
+
+.DidYouKnow-main .carousel .slider-wrapper.axis-horizontal .slider .slide {
+    flex-direction: column;
+    flex-flow: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.DidYouKnow-container {
+    padding-top: 0px;
+    /* padding-bottom: 120px; */
+    position: relative;
+}
+
+.DidYouKnow-container .Testimonials-heading {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 45px;
+    color: #0D223C;
+}
+
+.DidYouKnow-main {
+    background: #fff !important;
+}
+
+.DidYouKnow-main .carousel .carousel-status {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    font-size: 10px;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 90%);
+    color: #fff;
+    display: none;
+}
+
+.DidYouKnow-main .broker-details h3 {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: left;
+    color: #0D223C;
+}
+
+.DidYouKnow-main .broker-details p {
+    font-weight: normal;
+    font-size: 14px;
+    text-align: left;
+    color: #0D223C;
+}
+
+
+.DidYouKnow-main .broker-image {
+    width: none;
+}
+
+.DidYouKnow-main .broker-image img {
+    border-radius: 7px;
+}
+
+.did-you-know-heading {
+    position: absolute;
+    top: 0;
+    left: 135px;
+    width: none;
+    z-index: 99;
+}
+
+.DidYouKnow-container .carousel .control-prev.control-arrow:before {
+    border: none;
+    background: #000;
+    padding: 15px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: "<";
+    height: 45px;
+    color: #fff !important;
+    margin-left: 0px;
+    z-index: 999;
+    font-size: 25px;
+
+    opacity: 0;
+
+}
+
+.DidYouKnow-container .carousel .control-next.control-arrow:before {
+    border: none;
+    background: #000;
+    padding: 15px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: ">";
+    height: 45px;
+    color: #fff !important;
+    margin-left: 0px;
+    z-index: 999;
+    font-size: 25px;
+
+    opacity: 0;
+
+}
+
+.DidYouKnow-container .carousel .control-arrow,
+.carousel.carousel-slider .control-arrow {
+    transition: all .25s ease-in;
+    opacity: 1;
+    filter: alpha(opacity=40);
+    position: absolute;
+    z-index: 2;
+    top: -50px;
+    background: none;
+    border: 0;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.DidYouKnow-container .carousel .control-dots .dot {
+    transition: opacity .25s ease-in;
+    opacity: none;
+    filter: alpha(opacity=30);
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 90%);
+    background: #000;
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.DidYouKnow-container .carousel .carousel-status {
+    display: none;
+}
+
+.DidYouKnow-container .carousel.carousel-slider .control-arrow:hover {
+    background: transparent;
+}
+
+.DidYouKnow-container .carousel.carousel-slider {
+    /* position: relative; */
+    margin: 0;
+    overflow: hidden;
+    height: 140px;
+}
+
+
+.Carousel-arrow {
+    background-color: #2E384D !important;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.Carousel-arrow-ArrowForward {
+    background-color: #2E384D !important;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.didyouknow-Company-thumbnail img {
+    /* max-width: 150px;
+    min-width: 50px; */
+    max-height: 35px;
+    min-height: 25px;
+    max-width: 150px;
+}
+
+.free-share-main .primary-button {
+    height: 35px;
+    width: 175px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .DidYouKnow-container {
+        padding: 0px 0px;
+    }
+
+    .DidYouKnow-main h3 {
+        font-size: 26px;
+        font-weight: 700;
+        color: #0D223C;
+    }
+
+    .DidYouKnow-container .carousel.carousel-slider {
+        /* position: relative; */
+        margin: 0;
+        overflow: inherit;
+        height: 150px;
+    }
+
+    .DidYouKnow-container .broker-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .DidYouKnow-main .broker-details p {
+        font-weight: normal;
+        font-size: 14px;
+        text-align: left;
+        /* margin-left: 60px;
+        margin-top: 12px; */
+        color: #0D223C;
+    }
+
+    .DidYouKnow-container .carousel .control-dots .dot {
+        width: 4px;
+        height: 4px;
+        margin: 0 2px;
+    }
+
+    .DidYouKnow-container .carousel .control-dots {
+        position: absolute;
+        bottom: 0;
+        margin: -4px 0;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+        z-index: 1;
+        margin-bottom: -36px !important;
+    }
+
+    .recognized-div {
+        margin-top: 25px;
+    }
+
+    .DidYouKnow-container .carousel .control-prev.control-arrow:before {
+        display: none;
+        margin-top: 170px;
+    }
+
+    .DidYouKnow-container .carousel .control-next.control-arrow:before {
+        display: none;
+        margin-top: 165px;
+
+    }
+    .did-you-know-hidden {
+        visibility: hidden;
+    }
+
+}

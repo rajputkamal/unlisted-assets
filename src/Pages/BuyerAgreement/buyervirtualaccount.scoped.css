@@ -1,0 +1,19 @@
+.buyersendradio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buyersendalignitems{
+    display: flex;
+    align-items: center;
+}
+.buyerradiomarginleft{
+    margin-left: 15px;
+}
+.buyervirtualradio_container{
+    width: 482px;
+    
+}
+.buyer_radio_input{
+    width: 15px;
+}

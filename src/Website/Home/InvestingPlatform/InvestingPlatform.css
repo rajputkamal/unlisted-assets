@@ -1,0 +1,183 @@
+.InvestingPlatform-main{
+    padding: 150px 0px;
+}
+/* .InvestingPlatform-main .CompaniesListed-heading{
+    font-weight: bold;
+    font-size: 39px;    
+} */
+
+.InvestingPlatform-main .css-1gsv261 {
+    border-bottom: none !important;
+}
+.InvestingPlatform-main .MuiTabs-scroller.MuiTabs-fixed button {
+    border-bottom: none !important;
+}
+.InvestingPlatform-main .css-19kzrtu {
+    padding: 0px;
+}
+.InvestingPlatform-main .MuiBox-root {
+    padding: 0px;
+}
+.InvestingPlatform-main button.Mui-selected {
+    background: transparent !important;
+    color: #0D223C !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+}
+.InvestingPlatform-main .MuiTabs-flexContainer {
+    background: transparent !important;
+}
+.InvestingPlatform-main .css-1aquho2-MuiTabs-indicator {
+    position: absolute;
+    height: 0;
+    bottom: 0;
+    width: 100%;
+    -webkit-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    background-color: #1976d2;
+}
+/* .InvestingPlatform-main .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    font-family: "Montserrat" !important;
+    font-style: normal;
+    color: #0D223C !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+    line-height: 20px;
+} */
+
+
+
+.InvestingPlatform-main .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    border-radius: 0;
+    padding: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    color: inherit;
+    /* font-family: "Roboto","Helvetica","Arial",sans-serif; */
+    font-weight: 600 !important;
+    line-height: 1.25;
+    letter-spacing: 0.02857em;
+    text-transform: capitalize ;
+   
+    position: relative;
+    min-height: 48px;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    padding: 12px 6px !important;
+  
+    text-align: start !important;
+    font-size: 14px !important;
+    color: #CFCBCF !important;
+}
+
+
+
+
+
+
+.InvestingPlatform-main .InvestingPlatform-para{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: start;
+    padding-top: 10px;
+    width: 75%;
+}
+
+.InvestingPlatform-main .primary-button {    
+    padding: 8px 80px;
+}
+.InvestingPlatform-img .InvestingPlatform-GroupImg{
+    width: 100%;
+}
+.InvestingPlatform-img{
+    position: relative;
+    /* overflow: hidden; */
+}
+.InvestingPlatform-img .InvestingPlatform-NewOfferBtnImg{
+    width: 292px;
+    height: 111px;
+    position: absolute;
+    top: 226px;
+    right: -45px;
+}
+.InvestingPlatform-img .InvestingPlatform-RejectBtnImg{
+    width: 292px;
+    height: 111px;
+    position: absolute;
+    top: 45px;
+    right: -45px;
+}
+.InvestingPlatform-img .InvestingPlatform-AcceptBtnImg{
+    width: 292px;
+    height: 111px;
+    position: absolute;
+    top: 137px;
+    left: -50px;
+}
+
+#wrap:after {
+    display: table;
+    content: "";
+    clear: both;
+  }
+  @media only screen and (max-width: 786px) {
+    .InvestingPlatform-main .CompaniesListed-heading{
+    text-align: center;
+   }
+   .InvestingPlatform-main {
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
+    .InvestingPlatform-main h3{
+     font-size: 26px;
+     line-height: 1.2;
+     margin: 0px 25px;
+    }
+    .InvestingPlatform-for-mobileview{ 
+        margin-top: 20px !important;
+        margin-bottom: 0px !important;
+    }
+    .InvestingPlatform-tab-mobileview .MuiTab-root {
+        min-width: 115px !important;
+    }
+     .InvestingPlatform-main .InvestingPlatform-tab-mobileview .InvestingPlatform-para {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        padding-top: 10px;
+        width: 100%;
+    }
+}
+

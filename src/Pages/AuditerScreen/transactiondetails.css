@@ -1,0 +1,22 @@
+.auditorscreen_transactionDetails{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+.auditorscreen_taransaction_total{
+    border-top: 2px solid rgba(207, 203, 207, 0.5);
+    color: #721B65;
+    background: #f2f3f8;
+    padding: 8px 10px;
+
+}
+.auditorscreen_Timer{
+    border: 1px solid #721B65;
+    color: #721B65;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+}
+.transaction_receipt_box {
+    margin: 0px 25px;
+}

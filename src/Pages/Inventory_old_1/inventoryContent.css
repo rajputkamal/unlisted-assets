@@ -1,0 +1,454 @@
+.jorney-main-div{
+    padding: 110px 0px;
+    background: #E7E7E7;
+    border: 2px solid #BABABA;
+    border-radius: 16px;
+    margin-bottom: 20px;
+  }
+  .searchbar-background-img{
+    background: url("./Assets/InventoryBackgroundImg.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    height: 250px;
+    position: relative;
+  }
+  /* .searchbar-withBackground{
+      position: absolute;
+  } */
+  .search-area h4{
+      padding: 10px 0px;
+      font-weight: 600;
+    font-size: 18px !important;
+    line-height: 22px;
+    color: #FFFFFF;
+  }
+  .inventory-search-bar .MuiInputBase-input {
+    height: 16px;
+}
+  .Searchbar-btn .secondary-button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-align: center;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #ffffff;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 8px 15px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.watch-tutorial{
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+}
+.watch-tutorial .css-i4bv87-MuiSvgIcon-root {
+    color: #721B65 ;
+    width: 30px !important;
+    height: 30px !important;
+}
+.watch-tutorial .btn.watch-tutorial-btn {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    
+    padding: 2px 8px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2E384D;
+}
+.Searchbar-btn button.secondary-button:hover {
+    background: transparent !important;
+    color: #FFFFFF !important;
+    border: 1px solid #ffffff;
+}
+.marketplace-company-col-main {
+    background: #fff;
+    border: 1px solid #d7ced7;
+    border-radius: 8px;
+    padding: 10px;
+}
+.marketplace-company-col-main:hover {
+    background: #fff;
+    border: 1px solid #721B65;
+    border-radius: 8px;
+    padding: 10px;
+}
+.marketplace-Company-thumbnail {
+    height: 45px;
+}
+.marketplace-Company-thumbnail img {
+    max-width: 100%;
+    max-height: 100%;
+    /* min-height: fit-content; */
+    /* max-height: 100%;
+    min-height: fit-content;
+    min-width: inherit;
+    max-width: fit-content; */
+}
+
+.marketplace-searchbutton .secondary-button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid #721B65;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #721B65;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 8px 15px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    width: 186px;
+}
+
+.marketplace-nolistingfound-section{
+    padding: 60px 0px;
+}
+.marketplace-nolistingfound-section h4{    
+    font-size: 22px !important;
+    color: #CFCBCF;
+    font-weight: 700 !important;
+}
+.marketplace-nolistingfound-section p{    
+    font-size: 14px !important;
+    color: #0D223C;
+    font-weight: 500 !important;
+}
+.marketplace-nolistingfound-section svg.MuiSvgIcon-root {    
+    margin: 10px;
+    margin-bottom: 12px;
+}
+
+.marketplace-NoCompanyfound-section{
+    padding: 60px 0px;
+}
+.marketplace-NoCompanyfound-section h4{    
+    font-size: 22px !important;
+    color: #CFCBCF;
+    font-weight: 700 !important;
+}
+.marketplace-NoCompanyfound-section p{    
+    font-size: 14px !important;
+    color: #0D223C;
+    font-weight: 500 !important;
+}
+
+.marketplace-TurnOnAlerts .primary-button{    
+    display: inline-block;    
+    white-space: nowrap;
+    width: 180px;
+
+}
+.marketplace-Chip-main .css-132vamb-MuiChip-root {    
+    background-color: #ffffff ;
+    border: 1px solid #A5A5A5;
+    border-radius: 54px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #2E384D;
+    cursor: pointer;
+}
+.marketplace-Chip-main .css-132vamb-MuiChip-root:hover {
+    background-color: #721b65;
+    border: 1px solid #721b65;
+    border-radius: 54px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.marketplace-card-heading{
+    font-family: 'Montserrat';
+    font-weight: 600 !important;
+    font-size: 24px !important;
+    color: #0D223C;
+    margin-top: 50px !important;
+}
+
+.marketplace-tags h4{
+    color: #2E384D !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    margin-bottom: 2px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1;
+}
+.marketplace-card-listingid p{
+    color: #A5A5A5;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 3px !important;
+}
+.marketplace-card-listingid p span{
+    color: #2E384D;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.marketplace-horizontalrow {
+    height: 1px;
+    background: #000000;
+    opacity: 0.08;
+    margin: 10px -10px;
+}
+
+.marketplace-infoicon{
+    height: 50px;
+    width: 20px !important;
+    color: #2E384D;
+}
+.marketplace-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8px 0px;
+}
+.marketplace-tags .MuiChip-root {
+    color: #106D31 !important;
+    font-size: 11px;
+    height: 22px;
+    background: #D6E5DC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 11px 5px;
+    font-family: "Montserrat";
+    font-weight: 500;   
+}
+.marketplace-tags .css-6od3lo-MuiChip-label {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 6px;
+    padding-right: 6px;
+    white-space: nowrap;
+}
+.marketplace-tags .css-132vamb-MuiChip-root .MuiChip-icon {
+    color: #106D31;    
+}
+.marketplace-actions button.btn.btn-secoundary-default{
+    width: 100%;
+    margin: 0px 3px;
+    font-size: 14px !important;
+}
+.marketplace-actions button.btn.btn-secoundary-default p{
+    margin-left: 3px;
+    font-weight: 400;
+    font-size: 12px;
+}
+.filter-top-action h6{
+    font-weight: 700 !important;
+}
+.filter-top-action a{
+    font-weight: 700 !important;
+    text-decoration: underline !important;
+    color: #000000 !important;
+    font-size: 14px;
+}
+
+/* for search bar  */
+
+.search-area .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] .MuiAutocomplete-input:first-child {
+    padding-left: 40px !important;
+    background-color: #ffffff;
+}
+.search-area .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] {
+    padding: 0px !important;
+}
+.has-search .form-control-feedback {
+    /* position: absolute;
+    z-index: 2;
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    line-height: 1.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #61676d;
+    font-weight: 100; */
+
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.small-icon svg{
+    width: 20px !important;
+    height: 20px !important;
+}
+.inventory-search-bar{
+    position: relative;
+    border-color: #80bdff !important;
+    font-size: 15px !important;
+    font-family: 'Montserrat' !important;
+}
+.inventory-search-bar ::placeholder{
+  color: #605260;
+  font-size: 15px !important;
+  font-family: 'Montserrat' !important;
+}
+.inventory-search-icon{
+    position: absolute;
+}
+
+button.btn.ur-owner-default-btn {
+    color: #000000 !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    background-color: #eaeaea;
+  }
+
+  button.btn.ur-owner-default-btn:focus {
+    box-shadow: none;
+  }
+ 
+  /* button.ur-owner-default-btn:hover {
+    background: #721a65;
+    color: #fff !important;
+    border: 1px solid #721a65;
+  } */
+  .free-share-section {
+    margin-top: 20px;
+}
+.free-share-section h6{
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 20px !important;
+}
+.marketplace-free-share {
+    height: 45px;
+}
+
+.disclaimer_modal {
+    position: fixed;
+    background: white;
+    width: 100%;
+    max-width: 70%;
+    height: 550px;
+    transform: translate(-50%,-50%);
+    /* overflow-y: scroll; */
+    border-radius: 10px !important;
+}
+.addcompanyrequest{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-family: Montserrat;
+    font-style: normal;
+    color: #2E384D;
+}
+.pyment_modal_padding {
+    padding: 40px 70px;
+}
+
+.disclaimer-modal .term-ordered-list li span {
+    position: relative;
+    left: 5px !important;
+}
+.disclaimer-modal-height{
+    height: 250px;
+}
+.disclaimer-modal {
+    position: fixed;
+    background: white;
+    width: 100%;
+    max-width: 800px !important;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 999999;
+    border-radius: 15px !important;
+    padding: 45px 65px;
+}
+.disclaimer-modal .term-ordered-list{
+    padding-left: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .free-share-section {
+        margin-top: 50px;
+    }
+    .marketplace-free-share {
+        height: 45px;
+    }
+    .marketplace-free-share img {
+        max-width: 100%;
+        max-height: 75px;
+        /* min-height: fit-content; */
+    }
+    .search-area.mobileview input{
+        background: transparent;
+        border: 1px solid #CFCBCF;
+        color: #605260;
+        font-family: 'Montserrat';
+    }
+    .marketplace-card-heading{
+        font-family: 'Montserrat';
+        font-weight: 600 !important;
+        font-size: 24px !important;
+        color: #0D223C;
+        margin-top: 35px !important;
+    }
+    .mobileview #search {
+        position: fixed;
+        top: 51px;
+        width: 95% !important;
+        z-index: 99;
+        left: 9px;
+    }
+    .disclaimer-modal {
+        max-width: 95% !important;
+        padding: 30px 40px;
+    }
+  }
+
+
+  .infinite-scroll-component {
+    overflow-y: visible !important;
+    overflow-x: visible !important;
+}
+ 

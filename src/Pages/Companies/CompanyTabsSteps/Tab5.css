@@ -1,0 +1,11 @@
+.news-title h6 {
+    color: #2E384D;
+    font-family: 'Montserrat';
+    font-weight: 600 !important;
+}
+.news-title .News-date{
+    color: #2E384D;
+    font-family: 'Montserrat';
+    font-weight: 600 !important;
+    font-size: 14px;
+}

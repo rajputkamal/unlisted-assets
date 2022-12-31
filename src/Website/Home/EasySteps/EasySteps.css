@@ -1,0 +1,72 @@
+.EasySteps-section {
+    background: #0D223C;
+  }
+  .EasySteps-heading{
+    font-weight: bold;
+    font-size: 26px;
+    text-align: center;
+    color: #fff;
+    margin: 40px 0px;
+    text-transform: capitalize;
+    padding-right: 10px;
+  }
+  .EasySteps-card-container{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+  }
+ 
+  .EasySteps-section .EasySteps-card{
+    position: relative;
+    width: 189px;
+    height: inherit;
+    background: #2E384D;
+    border-radius: 10px;
+    padding: 15px;
+}
+.EasySteps-section .EasySteps-card .EasySteps-logo{
+    margin: 10px 0px;
+}
+.EasySteps-section .EasySteps-card .EasySteps-title{
+    font-weight: 600;
+    font-size: 14px;
+    color: #FBFBFF;
+}
+.EasySteps-section .EasySteps-card .EasySteps-para{
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+.EasySteps-section  .EasySteps-arrowologo{
+    position: absolute;
+    top: 44%;
+    left: 90%;
+    z-index: 999;
+}
+@media screen and (max-width: 600px) {
+  .EasySteps-section .padding-for-mobileview{
+    padding-right: 0px;
+  }
+    .EasySteps-section  .EasySteps-arrowologo{
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .EasySteps-card-main{
+      overflow-x: scroll;
+    }
+    .EasySteps-section .EasySteps-card {
+      /* position: relative; */
+      width: 205px;
+      height: 220px;
+      background: #2E384D;
+      border-radius: 10px;
+      padding: 15px;
+      margin-right: 10px;
+      margin-bottom: 20px;
+  }
+  }
+
+
+

@@ -1,0 +1,62 @@
+.privacypolicy-main{
+  padding: 25px 15px;
+}
+.privacypolicy-main .privacypolicy-container{
+  padding: 0px 55px; 
+}
+.privacypolicy-main .section1{
+  padding: 0px 55px;
+}
+.privacypolicy-main h3{
+  color: #721965;
+  text-align: center;
+}
+.privacypolicy-main .CompanyLogo{
+width: 150px;
+}
+
+
+
+.Terms-heading{
+    color: #721965;
+    font-weight: 700;
+  }
+  .annexure-4-para{
+      font-size: 15px;
+  }
+  .term-table-font{
+    font-size: 15px;  
+  }
+  .term-thead{
+    background-color: #721965;
+    color: white;
+    width: 400px;
+  }
+  .term-ordered-list li { 
+    margin-top: 8px; 
+  }
+  .term-ordered-list li span {
+      position: relative;
+      left: 15px;
+  }
+  .term-ordered-list {
+  margin-left: -25px;
+  }
+  .term-ordered-list a{
+    color: #721965;
+  }
+  .link-style a{
+    color: #721965;
+  }
+  
+  .privacy-policy-table .table-data p{
+    margin-bottom: 0px;
+  }
+  @media screen and (max-width: 600px) {
+    .privacypolicy-main .privacypolicy-container{
+      padding: 0px; 
+    }
+    .privacypolicy-main .section1{
+      padding: 0px 10px;
+    }
+  }

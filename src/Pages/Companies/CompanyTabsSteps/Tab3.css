@@ -1,0 +1,215 @@
+.ig-category-chart.igr-category-chart {
+    height: 400px;
+}
+td.ig-chart-legend-item-badge canvas {
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50%;
+}
+.financials-tab-section h6{
+    font-family: 'Montserrat';
+    font-weight: 600 !important;
+    font-size: 15px !important;
+}
+.financials-table-section table tr th {
+    background: #E7E7E7;
+    font-size: 14px;
+    padding: 5px 10px;
+    font-weight: 500;
+}
+.financials-table-section table tr td {
+    font-size: 13px;
+    padding: 5px 10px;
+    font-family: 'Montserrat';
+    border-bottom: 1px solid #c9ccd0;
+}
+@media only screen and (max-width: 678px) {
+    .financials-table-section table tr th {
+        font-size: 10px;
+        padding: 5px 5px;
+    }
+    .financials-table-section table tr td {
+        font-size: 10px;
+        padding: 5px 5px;
+    }
+    .financials-tab-section {
+        margin-top: 15px;
+    }
+  }
+
+  /* tab  */
+
+  .trade-tabs-right{
+    border: 1px solid rgb(207, 203, 207);
+    padding: 1px;
+    border-radius: 5px;
+    background: #fff;
+  }
+  .PrivateTabIndicator-colorPrimary-6 {
+  background-color: #721c65 !important;
+  }
+  .Company-details-tabs-section .MuiAppBar-colorDefault {
+  color: #B6B9C1 !important;
+  background-color: #ffffff !important;
+  }
+  .Company-details-tabs-section .Mui-selected span {
+  color: #721c65 !important;
+  }
+  .Company-details-tabs-section .MuiPaper-elevation4 {
+  box-shadow: none !important;
+  }
+  .Company-details-tabs-section .MuiButtonBase-root {
+  border-bottom: 0px solid #bdc0c6 !important;
+  }
+  .Company-details-tabs-section .MuiTab-root {
+  font-family: 'Montserrat' !important;
+  padding: 5px 5px !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  line-height: 1.75;
+  letter-spacing: 0 !important;
+  text-transform: capitalize !important;
+  }
+  .company-details-tabs .MuiTab-root {
+    min-width: 130px !important;
+  }
+  .Company-details-tabs-section .MuiTabs-scroller.MuiTabs-fixed .Mui-selected {
+    border-bottom: 2px solid #731c67 !important;
+  }
+  .PrivateTabIndicator-colorPrimary-8 {
+    background-color: #731c67 !important;
+  }
+  .Company-details-tabs-section .MuiTabs-scroller.MuiTabs-fixed button {
+  border-bottom: 2px solid #c9ccd1 !important;
+  }
+  .tab-steps-list{
+  display: flex;
+  list-style: none;
+  }
+  @media only screen and (max-width: 768px) {
+    .Company-details-tabs-section .MuiTabs-flexContainer {
+    overflow-x: scroll;
+  }
+  .Company-details-tabs-section .MuiTabs-scroller.MuiTabs-fixed button {
+    border-bottom: 2px solid #c9ccd1 !important;
+    padding: 0 !important;
+    font-size: 12px !important;
+    line-height: 1;
+    min-width: 100px !important;
+  }
+  div#full-width-tabpanel-1 {
+  margin-top: 15px;
+  }
+  #full-width-tabpanel-0 .p-4 {
+  padding: 1rem !important;
+  }
+  .col-md-6.col-12.p-4 {
+  padding: 1rem !important;
+  }
+  .MuiFormGroup-root.trade_ready_step_1_Choose_radio_group .MuiFormControlLabel-labelPlacementStart {
+  margin-left: 16px;
+  margin-right: 0px !important;
+  flex-direction: row-reverse;
+  }
+  }
+  @media only screen and (max-width: 1024px) {
+    .Company-details-tabs-section .MuiTabs-flexContainer {
+  overflow-x: scroll;
+  }
+  }
+  @media only screen and (max-width: 1150px) {
+  
+    .Company-details-tabs-section .MuiTab-root {
+    padding: 5px 5px !important;
+    font-size: 10px !important;
+  }
+  .Company-details-tabs-section .MuiTab-root {
+  min-width: 145px !important;
+  }
+  .profile_widget_row_label {
+  font-size: 10px ;
+  }
+  }
+  @media only screen and (max-width: 600px){
+    .trade-tabs-right {
+      padding: 1px;
+  }
+  .Company-details-tabs-section .MuiBox-root {
+    padding: 0px 10px !important;
+    overflow-x: hidden;
+  }
+    }
+
+    .MuiBox-root {
+        padding: 15px;
+    }
+
+
+
+
+
+
+/* .switch-field {
+  font-family: "Lucida Grande", Tahoma, Verdana, sans-serif;
+  padding: 100px;
+	overflow: hidden;
+} */
+
+
+
+.switch-field input {
+    position: absolute !important;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    width: 1px;
+    border: 0;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+.switch-field label {
+  display: inline-block;
+  width: 80px;
+  text-align: center;
+  text-shadow: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+  transition: all 0.1s ease-in-out;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 8px 15px;
+  line-height: 1.5;  
+  white-space: nowrap;
+}
+.switch-lable label {
+  background-color: #731b67;
+  color: #fff;
+}
+.switch-lable2 label {
+  background-color: #fff;
+  color: #731b67;
+}
+/* .switch-lable1 input:checked + label {
+  background-color: 'red';
+	color: #fff;
+  box-shadow: none;
+} */
+
+.left-lable-shap label{
+	border: 1px solid #731b67;
+  border-radius: 15px 0 0 15px ;
+}
+
+.Right-lable-shap label{
+	border: 1px solid #731b67;
+  border-radius: 0 15px 15px 0;
+}

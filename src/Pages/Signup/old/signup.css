@@ -1,0 +1,254 @@
+
+ .row{
+    overflow-x: hidden;
+}
+section{
+    overflow-x: hidden !important;
+
+}
+.SignUpPageContainer {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    justify-content: space-evenly;
+}
+
+.SignUp_page_left-half {
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FBFBFF;
+    /* background: #fff; */
+}
+.SignUp_page_right-half{
+    background-color: #fff;
+}
+.SignUp_page_heading {
+    font-weight: 600;
+    font-family: 'Montserrat';
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.SignUp_page_left-half p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.SignUp_page_main-image {
+    width: 250px;
+    height: 210px;
+}
+
+.SignUp_page_right-half {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SignUpPageContainer form {
+    display: flex;
+    flex-direction: column;
+}
+.signup-mobile-input {
+    border: 1px solid #cecbcf;
+    border-radius: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.signup-mobile-input input{
+    font-size: 15px;
+}
+.SignUp_page_logo {
+    height: 30px;
+    width: 130px;
+}
+
+.SignUp_page_contents {
+    min-width: 300px;
+}
+
+.SignUpPageContainer form input {
+    margin-top: 2%;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.SignUpPageContainer form input[type="text"],.SignUpPageContainer form input[type="password"] {
+    border: 1px solid #CFCBCF;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.SignUpPageContainer form label {
+    margin-top: 2%;
+    font-size: 14px;
+}
+
+.SignUpPageContainer form .submit-button {
+    border-color: #721B65;
+    background: #721B65;
+    margin-top: 25px;
+    height: 30px;
+    color: white;
+    margin-bottom: 19px;
+}
+
+.SignUp_page_forgot-actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.SignUp_page_forgot-actions p {
+    font-size: 14px;
+    color: #2E384D;
+}
+
+.SignUp_page_vertical-line {
+    margin-top: 6%;
+    margin-bottom: 6%;
+    border-left: 1px solid #B0BAC9;
+}
+
+.submit-button {
+    cursor: pointer;
+}
+
+.SignUp_page_sign-up p{
+    text-align: center;
+    font-size: 14px;
+    color: #2E384D;
+}
+
+.SignUp_page_sign-up p a{
+    font-size: 14px;
+    color: #721B65;
+    font-weight: bold;
+}
+
+.SignUp_page_horizontal-line {
+    margin: 0 35% 0 35%;
+    border-top: 1px solid #B0BAC9;
+}
+
+.SignUp_page_validation-item {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.SignUp_page_validation-item img {
+    width: 18px;
+    height: 18px;
+}
+
+.SignUp_page_validation-item p {
+    margin: 0 0 0 0;
+    margin-left: 10px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.SignUp_page_google-signup {
+    background-color: #F4F6FC;
+    height: 40px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.SignUp_page_google-signup img {
+    height: 24px;
+    width: 24px;
+    margin-right: 10px;
+}
+
+
+.SignUp_page_google-signup p {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.SignUp_page_or-text {
+    margin-top: 2%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* flex-direction: row; */
+}
+
+.SignUp_page_or-text p {
+    margin: 0 2% 0 2%;
+}
+
+.SignUp_page_or-text .SignUp_page_horizontal-line-inline{
+    width: 100%;
+    height: 0%;
+    border-top: 1px solid #B0BAC9;
+}
+
+a {
+    text-decoration: none;
+}
+
+.SignUp_page_validation-checks {
+    margin-top: 20px;
+}
+
+.signup_phonenumber{
+    /* display:"flex",border: "1px solid #CFCBCF",alignItems:"center",height:"30px" */
+    display: flex;
+    border: 1px solid #CFCBCF;
+    align-items: center;
+    height: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .SignUp_page_logo-container {
+        text-align: center;
+    }
+    .mobile-flex-column-reverse {
+        flex-direction: column-reverse!important;
+    }
+    .SignUp_Page_right-half-inner {
+        padding: 20px 0px;
+    }
+    .SignUp_Page_left-half-inner {
+        padding: 20px 0px;
+    }
+    .SignUp_page_main-image-container {
+        text-align: center;
+    }
+    .SignUp_page_main-image {
+        width: 150px;
+        height: auto;
+    }
+    .SignUp_page_left-half p {
+        font-weight: bold;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .row{
+        overflow-x: hidden;
+    }
+    section{
+        overflow-x: hidden !important;
+
+    }
+    .SignUp_page_contents {
+        padding: 15px 25px !important;
+    }
+    h5.login_Page_heading.mt-5 {
+        margin-top: 20px !important;
+    }
+  }

@@ -1,0 +1,395 @@
+.Negotiation-listing {
+  padding: 5px 13px;
+  margin: 5px 0px;
+  border-bottom: 2px solid #CFCBCF;
+}
+/* .Negotiation-listing:hover{
+  background: #CFCBCF;
+  border-radius: 10px;
+} */
+.negotiation-comapny-list-active  {
+  background-color: #FBFBFF;
+}
+.negotiation-comapny-list:hover {
+  background-color: #FBFBFF;
+}
+.negotiationchat-active  .Negotiation-listing{
+  width: 100%;
+}
+.negotiation-comapny-list-active  .Negotiation-listing{
+  width: 100%;
+}
+.Negotiation-listing h6{
+  font-weight: 700 ; 
+}
+.negotiationchat-active .Negotiation-listing h6 {
+  color: #721a65 !important;  
+}
+.negotiationchat-active .Negotiation-listing p{
+  color: #721a65 !important;  
+}
+.negotiation-comapny-list-active .Negotiation-listing h6 {
+  color: #721a65 !important;  
+}
+.negotiation-comapny-list-active .Negotiation-listing p{
+  color: #721a65 !important;  
+}
+
+
+
+.negotiation-comapny-list-active .nego-border-left{
+  background-color: #721B65;
+  padding: 1px;
+  height: 40px;
+}
+.negotiation-comapny-list .Negotiation-listing:hover h6 {
+  color: #721a65 !important; 
+  font-weight: 600 ; 
+}
+.negotiation-comapny-list .Negotiation-listing:hover p{
+  color: #721a65 !important;  
+}
+
+
+.Negotiation-list-info h6 {
+  text-transform: capitalize;
+  font-size: 13px;
+}
+.Negotiation-list-info p {
+  text-transform: capitalize;
+  margin: 0;
+  font-weight: 500;
+  font-size: 12px;
+  font-family: 'Montserrat';
+  color: #2e394c !important;
+  display: inline-block;
+  float: left;
+  width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  height: 16px;
+  color: #505050;
+  
+}
+.Negotiation-listing.Negotiation-chat-unread h6 {
+  color: #721a65;
+}
+.Negotiation-listing.Negotiation-chat-unread p {
+  color: #721a65;
+}
+.Negotiation-Unread-mark {
+  width: 8px;
+  height: 8px;
+  background: #721a65;
+  border-radius: 10px;
+}
+.Negotiation-listing-main .MuiBox-root {
+  padding: 0 !important;
+  border-bottom: 0px solid;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+.Negotiation-listing-main .MuiTabPanel-root{
+  padding: 0 !important;
+}
+.Negotiation-listing-main .Mui-selected {
+  color: #721a65 !important;
+}
+.Negotiation-listing-main .MuiTabs-root {
+  min-height: 30px !important;
+}
+/* .Negotiation-listing-main .MuiButtonBase-root {
+  font-size: 0.875rem;
+  min-width: 80px !important;
+  min-height: 30px !important;
+  padding:5px 8px;
+  overflow: hidden;
+  border-bottom: 0px solid #c9ccd1 !important;
+  text-transform: capitalize;
+  font-family: 'Montserrat' !important;
+  color: #2E384D;
+  font-weight: 600 !important;
+} */
+.Negotiation-listing-main .MuiTabs-scroller.MuiTabs-fixed button {
+  border-bottom: 0px solid #c9ccd1 !important;
+}
+
+
+/* ======= new nego design ====  */
+.Negotiation-listing-main .css-1h9z7r5-MuiButtonBase-root-MuiTab-root { 
+  display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: start;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    /* justify-content: start; */
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    border-radius: 0;
+    padding: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    color: inherit;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.25;
+    letter-spacing: 0.02857em;
+    text-transform: capitalize ;
+    max-width: 360px;
+    min-width: 80px;
+    position: relative;
+    min-height: 30px;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    padding: 0px 10px !important;
+    overflow: hidden;
+    white-space: normal;
+    text-align: center;
+    -webkit-flex-direction: column;
+}
+
+.nego-tab-notification.Selling {  
+  background-color: #25A9EF;
+  border-radius: 50%;
+  padding: 6px;
+  padding-right: 7px;
+  padding-top: 7px;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 55px;
+}
+.nego-tab-notification.Buying {  
+  background-color: #25A9EF;
+  border-radius: 50%;
+  padding: 6px;
+  padding-right: 7px;
+  padding-top: 7px;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 138px;
+}
+.nego-tab-notification h6{
+  font-size: 12px;
+  color: #fff;
+}
+.Negotiation-listing-main .css-heg063-MuiTabs-flexContainer {
+ 
+  display: flex;
+  align-items: center !important;
+}
+.nego-companylist-image {
+  height: 50px !important; 
+}
+.nego-companylist-image img {
+  height: 50px !important;
+  padding: 8px 0px;
+}
+.nego-companylist-companyoffer h6{
+  font-size: 12px;
+  margin: 0px;
+  font-family: 'Montserrat';
+font-style: italic;
+font-weight: 600;
+}
+.nego-list-info p {
+  margin: 0;
+  font-weight: 500;
+  font-size: 12px;
+  color: #2e394c;
+  white-space: nowrap;
+}
+.nego-companylist-companyname h6{
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.nego-companylist-companyname p{
+  font-size: 12px !important;
+  font-weight: 600 !important; 
+}
+.form-group.has-search.nego-shearch-icon svg {
+  width: 15px;
+  margin: 0px 15px !important;
+}
+.negotiation-company-fillter{
+  position: absolute;
+  top: 45px;
+  right:3px;
+  width: 230px;
+  background: #FFFFFF;
+  border: 1px solid #CFCBCF;
+  border-radius: 12px;
+  padding: 15px 15px;
+  z-index: 99999;  
+}
+/* speech bubble 10 */
+.negotiation-company-fillter:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid transparent;
+  border-bottom: 9px solid #CFCBCF;
+  right: 4%;
+  top: -20px;
+}
+.negotiation-company-fillter:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid transparent;
+  border-bottom: 9px solid #fff;
+  right: 4%;
+  top: -19px;
+}
+.negotiation-company-fillter .form-check {
+  position: relative;
+  padding-left: 1.25rem;
+  display: flex;
+  align-items: center;
+}
+
+.negotiation-company-fillter .css-vqmohf-MuiButtonBase-root-MuiRadio-root { 
+  color: #721a65 !important;
+}
+.negotiation-company-fillter .css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked {
+  color: #721a65 !important;
+}
+.negotiation-company-fillter label {
+  display: inline-block;
+  margin: 0px;
+}
+.negotiation-company-fillter .css-ahj2mt-MuiTypography-root {
+  margin: 0;
+  font-family: "Montserrat" !important;
+  font-weight: 400;
+  font-size: 12px !important;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+}
+.Mui-checked .negotiation-company-fillter label{
+  font-weight: 500 !important;
+
+}
+ .Mui-checked .negotiation-company-fillter .css-ahj2mt-MuiTypography-root {
+  margin: 0;
+  font-family: "Montserrat";
+  font-weight: 500 !important;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+}
+/* .nego-company-optionicon{
+  position: relative;
+} */
+/* .nego-company-optionicon .company-optionicon{
+  position: relative;
+} */
+.filter-position-relative {
+  position: relative;
+}
+.nego-list-viewmore h6{
+    color: #721a65;
+    font-size: 14px;
+    font-family: "Montserrat";
+    cursor: pointer;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 678px) {
+  .Negotiation-listing-main {
+    display: flex;
+    overflow: scroll;
+  }
+  .Negotiation-list-info.p-2 {
+    width: 130px;
+    padding: 3px 10px !important;
+}
+.Negotiation-list-info h6 {
+  font-size: 12px;
+}
+.Negotiation-list-info p {
+  font-size: 12px;
+}
+.Negotiation-list-info p span {
+  display: inline-block;
+  width: 100px;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+.Negotiation-logo-image {
+  height: 50px !important; 
+}
+.Negotiation-logo-image img {
+  height: 50px !important;
+  padding: 8px 0px;
+}
+.reject-tost {
+  width: 300px;
+}
+.accept-tost {
+  width: 300px;
+}
+.reject-tost h4 {
+  font-size: 18px;
+}
+.accept-tost h4 {
+  font-size: 18px;
+}
+.reject-tost p {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+.user-title {
+  font-size: 10px;
+}
+}

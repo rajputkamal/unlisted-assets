@@ -1,0 +1,176 @@
+/* Add Holding form style sheet */
+
+.addholding-form {
+  width: 100%;
+  background-color: #FFFFFF;
+}
+
+.addholding-form_radio-btn-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.addholding-form_radio-btn {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-radius: 4px;
+  padding: 0px 10px;
+  margin-right: 5px;
+}
+
+.addholding-form_radio-btn > label {
+  margin: 0px !important;
+}
+
+.addholding-form_radio-btn > input {
+  margin: 0px !important;
+}
+
+.addholding-form_field {
+  margin-top: 5px;
+}
+.addholding-form_Title{
+  margin-bottom: 15px;
+}
+.addholding-form_Title h3 {
+    font-size: 18px !important;
+    margin:0 ;
+    font-family: 'Montserrat';
+    font-weight: 600 !important;
+  }
+.addholding-form_Title hr {
+    border-top: 2px solid #721c65 !important;
+    width: 45% !important;
+    float: left;
+    margin: 0 !important;
+  }
+
+.addholding-form_field > div {
+  margin-top: 10px;
+}
+
+.addholding-form_field > div > label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.addholding-form_field > div > input:focus{
+  outline: none;
+}
+.addholding-form_field-2 {
+  display: flex;
+  flex-direction: row;
+}
+.addholding-form_qty {
+  color: #000;
+  font-size: 16px;
+  padding: 0px 10px;
+  border-radius: 5px;
+}
+.addholding-form_field-2 > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+}
+
+.addholding-form_button_container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5px;
+}
+.proof_link a{
+  color: #721c65;
+}
+
+.addholding-form_button_container > button {
+  padding: 10px;
+  outline: none;
+}
+
+.addholding-form_button_container > button:focus {
+  outline: none;
+}
+
+/* .addholding-form_button_container > button:nth-child(2) {
+  background: #721b65;
+  color: #fff;
+} */
+
+.addholding-form_upload-photo {
+  position: relative;
+  border: 2px dashed #CFCBCF;
+  border-radius: 10px;
+  background: #FBFBFF;
+  display: flex;
+  flex-direction: row;
+  padding: 5px 10px;
+  justify-content: center;
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #2E384D;
+}
+
+.addholding-form_upload-photo > p {
+  
+  margin-left: 10px;
+}
+.addinventory-form_upload-photo {
+  padding: 15px 10px !important;
+}
+.custom-file-upload {
+  cursor: pointer !important;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+.custom-file-upload input {
+  position: absolute;
+  height: 100% !important;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.addholding-form_note {
+  display: flex;
+  background: #2E384D;
+  color: #FFFFFF;
+  padding: 5px 10px;
+  margin-top: 5px;
+  border-radius: 6px;
+  align-items: center;
+}
+.addholding-form_note p{
+  font-size: 12px;
+}
+
+.addholding-form_field-select {
+  height: 10px;
+  margin: 10px 10px;
+}
+.addholding-form_field-select p{
+  color: #B6B9C1;
+}
+.addholding-form_field-select a{
+  color: #721c65;
+}
+
+input {
+  margin-top: 0px !important;
+}
+
+
+
+
+
+@media(max-width: 600px){
+  .addholding-form_Title h3 {
+    font-size: 15px !important;
+  }
+}

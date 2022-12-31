@@ -1,0 +1,446 @@
+.dashboard-header {
+    display: flex;
+    background-color: #721B65;
+    justify-content: space-between;
+    z-index: 9999999;
+    width: 100%;
+    height: 68px;
+}
+nav.desktop-menubar {
+    display: block;
+}
+.mobile-sidebar {
+    display: none;
+}
+.desktop-none{
+    display: none !important;
+}
+.logo-img{
+    width: 100%;
+    padding: 10px 10px;
+}
+.UserImg svg {
+    margin-top: 4px;
+    margin-left: 8px;
+}
+.dashboard-header.left-side {
+    padding-right: 100px !important;
+}
+.logo-section {
+    padding-left: 50px;
+}
+.left-side {
+    display: flex;
+    align-items: center;
+}
+
+.left-side img {
+    margin-right: 33px;
+    height: 26px;
+}
+
+.right-side {
+    display: flex;
+    align-items: center;
+}
+ul.top-menus-links {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    margin: 0 !important;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+.nav-item {
+    padding: 7px 10px;
+    display: flex !important;
+    align-items: center;
+}
+.nav-item a:hover{
+    text-decoration: none !important;
+    padding-bottom: 3px;
+    transition: 0.1s;
+}
+.nav-item-group {
+    display: flex;
+    align-items: center;
+}
+.nav-item span {
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    white-space: nowrap;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    background: transparent;
+}
+.nav-item span {
+    display: flex;
+    align-items: center;
+}
+.selected {
+    background-color: white;
+    border-radius: 7px;
+}
+
+.selected span {
+    color: #721B65;
+}
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    font-size: 20px;
+  }
+a {
+    text-decoration: none;
+}
+.mobile-toggle {
+    display: none;
+}
+/**************************Tooltip ends*************************/
+.custom-tooltip ul {
+    padding: 0;
+    margin: 0 !important;
+}
+/* .tooltip-default{
+    position: relative;
+    display: inline-block;
+  } */
+  
+  /* .tooltipMenu {
+    position: fixed;
+    z-index: 1;
+    top: 50px !important;
+    right: 75px;
+    display: none;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px -1px #817f7f;
+  } */
+  .tooltip-default{
+    position: fixed;
+    display: inline-block;
+    top: 15px;
+    z-index: 999;
+    margin-left: 5px;
+  }
+  
+  .tooltipMenu {
+    position: absolute;
+    z-index: 90121210000;
+    -webkit-transform: translateZ(0);
+    top: 40px !important;
+    right: -40px;
+    display: none;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px -1px #817f7f;
+    width: 240px;
+  }
+  .tooltipMenu ul{
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+  .tooltipMenu ul li{
+    padding: 0;
+    margin: 0;
+}
+  #hoverme ul li:hover .tooltipMenu{
+    cursor: pointer;
+    z-index: 9999 !important;
+    display: block !important;
+  }
+  
+  .bottomSide {
+    top: 100%;
+  }
+  
+  .topSide {
+    bottom: 100%;
+  }
+  
+  .leftSide {
+    right: 70%;
+    top: 15%
+  }
+  
+  .rightSide {
+    left: 70%;
+    top: 15%;
+  }
+  
+  .tooltipMenu::after {
+      content: " ";
+      position: absolute;
+      border-width: 10px;
+      border-style: solid;
+  }
+  
+  .bottomSide.tooltipMenu::after {
+    bottom: 100%;
+    left: 75%;
+    border-color: transparent transparent white transparent;
+  }
+  
+  .leftSide.tooltipMenu::after {
+      left: 100%;
+      top: 5%;
+      border-color: transparent transparent transparent white;
+  }
+  
+  .rightSide.tooltipMenu::after {
+      right: 100%;
+      top: 5%;
+      border-color: transparent white transparent transparent;
+  }
+  
+  .topSide.tooltipMenu::after {
+      right: 45%;
+      top: 100%;
+      border-color: white transparent transparent transparent;
+  }
+  .UserLoginIcon {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+.UserLoginIcon img{
+    border-radius: 50%;
+   width: 40px;
+   height: 40px;
+   margin: auto;
+}
+.UserLoginDetails h6 {
+    font-family: 'Montserrat';
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    margin: 0 !important;
+}
+.UserLoginDetails span{
+    font-family: 'Montserrat';
+    font-size: 13px;
+    margin: 0;
+}
+.UserLoginInfo {
+    padding: 10px 0px;
+    border-bottom: 1px solid #cecbcf;
+}
+.header-tooltip-links ul li{
+    padding: 2px 0px;
+}
+.header-tooltip-links ul li:hover{
+    padding-left: 5px;
+    transition: 0.4s;
+}
+.header-tooltip-links ul li:hover a{
+    text-decoration: none;
+    color: #721B65;
+    font-weight: 700;
+    font-size: 14px;
+
+}
+.header-tooltip-links ul li a {
+    color: #000;
+    font-weight: 300;
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+/* mobile menu css  */
+.mobile-menu {
+    background: #fff;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,.15);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+svg.MuiSvgIcon-root.notification-icon {
+    color: #721a65;
+    width: 25px;
+    height: 25px;
+}
+.MuiPaper-root.MuiDrawer-paper.MuiDrawer-paperAnchorLeft{
+    background: #721a65 !important;
+    color: #fff;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 30px 0px;
+}
+.sidebar-brethcrumbs h6 {
+    margin: 0;
+    white-space: nowrap;
+    font-size: 14px;
+}
+.UserDetails-Sidebar {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.UserIcon-sidebar img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.sidebar-menus ul {
+    padding: 0 15px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.sidebar-menus ul li {
+    list-style: none;
+    padding: 10px 8px;
+    font-size: 13px;
+    margin: 0px 0px;
+}
+.sidebar-menus ul li a{
+    color: #fff;
+    font-weight: 400;
+}
+.sidebar-menus ul li a svg {
+    margin-right: 15px;
+}
+.sidebar-menus ul li img {
+    margin-right: 15px;
+}
+.sidebar-menus ul li.active {
+    background: #fff;
+    color: #721965;
+    font-weight: 600;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px 0px #797979;
+}
+.sidebar-menus ul li.active a{
+    color: #721965;
+    font-weight: 600;
+}
+
+.sidebar-menus ul li.active a svg path { 
+    stroke: #721965;
+    /* stroke-width: 0px; */
+    fill: #721965;
+}
+.Sidebar-Logout{
+    border-top: 1px solid #fff;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.dashboard-header .MuiBadge-anchorOriginBottomLeftRectangle {
+    left: 9px;
+    bottom: 4px;
+    transform: scale(1) translate(-50%, 50%);
+    transform-origin: 0% 100%;
+}
+.dashboard-header .MuiBadge-colorPrimary {
+    color: #fff;
+    background-color: #25A9EF;
+}
+.UserImg  {
+    width: 35px; 
+    margin-top: 2px;  
+}
+.UserImg img {
+    border-radius: 50%;    
+    margin: auto;
+}
+/* .sidebar-menus svg.MuiSvgIcon-root {
+    width: 22px;
+    height: 22px;
+} */
+.sidebar-menus .css-i4bv87-MuiSvgIcon-root {    
+    width: 20px !important;
+    height: 20px !important;
+    margin-right: 11px !important;
+}
+@media only screen and (max-width: 480px) {
+    nav.desktop-menubar {
+        display: none !important;
+    }
+    .mobile-sidebar {
+        display: block;
+    }
+    .mobi-none{
+        display: none !important;
+    }
+    .desktop-none{
+        display: block !important;
+    }
+    .col-md-8.col-12.d-flex.align-items-center.justify-content-center.mobi-none{
+        display: none !important;
+    }
+    .mobile-sidebar {
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 999;
+        width: 100%;
+    }
+    .logo-section{
+       text-align: center;
+    }
+    .mobile-toggle {
+        display: block;
+        position: absolute;
+        top: 0;
+    }
+    .mobile-toggle .MuiIconButton-root {
+        color: rgb(255 255 255) !important;
+        font-size: 2rem !important;
+    }
+    .nav-item span {
+        color: #721c65;
+    }
+    ul.top-menus-links {
+        display: none;
+    }
+  }
+ 
+@media only screen and (max-width: 768px) {
+    .logo-section{
+       text-align: center;
+    }
+    .nav-item span {
+        font-size: 10px !important;
+    }
+    .col-md-8.col-12.d-flex.align-items-center.justify-content-center.mobi-none{
+        display: none !important;
+    }
+    .logo-section{
+       text-align: center;
+    }
+    .mobile-toggle {
+        display: block;
+        position: absolute;
+        top: 0;
+    }
+    .mobile-toggle .MuiIconButton-root {
+        color: rgb(255 255 255) !important;
+        font-size: 2rem !important;
+    }
+    .nav-item span {
+        color: #721c65;
+    }
+    ul.top-menus-links {
+        display: none;
+    }
+    .tooltip-default {
+        position: fixed;
+        display: inline-block;
+        top: 15px;
+        z-index: 999;
+    }
+  }
+  @media only screen and (max-width: 1024px) {
+    .nav-item {
+      padding: 10px 5px !important;
+    }
+    
+    }

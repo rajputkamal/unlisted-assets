@@ -1,0 +1,53 @@
+.ig-doughnut-chart.igr-doughnut-chart {
+    height: 400px;
+}
+td.ig-chart-legend-item-badge canvas {
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50%;
+}
+.tab-desc p {
+    font-size: 14px;
+    color: #2E384D;
+}
+.tab-desc p span{
+    font-size: 15px;
+    color: #000;
+}
+.ownership-table table{
+    width: 100%;
+}
+.ownership-table table tr th {
+    background: #E7E7E7;
+    padding: 5px 10px;
+    font-weight: 500;
+    font-family: 'Montserrat';
+    font-size: 15px;
+}
+.ownership-table table tr td {
+    padding: 3px 10px;
+    font-weight: 500;
+    font-family: 'Montserrat';
+    border-bottom: 1px solid #CFCBCF;
+    /* color: #959595; */
+    color: #2E384D;
+    font-size: 14px;
+}
+.selectkeyinvestors ul {
+    color: #2E384D;
+    font-size: 14px;
+    font-family: 'Montserrat';
+}
+.ownership-tab-section h6{
+    font-family: 'Montserrat';
+    font-weight: 600 !important;
+    font-size: 15px !important;
+}
+@media only screen and (max-width: 600px) {
+  .row{
+    overflow-x: hidden;
+  }
+  .ownership-table table tr th {
+    font-size: 13px;
+}
+  }

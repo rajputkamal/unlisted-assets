@@ -1,0 +1,99 @@
+.horizontal-line {
+    margin: 0;
+}
+.my-card.risk_card {
+    /* padding: 35px 15px; */
+}
+
+.main-content-container {
+    display: flex;
+}
+.title-card {
+    border-radius: 10px;
+    margin-top: 31px;
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    margin-right: 150px;
+    border: 1px solid #CFCBCF;
+}
+.buttonPressed {
+    background: #721c65 !important;
+    color: #fff !important;
+}
+.answer-btn {
+    margin: 5px 10px !important;
+    border: 1px solid #dee2e6;
+    background: #f8f9fa !important;
+    padding: 0px 15px !important;
+    line-height: 2 !important;
+}
+.answer-btn.Mui-selected{
+    border: 1px solid #dee2e6;
+    color: #fff !important;
+    background: #721c65 !important;
+}
+.answer-btn.Mui-selected span{
+    color: #fff !important;
+}
+.answer-btn:not(:first-child) {
+    border-left: 1px solid #dee2e6 !important; 
+    margin-left: 0px !important;
+    border-top-left-radius: 5px !important;
+   border-bottom-left-radius: 5px !important;
+}
+.answer-btn:not(:last-child) {
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+}
+.risk-profile-image-container img {
+    width: 220px;
+    height: 150px;
+}
+
+.Card_info {
+    display: flex;
+}
+.custom-width{
+    width: 75%; 
+}
+
+button.answer-btn {
+    border-radius: 5px !important;
+}
+button.answer-btn span{
+    font-size: 14px;
+}
+@media only screen and (max-width: 600px) {
+    .my-card.risk_card {
+        padding: 10px 10px ;
+    }
+    .Card_info {
+        display: block !important;
+    }
+    .custom-width{
+        width: 100%;
+    }
+    .risk-profile-ul{
+        padding-top: 20px;
+    }
+    button.answer-btn {
+        border-radius: 5px !important;
+        margin: 0px 8px !important;
+    }
+    .answer-btn span {
+        font-size: 12px;
+        white-space: nowrap;
+    }
+    .questions_content .MuiToggleButtonGroup-root {
+        display: grid;
+    }
+    .questions_content .MuiToggleButtonGroup-root button{
+        margin: 5px 0px !important;
+        width: 100%;
+    }
+    .risk_profile_content .my-card {
+        border: none;
+        padding: 5px;
+    }
+  }

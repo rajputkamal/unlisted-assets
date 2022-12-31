@@ -1,0 +1,137 @@
+.home-main-banner{
+    padding-bottom: 6rem;
+}
+.website-default-container{
+    margin: 0px 100px;
+}
+.top-banner-main {
+    /* padding-top: 100px 0px;
+    padding-bottom: 150px 0px; */
+    padding: 150px 0px;
+}
+.banner-left h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin: 20px 10px;
+    margin-left: 0;
+}
+.banner-left button{
+    background: #fff;
+    border: none;
+    padding: 8px 35px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #721B65;
+    border-radius: 6px;
+}
+.banner-left button:hover{
+    background: #721B65;
+    color: #fff;
+    transition:0.3s;
+    padding: 9px 36px;
+}
+.default-overflow-y{
+    overflow-y: hidden;
+}
+
+.banner-left p {
+    font-size: 14px;
+    width: 90%;
+}
+.banner-right img {
+    margin: auto;
+    width: 400px;
+}
+
+/* .cards-wrap-iner img{
+    margin: auto;
+    width: 322px;
+} */
+.cards-wrap {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+}
+.cards-wrap-iner {
+    height: 100%;
+}
+.cards-wrap img {
+    width: 400px;
+}
+img.card1 {
+    position: absolute;
+    top: 125px;
+    left: 60px;
+    z-index: 10;
+}
+img.card2 {
+    position: absolute;
+    top: 41%;
+    right: 132px;
+    z-index: 90;
+}
+img.card3 {
+    position: absolute;
+    bottom: -8px;
+    left: 2px;
+    z-index: 999;
+}
+@media only screen and (max-width: 600px) {
+    .banner-left h1 {
+       font-size: 26px;
+        font-weight: 700;
+        margin: 35px 10px;
+        margin-left: 0;
+    }
+    .banner-left p {
+        font-size: 14px;
+        width: 100%;
+        padding: 0px 15px;
+    }
+    .website-default-container {
+        margin: 0px 0px;
+        text-align: center;
+        height: 700px;
+    }
+    .top-banner-main {
+        padding: 0px 0px;
+    }
+    .banner-left button {
+        background: #fff;
+        border: none;
+        padding: 8px 70px;
+        font-size: 1rem;
+        font-weight: 600;
+        color: #721B65;
+        border-radius: 6px;
+    }
+
+    .cards-wrap-iner img{
+        margin: auto;
+        width: 260px;
+    }
+    img.card1 {
+        position: absolute;
+        top: 352px;
+        left: 50px;
+        z-index: 10;
+    }
+    img.card2 {
+        position: absolute;
+        top: 461px;
+        right: -34px;
+        z-index: 90;
+    }
+    img.card3 {
+        position: absolute;
+        top: 466px;
+        left: 12px;
+        z-index: 99;
+        width: 300px;
+    }
+    .default-height{
+        height:395px;
+    }
+  }

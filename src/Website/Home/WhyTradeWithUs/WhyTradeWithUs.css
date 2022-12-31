@@ -1,0 +1,160 @@
+.WhyTradeWithUs-main{
+    margin-top: 115px;
+    padding: 0px 15px;
+}
+.WhyTradeWithUs-main .primary-button{
+    padding: 8px 90px;
+}
+.WhyTradeWithUs-main .secondary-button{
+    padding: 8px 90px;
+}
+.WhyTradeWithUs-button{
+    display: flex;
+    justify-content: end;
+}
+.WhyTradeWithUs-button2{
+    display: flex;
+    justify-content: start;
+}
+.WhyTradeWithUs-main .default_card{
+    width: 307.03px;
+    height: 119px;
+    background: #fff;
+    border: 1px solid #CFCBCF;
+    box-sizing: border-box;
+    box-shadow: 0px 19px 15px -8px rgba(0, 0, 0, 0.06);
+    border-radius: 12px;
+    padding: 16px;
+    /* margin-left: 75px; */
+}
+.WhyTradeWithUs-main .default_card_active{
+    width: 307.03px;
+    height: 119px;
+    background: #FBFBFF ;
+    border: 1px solid #0D223C ;
+    box-sizing: border-box;
+    box-shadow: 0px 19px 15px -8px rgba(0, 0, 0, 0.06);
+    border-radius: 12px;
+    padding: 16px;
+    /* margin-left: 75px; */
+}
+
+
+.WhyTradeWithUs-main .default-card-left{
+    width: 307.03px;
+    height: 119px;
+    background: #fff;
+    border: 1px solid #CFCBCF;
+    box-sizing: border-box;
+    box-shadow: 0px 19px 15px -8px rgba(0, 0, 0, 0.06);
+    border-radius: 12px;
+    padding: 16px;
+    /* margin-left: -45px; */
+
+}
+
+
+
+.WhyTradeWithUs-main .WhyTradeWithUs-default-card  h4{
+    font-weight: 600;
+    font-size: 16px;
+    text-align: left;
+    color: #000000;
+}
+.WhyTradeWithUs-main .WhyTradeWithUs-default-card  p{
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+    color: #000000;
+}
+.WhyTradeWithUs-main .default-card-left h4{
+    font-weight: 600;
+    font-size: 16px;
+    text-align: left;
+    color: #000000;
+}
+.WhyTradeWithUs-main .default-card-left p{
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+    color: #000000;
+}
+.gif-div {
+    width: 100%;
+    height: auto;
+    padding: 0px 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .WhyTradeWithUs-main{
+        margin-top: 10px;
+        padding: 0px 0px;
+    }
+    .WhyTradeWithUs-main .default-card-for-mobileview{
+        width: 100% !important;    
+        margin-left: 0px;    
+    }
+    .WhyTradeWithUs-main .default-card-for-mobileview{
+        width: 100% !important;    
+        margin-left: 0px;
+    
+    }
+    .WhyTradeWithUs-main .secondary-button{
+        font-size: 11px;
+    }
+    .WhyTradeWithUs-button{
+        display: flex;
+        justify-content: center;
+    }
+    .WhyTradeWithUs-button2{
+        display: flex;
+        justify-content: center;
+    }
+    .default-heading {
+        font-weight: bold;
+        font-size: 26px;
+        text-align: center;
+        color: #0D223C;
+    }
+    .WhyTradeWithUs-main .default-card-for-mobileview{
+        height: 112px;
+        background: #fff;
+        border: 1px solid #CFCBCF;
+        box-sizing: border-box;
+        box-shadow: 0px 19px 15px -8px rgba(0, 0, 0, 0.06);
+        border-radius: 12px;
+        margin-right: 10px;
+
+        /* margin-left: 75px; */
+    }
+    .WhyTradeWithUs-main .default-card-for-mobileview:hover{
+        height: 112px;
+        background: #FBFBFF;
+        border: 1px solid #0D223C;
+        box-sizing: border-box;
+        box-shadow: 0px 19px 15px -8px rgba(0, 0, 0, 0.06);
+        border-radius: 12px;
+        margin-right: 10px;
+    }
+    .WhyTradeWithUs-main .default-card-for-mobileview h4{
+        font-weight: 600;
+        font-size: 16px;
+        text-align: left;
+        color: #000000;
+    }
+    .WhyTradeWithUs-main .default-card-for-mobileview p{
+        font-size: 14px;
+        line-height: 17px;
+        text-align: left;
+        color: #000000;
+        color: #000000;
+    }
+    .default-overflow-Ydirection{
+        overflow-y: scroll;
+    }
+    .default-card-for-mobileview .card-size{
+        width: 290px;
+        padding: 15px 20px;
+    }
+   
+}

@@ -1,0 +1,91 @@
+.addholding_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 93vh;
+}
+
+.addholding_container > h1 {
+  width: 70%;
+}
+
+.addholding_container-inner {
+  border: 1px solid;
+  width: 50%;
+  border: 0.5px solid rgb(213 211 214);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  margin-bottom: 50px;
+}
+
+.addholding_right {
+  width: 70%;
+}
+.addholding-form_field > div {
+  margin-top: 10px;
+}
+
+.addholding-form_field > div > label {
+  margin-bottom: 5px;
+  
+  font-size: 14px;
+}
+
+.addholding-form_field > div > input {
+  height: 100%;
+  border: 1px solid #CFCBCF;
+  border-radius: 4px;
+}
+.addholding_form-container {
+  width: 100%;
+}
+
+.addholding_left {
+  width: 30%;
+}
+
+.addholding_left-inner {
+  border: 1px solid rgb(213 211 214);
+    padding: 45px 20px;
+    border-radius: 18px;
+    margin-top: 50px;
+}
+
+.addholding_left-inner > div > p:first-child {
+  font-weight: bold;
+}
+
+.inline-validation-box {
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background: rgb(237, 41, 57, 0.05);
+}
+
+.inline-validation-box p {
+  color: #ed2939;
+  font-size: 12px;
+}
+
+.addholding-form label {
+  font-size: 14px;
+}
+
+.addholding-form p {
+  font-size: 14px;
+}
+
+.addholding-form div {
+  font-size: 14px;
+}
+@media only screen and (max-width: 768px) {
+  .addholding_container-inner.bg-white.w-75.mt-5.p-3{
+    width: 100% !important;
+}
+.addInventory-form_field form label {
+  font-size: 11px !important;
+}
+}

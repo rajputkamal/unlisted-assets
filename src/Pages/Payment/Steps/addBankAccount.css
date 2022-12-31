@@ -1,0 +1,130 @@
+body{
+    font-family: 'Montserrat' !important;
+}
+.MuiBox-root-35 {
+    padding: 0px !important;
+}
+.BankAccountTab-form input{
+    font-size: 13px !important;
+    font-family: 'Montserrat' !important;
+    padding: 0px 10px;
+    border: 1px solid #b2b2b2;
+    border-radius: 5px;
+}
+.addinventory-form_upload-photo {
+    position: relative;
+    border-radius: 4px;
+    border: 2px dashed #cecbcf;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 10px;
+    justify-content: center;
+    margin: 15px 0px;
+    background: #FBFBFF;
+}
+input#myfile {
+    background: transparent;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    top: 0;
+}
+.profile_widget_row.active {
+    color: #2E384D !important;
+    font-weight: 600;
+    font-family: 'Montserrat';
+}
+.Trade_ready_step_2_text{
+    font-family: 'Montserrat' !important;
+    font-style: normal;
+    color: #2E384D;
+}
+.Trade_ready_step_2_container{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+.Trade_ready_step_2_who_are_you{
+    font-weight: 600;
+}
+.Trade_ready_step_2_Choose_radio_group{
+    /* margin-top: 12px; */
+    font-weight: 500;
+    font-size: 14px;
+    color: #2E384D;
+}
+.Trade_ready_step_2_Choose_radio_border{
+    width: 596px;
+    height: 40px;
+    border: 1px solid #CFCBCF;
+    /* box-sizing: border-box; */
+    border-radius: 4px;
+
+}
+
+.Trade_ready_step_2_bank_image_area{
+    width: 187.23px;
+    height: 134px;
+    background: url(https://www.google.co.in/);
+    border-radius: 10px;
+    padding-bottom: 40px;
+}
+.Trade_ready_step_2_bank_image_container{
+    padding: 20px;
+    border: 1px solid #CFCBCF;
+    height: fit-content;
+    filter: drop-shadow(0px 5px 50px #E5E9F3);
+    border-radius: 22px;
+
+
+}
+.Trade_ready_step_2_save_button{
+    display: flex;
+    /* width: 150px; */
+    margin-top: 30px;
+    /* padding-left: 200px; */
+    border-top: 1px solid #CFCBCF;
+    padding-top: 20px;
+}
+.Trade_ready_step_2_Select_container{
+    width: 362px;
+    height: 40px;
+    border: 1px solid #CFCBCF;
+
+border-radius: 4px;
+margin-top: 12px;
+margin-bottom:7px ;
+margin-left:-3px;
+}
+.Trade_ready_step_2_previous_button{
+    height: 60vh;
+}
+/* .Trade_ready_step_2_Form{
+    display: flex;
+    flex-direction: column;
+} */
+.Verification{
+    font-size: 12px !important;
+    color: red;
+}
+.BankAccountTab-form input {
+    height: 34px !important;    
+}
+.tradeready-horizontalrow {
+    /* border-bottom: 3px solid #000000; */
+    height: 8px;
+    background: #000000;
+    opacity: 0.05;
+    margin: 20px -17px;
+}
+
+@media only screen and (max-width:600px ){
+    .tradeready-horizontalrow {
+        /* border-bottom: 3px solid #000000; */
+        height: 8px;
+        background: #000000;
+        opacity: 0.05;
+        margin: 20px -10px;
+    }
+    
+}

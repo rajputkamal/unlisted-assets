@@ -1,0 +1,63 @@
+.default-heading {
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  color: #0d223c;
+}
+.default-para {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+}
+.default-bg-color {
+  background-color: #fff;
+}
+.ws_default_heading {
+  font-weight: bold;
+  font-size: 40px;
+  color: #0d223c;
+  line-height: 49px;
+}
+
+.sign_up_container {
+  display: flex;
+    flex-direction: column;
+    margin: 20px;
+    justify-content: center;
+}
+
+.sign_up_modal_padding {
+  padding: 300px 0px 0px 0px;
+}
+.closeBtnAddMoneyModal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1;
+  cursor: pointer;
+  opacity: 0.5;
+}
+.closeBtnAddMoneyModal:hover {
+  opacity: 1;
+}
+.sign_in_modal_img {
+    width: 300px
+}
+
+.sign_in_img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+@media only screen and (max-width: 786px) {
+  html {
+    overflow-x: hidden;
+  }
+  .sign_up_modal_padding {
+    padding: 200px 0px 0px 0px;
+  }
+}

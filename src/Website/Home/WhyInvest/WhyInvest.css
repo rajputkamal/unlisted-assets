@@ -1,0 +1,24 @@
+.WhyInvest-main{
+    padding: 60px 0px;
+}
+.WhyInvest-main .WhyInvest-card{
+    width: 357px;
+    height: 171px;
+    background: #FBFBFF;
+    border-radius: 5px;
+    padding: 20px;
+}
+.WhyInvest-main .WhyInvest-card  img{
+    margin-bottom: 10px;
+}
+
+.WhyInvest-main .WhyInvest-card  h4{
+    font-weight: 600;
+    font-size: 16px;
+    text-align: left;
+}
+.WhyInvest-main .WhyInvest-card  p{
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+}

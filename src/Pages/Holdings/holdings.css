@@ -1,0 +1,51 @@
+.add_holdings_container{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.add_holdings_center_box{
+    display: flex;
+    width: 853px;
+    height: 427px;
+    left: 400px;
+    top: 232px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    background: #FFFFFF;
+    border: 1px solid #CFCBCF;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+.add_holdings_button{
+    height: 30px;
+width: 100px;
+left: 838px;
+top: 591px;
+border-radius: 4px;
+background: #721B65;
+border-radius: 4px;
+color: white;
+cursor: pointer;
+
+}
+.no_holdings_message{
+    color: #2E384D;
+}
+@media only screen and (max-width: 600px) {
+    .no-stock-section .w-50{
+        width: 100% !important;
+    }
+    .no-stock-section h5{
+        font-size: 14px;
+    }
+    .no-stock-section .w-50.text-center.py-5.px-5 {
+        padding: 0px 0px !important;
+    }
+  }

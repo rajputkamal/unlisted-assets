@@ -1,0 +1,57 @@
+.balance-details {
+    border-bottom: 1px solid #cecbcf;
+    display: flex;
+    font-size: 14px;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+.virtual-withdraw-model{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);       
+    width: 500;
+    background-color: whitesmoke;
+    box-shadow: 24;
+    padding:  50px;
+    border-radius:  15px;
+}
+.model-CloseIcon{
+    margin-top: -25px;
+}
+@media only screen and (max-width: 678px) {
+    .balance-details {
+        display: block !important;
+    }
+    .virtual-withdraw-model{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);       
+        width: 100%;
+        background-color: whitesmoke;
+        box-shadow: 24;
+        padding:  50px 20px !important;
+        border-radius:  15px;       
+    }   
+  }
+
+  .profile-tooltip-input button.profile-info-button-aadhar svg{
+    fill: grey;
+}
+.profile-info-button{
+    background-color: transparent !important;
+    text-transform: initial !important;
+    color: #212529 !important;
+}
+.company-link{
+    color: #2E384D !important;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 13px;
+    font-style: normal;
+    line-height: 22px;
+}
+.company-link:hover{
+    color: #721b65 !important;
+}

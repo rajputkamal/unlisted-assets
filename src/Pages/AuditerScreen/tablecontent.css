@@ -1,0 +1,42 @@
+.company_cell{
+    display: flex;
+    align-items: center;
+    padding-left: 1%;
+}
+.company_cell p{
+    color:#2E384D;
+}
+.company_details{
+    padding-left: 2%;
+    margin-left: 10%;
+}
+.company_name{
+    margin: 0%;
+}
+.category_category{
+    margin: 0%;
+}
+.company_id{
+    margin: 0%;
+}
+.Table_title{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.tableArrow {
+   padding: 0px 8px 0px 6px!important
+}
+th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-stickyHeader {
+    color: #721B65;
+}
+p.hover_action {
+    margin: 0;
+}
+p.hover_action:hover {
+    background-color: #721c65;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0px;
+    border-radius: 4px;
+}

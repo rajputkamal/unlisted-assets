@@ -1,0 +1,69 @@
+.buyeragreement_container{
+    border: 1px solid #CFCBCF;
+    border-radius: 6px;
+    margin: 10px;
+    padding: 10px;
+    height: 100%;
+}
+.buyeragreement_container1{
+    display: flex;
+}
+.buyeragreement_left{
+    border: 1px solid #CFCBCF;
+    border-radius: 6px;
+    margin: 10px;
+    padding: 10px;
+    width: 30%;
+}
+.buyeragreement_main{
+    display: flex;
+}
+.buyeragreement_main2{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+.buyeragreement_sign_timer{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #721B65;
+    border-radius: 6px;
+    color: #721B65;
+}
+.buyeragreement_aadhar_input{
+    width: 100%;
+    border: 1px solid #CFCBCF;
+    border-radius: 6px;
+}
+.buyeragreement_bottom{
+    border: 1px solid #CFCBCF;
+    border-radius: 6px;
+    margin: 10px;
+    padding: 10px;
+    width: 60%;
+}
+.download_agreement{
+    cursor: pointer;
+}
+.buyeragreement_upload{
+    display: flex;
+    background: #FBFBFF;
+    border: 2px dashed #CFCBCF;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+.buyeragreement_aware{
+    background: #2E384D;
+    border-radius: 10px;
+    display: flex;
+    color: #FFFFFF;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 11px;
+}
+.buyeragreement_button{
+    margin-top: 10px;
+    margin-left: 0px;
+}

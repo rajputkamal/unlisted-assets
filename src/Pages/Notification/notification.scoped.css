@@ -1,0 +1,184 @@
+.notification_container{
+    display: flex;
+    justify-content: center;
+}
+.notification_container1{
+    border: 1px solid #CFCBCF;
+    border-radius: 10px;
+    height: 100%;
+}
+.new-notification-bg .notification_container1{
+    background-color: #fff;
+}
+.new-notification-bg p{
+font-weight: 700 !important;
+}
+.opened-notification-bg .notification_container1{
+    background-color: #F8F7F8;
+}
+.opened-notification-bg p{
+font-weight: 400 !important;
+}
+.critical_notification-negative{
+    border-left: 8px solid #FF4D4F;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.critical_notification-positive{
+    border-left: 8px solid #2DBE60;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.notification_heading{
+    font-weight: 600;
+    font-size: 20px !important;
+}
+.notification_row{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #CFCBCF;
+    cursor: pointer;
+}
+.notification_row:hover {
+    background: #f1e8f0;
+}
+.notification_row:hover button{
+    background: #721c65 !important;
+    color: #fff !important;
+}
+.bg-grey {
+    background: #FAFAFA;
+}
+.notification_marginLeft{
+    margin-left:20px ;
+}
+span.clock-icon {
+    margin: 0;
+    margin-left: -5px;
+}
+.notification_two_colums{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #CFCBCF;
+}
+.notification-img {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #cecbcf;
+    border-radius: 50%;
+    padding: 5px;
+    background: #fff;
+}
+.notification-img img {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+.notification-list .noti-msg {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    color: #2E384D;
+    font-weight: 500;
+}
+.notification-list .noti-msg span{
+    font-family: 'Montserrat';
+    font-size: 12px;
+    color: #2E384D;
+    font-weight: 600;
+}
+.notification-list .noti-time {
+    font-family: 'Montserrat';
+    font-size: 13px;
+    color: #2E384D;
+    font-weight: 500;
+}
+span.clock-icon img {
+    width: 15px;
+    height: 15px;
+    margin: 5px 0px;
+    margin-left: 53px;
+}
+button.btn.Sign-default {
+    background: transparent;
+    border: 1px solid #721c65;
+    color: #721c65;
+    font-weight: 600;
+    font-size: 13px;
+    width: 150px;
+}
+button.btn.Sign-default:hover{
+    background: #721c65;
+    color: #fff;
+}
+.notification_row:last-child {
+    border-bottom: 0px solid #CFCBCF;
+}
+.notification-info {
+    width: 100%;
+}
+.unread-notification {
+    background: #cfcbcf3b;
+}
+.unread-notification:first-child {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.unread-notification p {
+    color: #721a65 !important;
+    font-weight: 600 !important;
+}
+@media only screen and (max-width: 600px) {
+    .notification_container1{
+        padding: 0 !important;
+    }
+    .notification_marginLeft.notification-list.d-flex.w-100.align-items-center {
+        display: initial !important;
+        align-items: center;
+    }
+    .action-button {
+        margin-top: 10px;
+    }
+    .notification_row{
+        margin: 10px 0px;
+        box-shadow: 0px 0px 5px 0px #d2d0d4;
+        border-radius: 8px;
+        padding: 8px 6px !important;
+        background: #fff;
+    }
+    .notification_container1.bg-white {
+        background: transparent !important;
+        border: none !important;
+    }
+    .notification-list .noti-msg {
+        font-size: 12px;
+    }
+    .notification-list .noti-msg b {
+        font-size: 10px;
+    }
+    button.btn.Sign-default[data-v-1b6f5616] {
+        font-size: 10px;
+        width: 120px;
+    }
+    .notification-img {
+        width: 40px;
+        height: 40px;
+    }
+    .notification-img img{
+        width: 35px;
+        height: 35px;
+    }
+    .notification_marginLeft {
+        margin-left: 0px;
+    }
+    .notification_row button {
+        font-size: 10px !important;
+        width: 80px !important;
+        padding: 5px 5px;
+    }
+    .noti-time {
+        font-size: 11px !important;
+    }
+  }

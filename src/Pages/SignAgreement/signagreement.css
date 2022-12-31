@@ -1,0 +1,123 @@
+.signagreement_container{
+    background: #FAFAFF;
+    /* display: flex; */
+    
+}
+.sign_container{
+    display: flex;
+}
+
+.signagreement_container .sign_content_area{
+    min-height: 80vh;
+    background: white;
+    border: 1px solid #CFCBCF;
+    /* margin: 20px 20px 20px 20px; */
+    border-radius: 8px;
+    
+}
+
+.sign_content_area {
+    /* display: flex; */
+    flex: .8;
+    
+}
+
+.sign_ongoing {
+    flex: .2;
+    /* border: solid 1px blue; */
+}
+
+.selectedassest {
+    /* flex: .8; */
+    /* border: solid 1px red; */
+    flex: 1;
+    padding: 15px;
+    
+}
+.main_area{
+    display: flex;
+    justify-content: space-around;
+}
+.aadhar_image{
+    /* display: flex; */
+    margin-right: 20px;
+}
+.agreement_sign_timer{
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 16px;
+    color: #2E384D;
+    margin-left: 210px;
+    margin-bottom: 10px;
+}
+.enter_aadhar_number{
+    display: flex;
+    flex-direction: column;
+
+}
+.aadhar_area_title{
+    font-weight: 600;
+    font-size: 22px;
+    color: #721B65;
+}
+.aadhar_sign_description{
+    font-weight: 500;
+    font-size: 16px;
+    color: #2E384D;
+}
+.download_agreement{
+    font-size: 14px;
+    font-weight: bold;
+    color: #721B65;
+}
+.enter_aadhar_number{
+    font-weight: 500;
+    font-size: 16px;
+    color: #2E384D;  
+    margin-left: 210px; 
+}
+.timer{
+    font-weight: 600;
+    font-size: 24px;
+    color: #721B65;
+    width: 160px;
+    height: 30px;
+    border: 1px solid #721B65;
+    border-radius: 6px;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: space-between;
+}
+.aadhar_container{
+    /* padding-left: 20px; */
+    width: 100%;
+}
+.signedby_component{
+    flex: 1;
+}
+.aadhar_image_container{
+    display: flex;
+    
+}
+.sign_agreement_title{
+    font-weight: 500;
+    display: inline;
+    font-size: 27px;
+    color: #2E384D;
+    margin-left: 40px;
+    
+}
+.small_line{
+    border: 1px solid #721B65;
+    width: 65px;
+    margin-left: 43px;
+    height: 0;
+    
+}
+.sign-agreement{
+    
+}
+.timer span{
+    margin-right: 8px;
+}

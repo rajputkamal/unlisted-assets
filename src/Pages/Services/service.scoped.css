@@ -1,0 +1,104 @@
+.service_aware{
+    background: #2E384D;
+    border-radius: 6px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.service_line{
+    border-top: 2px solid #721c65 !important;
+  width: 10% !important;
+  float: left;
+  margin: 0 !important;
+}
+.LoanAgainstShares_container{
+    padding: 10px;
+    border: 1px solid #CFCBCF;
+    border-radius: 4px;
+    color: #2E384D;
+}
+.service_widget_List.active svg path {
+    fill: #721965 !important;
+}
+.service_widget_List svg {
+    fill: #2E384D ;
+}
+.service_widget_List.active svg {
+    fill: #721965 !important;
+}
+svg.primary-svg-color{
+    fill: #721965;
+}
+.service_input_box{
+    width: 100%;
+    border: 1px solid #CFCBCF;
+    border-radius: 4px;
+    margin-top: 15px;
+    height: 45px;
+    padding: 10px 10px;
+}
+.service_widget{
+    border: 1px solid #CFCBCF;
+    border-radius: 8px;
+}
+.service_widget_List{
+    display: flex;
+    cursor: pointer;
+    margin: 20px 0px;
+    align-items: center;
+    padding-left: 8px;
+}
+.service_widget_List.active {
+    border-left: 3px solid #721c65;
+    padding-left: 5px;
+}
+.service_widget_List p{
+    font-weight: 600;
+    font-size: 14px;
+    color: #2E384D;
+}
+.service_widget_List.active p {
+    color: #721c65;
+}
+.service_right{
+width: 100%;
+}
+.service_container{
+    display: flex;
+}
+.service_widget_List svg {
+    margin: 0px 10px;
+}
+.service_widget_List .service_widget_List svg path {
+    fill: #2E384D;
+}
+.service_widget_List.active svg path {
+    fill: #721965 !important;
+}
+.default-heading{
+    font-size: 40px;
+    color: #0D223C;
+}
+.services-default-para{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .LoanAgainstShares_container {
+        margin-top: 20px;
+    }
+    .w-75.p-3 {
+        width: 100% !important;
+        padding: 0px !important;
+    }
+
+  }
+  

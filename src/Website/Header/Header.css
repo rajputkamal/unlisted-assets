@@ -1,0 +1,67 @@
+.header-main-container{
+    background-color: #0D223C !important;
+}
+.header-main-container .MuiButton-textPrimary {
+    color: #fff;
+}
+.header-main-menu a button{
+    font-family: "Montserrat";
+    font-weight: normal;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+.header-company-logo{
+    margin-right: 20px;
+    display: flex;
+}
+.header-toggle-button{
+    display: none;
+    flex-grow: 1;
+}
+.header-login-button .secondary-button {
+    border: 1px solid #fff !important;
+    color: #fff !important;
+    background: transparent;
+}
+@media only screen and (max-width: 768px) {
+    .header-company-logo {
+        display: none;
+    }
+
+    .header-toggle-button {
+        display: flex;
+    }
+}
+.header-main-container{
+    background-color: #0D223C !important;
+}
+.header-main-container .MuiButton-textPrimary {
+    color: #fff;
+}
+.header-main-menu a button{
+    font-family: "Montserrat";
+    font-weight: normal;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+.header-company-logo{
+    margin-right: 20px;
+    display: flex;
+}
+.header-toggle-button{
+    display: none;
+    flex-grow: 1;
+}
+.header-login-button .secondary-button {
+    border: 1px solid #fff !important;
+    color: #fff !important;
+    background: transparent;
+}
+@media only screen and (max-width: 768px) {
+    .header-company-logo{
+        display: none;
+    }
+    .header-toggle-button{
+        display: flex;
+    }
+}

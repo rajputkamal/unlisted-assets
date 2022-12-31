@@ -1,0 +1,55 @@
+.Trade_ready_step_6_text{
+    font-family: Montserrat;
+    font-style: normal;
+    color: #2E384D;
+}
+.Trade_ready_step_6_container{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+.Trade_ready_step_6_who_are_you{
+    font-weight: 600;
+}
+.Trade_ready_step_6_Choose_radio_group{
+    /* margin-top: 12px; */
+    font-weight: 500;
+    font-size: 14px;
+    color: #2E384D;
+    
+}
+.Trade_ready_step_6_Choose_radio_border{
+    width: 300px;
+    height: 40px;
+    border: 1px solid #CFCBCF;
+    /* box-sizing: border-box; */
+    border-radius: 4px;
+
+}
+
+.Trade_ready_step_6_bank_image_area{
+    width: 187.23px;
+    height: 134px;
+    background: url(https://www.google.co.in/);
+    border-radius: 10px;
+    padding-bottom: 40px;
+}
+.Trade_ready_step_6_bank_image_container{
+    width: 610px;
+    height: 458px;
+    border: 1px solid #CFCBCF;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 5px 50px #E5E9F3);
+    border-radius: 22px;
+    padding: 80px;
+
+}
+.Trade_ready_step_6_save_button{
+    width: 50px;
+    margin-top: 30px;
+    padding-left: 300px;
+    border-top: 1px solid #CFCBCF;
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}

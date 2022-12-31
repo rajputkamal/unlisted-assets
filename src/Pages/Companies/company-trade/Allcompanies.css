@@ -1,0 +1,171 @@
+.company-col-main {
+    background: #fff;
+    border: 1px solid #d7ced7;
+    border-radius: 8px;
+    padding: 10px;
+}
+/* .company-col-top {
+    border-bottom: 1px solid #e5e8ed;
+    
+} */
+.company-col-bottom {
+    border-top: 1px solid #e5e8ed;
+}
+.company-bookmark svg {
+    /* fill: #CFCBCF80; */
+    /* stroke: #d6cdd6; */
+    width: 25px !important;
+    height: 25px !important;
+    cursor: pointer;
+    color: #721a65 !important;
+}
+.company-bookmark .bookmark-Icon svg {
+    width: 25px !important;
+    height: 25px !important;
+    cursor: pointer;
+    color: #721a65 !important;
+}
+
+.Company-thumbnail {
+    height: 35px;
+}
+.company-top-thumb {
+    overflow: hidden;
+}
+.Company-thumbnail img {
+    max-width: 100%;
+    max-height: 100%;
+    /* min-height: fit-content; */
+}
+.company-top-details h4 {
+    color: #2E384D !important;
+    font-weight: 600 !important;
+    font-size: 1rem !important;
+    margin-bottom: 2px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1;
+}
+.company-top-details p {
+    color: #A5A5A5;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.company-top-details p span {
+    color: #2E384D;
+    margin-left: 8px;
+}
+.company-tags .MuiChip-root {
+    background: #FFEBB5;
+    color: #876400;
+    border: 1px solid #eddaa8;
+    font-size: 11px;
+    height: 22px;
+}
+.company-tags .MuiChip-root span{
+    color: #876400;
+    font-weight: 500;
+    font-family: 'Montserrat';
+    font-size: 11px;
+}
+.company-tags .MuiChip-root svg path{
+    color: #876400;
+}
+.company-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8px 0px;
+}
+.company-actions button{
+    width: 100%;
+    margin: 0px 3px;
+}
+.company-tags {
+    margin: 10px 0px;
+}
+button.btn.btn-explore {
+    background: #F9F9F9;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 500;
+}
+a.btn.btn-explore {
+    background: #F9F9F9;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 700 !important;
+    color: #2E384D;      
+}
+.company-actions .allcompany-card-btn{
+    font-weight: 700 !important;
+    border: 1px solid #721a65 !important;
+    color: #721a65 !important;
+    font-size: 12px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+.allcompany-modal-closeIcon {
+    padding: 13px;
+}
+.allcompanies-section-main .margin-default{
+    margin: 7px 0px;
+    padding: 0px 7px;
+}
+.company-actions .allcompany-card-btn:hover {
+    background: #721a65;
+    color: #fff !important;
+}
+.img-size{
+    height: 140px;
+}
+.company-showdata-arrow{
+    width: 25px !important;
+    height: 25px !important;
+    color: #721a65;
+    border: 1px solid #721a65;
+    border-radius: 50%;
+}
+.approching-ipo-margin{
+padding: 11px 0px;
+}
+@media (max-width: 768px){
+    .Company-thumbnail {
+        height: 50px ;
+    }
+
+    .allcompany-custom-filter {
+        border: 1px solid #e0e0e0;
+        border-radius: 12px !important;
+        border-top: none !important;
+        width: 350px !important;
+        position: fixed;
+        right: -35px !important;
+        box-shadow: 0px 0px 10px 0px #c1c1c1;
+    }
+    .company-filter-mobile {
+        padding: 0 !important;
+        margin: 0px 3px;
+    }
+}
+
+
+.default-heading {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: #0D223C;
+}
+.default-para {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+}

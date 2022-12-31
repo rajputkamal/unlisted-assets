@@ -1,0 +1,44 @@
+
+.forgotuser{
+    display:flex;
+    flex-direction: column;
+}
+
+.unlisted-assests-logo-header{
+    margin-top: 11px;
+    margin-left: 32px;
+    margin-bottom: 11px;
+    width: 200px;
+    height: 42px;
+}
+
+.back-button {
+    width: 90px;
+    margin: 15px 0 0 25px;
+}
+.forgotuser .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 90vh;
+}
+
+.forgotuser form{
+    width: 400px;
+}
+.forgotuser .content-text{
+    text-align: center;
+    width: 250px;
+    font-size: 12px;
+}
+
+.forgotuser .content-text .heading{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+input {
+    height: 30px;
+    margin-top: 10px;
+}

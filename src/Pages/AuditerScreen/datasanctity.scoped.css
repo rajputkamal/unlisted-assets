@@ -1,0 +1,23 @@
+.datasanctity_2ndColumn{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.datasanctity_comment{
+    display: flex;
+    align-items: center;
+}
+.datasanctity_marginLeft{
+    margin-left: 20px;
+}
+.datasanctity_tablehead_row{
+    font-weight: 500;
+    font-size: 16px;
+    color: #721B65;
+}
+.datasanctity_tablehead{
+    border: 1px solid #CFCBCF;
+    border-radius: 15px;
+    margin:20px;
+    
+}

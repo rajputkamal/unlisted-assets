@@ -1,0 +1,67 @@
+ul.users_menus {
+  list-style: none;
+  padding: 0;
+}
+ul.users_menus li {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 8px 0px;
+  color: #212629;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  cursor: pointer;
+}
+.transactiondetails-cmp.mt-4 {
+  text-align: left !important;
+}
+.my-card.user_role_tabs button span {
+  font-size: 15px ;
+}
+.user-dashboard-Tablink {
+  min-height: 30px !important;
+}
+.user-dashboard-Tablink span {
+  font-size: 13px !important;
+  color: #2e394c;
+  font-family: 'Montserrat' !important;
+  font-weight: 600;
+  flex-direction: row;
+  display: flex;
+  justify-content: start;
+  padding-left: 10px;
+}
+.UserDashboard-TabsPanel .MuiBox-root{
+  padding: 0;
+}
+.user_role_tabs .MuiTab-root {
+  text-align: start;
+}
+
+.MuiPaper-rounded {
+  /* border-radius: 0px !important; */
+}
+.user-dashboard-Tablink-active {
+  min-height: 30px !important;
+}
+.user-dashboard-Tablink-active span {
+  font-size: 13px !important;
+  color: #721c65 !important;
+  flex-direction: row;
+  display: flex;
+  justify-content: start;
+  padding-left: 10px;
+}
+.activelink-side-line{
+  position: absolute;
+  right: -16px;
+  width: 2px;
+  height: 25px;
+  background-color: #721c65;
+}
+.my-card-default-admin {
+  
+  padding: 15px 15px 7px 15px;
+}
+
+.MuiTabScrollButton-root.Mui-disabled {
+  display: none !important;
+}

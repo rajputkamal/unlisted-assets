@@ -1,0 +1,26 @@
+.btn.default-bottombar-mobilebtn{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    z-index: 999999999;
+}
+button.btn.default-bottombar-mobilebtn {
+    font-weight: 600;
+    color: #fff;
+    font-size: 12px;
+    background: #721B65;
+    border-radius: 4px 4px 0px 0px;
+    padding: 13px 0px;
+}
+
+button.btn.default-bottombar-mobilebtn:hover {
+    font-weight: 600;
+    color: #731b67;
+    border: 1px solid #731b67;
+    background-color: #fff;
+    font-size: 12px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}

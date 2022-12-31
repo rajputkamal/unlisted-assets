@@ -1,0 +1,40 @@
+.RefundAndCancellation-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #CFCBCF;
+    border-radius: 10px;
+    padding: 15px;
+    height: 100vh;
+}
+.Terms-heading{
+    color: #721965;
+    font-weight: 700;
+  }
+  .annexure-4-para{
+      font-size: 15px;
+  }
+  .term-table-font{
+    font-size: 15px;  
+  }
+  .term-thead{
+    background-color: #721965;
+    color: white;
+    width: 400px;
+  }
+  .term-ordered-list li { 
+    margin-top: 8px; 
+  }
+  .term-ordered-list li span {
+      position: relative;
+      left: 15px;
+  }
+  .term-ordered-list {
+  margin-left: -25px;
+  }
+  
+  

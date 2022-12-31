@@ -1,0 +1,41 @@
+.tableArrow{
+    padding: 0px 10px;
+}
+
+.my-holdings-page{
+    /* display: flex;
+    flex:1;
+    justify-content: center; */
+    padding: 30px 0px;
+}
+
+.table-container {
+    flex: .85;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+#add-holdings-button{
+    margin-right: 0;
+}
+
+.product-company-logo {
+    width: 50px;
+}
+.myholding-right-sec .MuiTableCell-stickyHeader {
+    top: 0;
+    left: 0;
+    z-index: 2;
+    position: sticky;
+    background-color: #fafafa;
+    width: 300px;
+}
+@media only screen and (max-width: 600px) {
+    .Sell-table-section table tr th {
+        padding: 8px 8px;
+    }
+    .Sell-table-section table tr th span{
+        font-size: 12px;
+        white-space: nowrap;
+    }
+  }

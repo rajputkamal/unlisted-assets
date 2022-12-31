@@ -1,0 +1,666 @@
+body{
+    font-family: 'Montserrat';
+}
+.Journey-for-desktop{
+    display: block;
+}
+.Inventory_company_cell{
+    display: flex;
+    align-items: center;
+    padding-left: 1%;
+
+}
+.Inventory_company_details{
+    padding-left: 2%;
+    margin-left: 10%;
+}
+.Inventory_company_name{
+    margin: 0%;
+}
+.Inventory_category_category{
+    margin: 0%;
+}
+.Inventory_company_id{
+    margin: 0%;
+}
+.Inventory_Table_title{
+    display: flex;
+    width: 100%;
+    color: #2E384D;
+    font-weight: 600;
+    font-size: 22px;
+    justify-content: space-between;
+}
+.Trade_Header_Name {
+    width: 100% !important;
+}
+.Trade_Header_Name .tableArrow{
+    padding: 0px 8px !important;
+}
+.company-logo-img {
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.company-logo-img img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.action-negotiate {
+    color: #721c65;
+    font-size: 15px !important;
+    width: 100%;
+    font-family: 'Montserrat';
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* .action-negotiate:hover {
+    color: #fff;
+    background: #721c65;
+    font-size: 15px !important;
+    width: 100%;
+    text-align: center;
+    padding: 7px 0px;
+    border-radius: 4px;
+    text-decoration: none;
+} */
+.negotiate-btn{
+    display: none;
+}
+
+.marketplace-table table tr:hover .action-negotiate span{
+    color: #fff;
+    background: #721c65;
+    font-size: 13px !important;
+    width: 100%;
+    text-align: center;
+    padding: 7px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.marketplace-table table tr th .MuiButton-label {
+    width: 100%;
+    display: inherit;
+    align-items: inherit;
+    justify-content: flex-start !important;
+    white-space: nowrap;
+}
+/* .marketplace-table table tr:hover .action-negotiate span{
+    color: #fff;
+    background: #721c65;
+    font-size: 15px !important;
+    width: 100%;
+    text-align: center;
+    padding: 7px 0px;
+    border-radius: 4px;
+    text-decoration: none;
+} */
+.marketplace-table table tr:hover .negotiate-btn{
+    display: block;
+    
+}
+tr.MuiTableRow-root.custom_table_row { 
+    /* position: sticky; */
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+.MarketplaceTable-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.MuiTableCell-stickyHeader {
+    background-color: #fff !important;
+}
+.company_name{
+    font-weight: 600;
+}
+.has-search .form-control {
+    padding-left: 2.375rem !important;
+    background-color: transparent !important;
+    font-size: 14px !important;
+}
+.has-search input:focus{
+    box-shadow: none !important;
+    outline: none !important;
+    /* border: 1px solid #721c65 !important; */
+}
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    line-height: 1.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #61676d;
+    font-weight: 100;
+}
+.discover-componies-sec {
+    background: #e3e5eb!important;
+    border-radius: 8px;
+}
+.discover-componies-sec .box {
+    height: 270px;
+    background: #fff;
+}
+.small-icon svg{
+    width: 20px !important;
+    height: 20px !important;
+}
+.custom_table_row {
+    background: #F1E8F0;
+    border: 2px dashed #721c65;
+}
+.tab-desc.mt-3 h6 {
+    display: none;
+}
+.blank_add {
+    position: relative;
+}
+.blank_plus {
+    position: absolute;
+    left: 13px;
+    bottom: -5px;
+    height: 20px;
+    width: 20px;
+}
+.blank_plus img{
+    height: 20px;
+    width: 20px;
+}
+
+.makeStyles-container-14 {
+    border: 0px solid #E5E5E5 !important;
+    border-radius: 10px !important;
+}
+#filter-popper{
+    top:17px !important;
+}
+.custom-filter {
+    border: 1px solid #e0e0e0;
+    border-top: none !important;
+    width: 204px;
+    position: fixed;
+    right: -103px;
+}
+
+.MuiPaper-rounded {
+    border-radius: 15px !important;
+}
+
+
+.custom-filter::after {
+    content: " ";
+    position: absolute;
+    border-width: 10px;
+    border-style: solid;
+    bottom: 100%;
+    left: 45%;
+    border-color: transparent transparent white transparent;
+}
+.custom-filter .MuiPaper-elevation1 {
+    box-shadow: none !important;
+}
+.custom-filter .MuiPaper-elevation1 p{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Montserrat';
+}
+.custom-filter .MuiAccordion-root.Mui-expanded {
+    margin: 0px 0 !important;
+}
+.custom-filter .MuiAccordionSummary-content.Mui-expanded {
+    margin: 8px 0 !important;
+}
+.custom-filter .MuiAccordionSummary-root.Mui-expanded {
+    min-height: 40px !important;
+}
+.custom-filter .MuiAccordionSummary-root {
+    display: flex;
+    padding: 0px 8px !important;
+    min-height: 35px !important;
+    transition: min-height 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.custom-filter .MuiAccordionSummary-content {
+    margin: 0px 0 !important;
+    display: flex;
+    flex-grow: 1;
+    transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.MobileCompanies {
+    background: #F1F3F9;
+    padding: 15px 15px;
+}
+button.btn.ur-owne-default-btn {
+    color: #2E384D !important;
+    font-weight: 700 !important;
+    font-size: 12px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    background-color: #F3F3F3;
+}
+
+
+.ur-owner{
+    font-size: 13px;
+}
+@media (min-width: 768px) {
+    .makeStyles-container {
+        background-color: green;
+        width: 768px;
+    }
+    .need-help-col{
+        padding: 0px 17px 0px 0px !important;
+
+    }
+}
+
+@media (max-width: 600px) {
+    .Journey-for-desktop{
+        display: none;
+    }
+    .my-card.need-help-card {
+        margin-top: 15px;
+    }
+    .marketplace-table tr th {
+        padding: 0px 5px ;
+    }
+    .marketplace-table tr th span {
+        font-size: 11px;
+        font-weight: 600;
+    }
+    a.add-stock-action span {
+        font-size: 10px !important;
+        display: none;
+    }
+    .marketplace-table tr td {
+        padding: 5px 5px;
+        font-size: 12px;
+    }
+    .marketplace-table tr td p{
+        margin: 0;
+    }
+    .ur-owner{
+        font-size: 12px;
+    }
+    a.add-stock-action img {
+        width: 30px;
+        margin: auto;
+    }
+    .marketplace-table table tr:hover .action-negotiate {
+        font-size: 12px !important;
+        margin: 0;
+    }
+    .marketplace-table h6.company_name{
+        font-size: 13px;
+    }
+    .marketplace-table .MuiTableContainer-root{
+        border: none;
+    }
+    .marketplace-table .company_details1 p {
+        font-size: 11px !important;
+        line-height: 1.3;
+        color: #343a3f;
+        white-space: nowrap;
+    }
+    .custom_table_row {
+        background: #F1E8F0;
+        border: 1px dashed #721c65;
+        border-top: 1.2px dashed #721965 !important;
+    }
+    .custom_table_row td{
+        border: none;
+    }
+    .custom_table_row td b {
+        font-size: 10px !important;
+    }
+    .custom_table_row .blank_add img {
+        width: 30px;
+    }
+    .blank_plus {
+        position: absolute;
+        left: 1px;
+        bottom: -5px;
+        height: 20px;
+        width: 20px;
+    }
+    .ur-owner{
+        font-size: 11px;
+        text-align: center;
+    }
+    .action-negotiate {
+        font-size: 13px !important;
+        text-align: center;
+    }
+    .MarketplaceTable-actions {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+    .MarketplaceTable-actions button.btn.btn-secoundary-default {
+        font-size: 10px !important;
+        letter-spacing: 0px;
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+        margin: 0 3px !important;
+    }
+    .MarketplaceTable-actions button.btn.btn-secoundary-default img{
+        width: 15px !important;
+        height: 15px !important;
+        margin: 0 !important;
+    }
+    .custom-filter p {
+        font-size: 13px;
+    }
+    .custom-filter {
+        width: auto;
+        position: initial;
+        right: 0;
+    }
+}
+
+.MuiTablePagination-toolbar .MuiIconButton-label {    
+    flex: 0 0 auto;
+    overflow: visible;
+    font-size: 1.5rem;
+    text-align: center;
+    transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    color: white !important;
+    padding: 7px !important;
+    border-radius: 5px !important;
+    background-color: #721965 !important;
+    margin-left: 6px !important;
+}
+.MuiTablePagination-select {
+    text-align: right;
+    padding-left: 8px;
+    padding-right: 24px;
+    text-align-last: right;
+    color: white !important;
+    border-radius: 5px !important;
+    background-color: #721965 !important;
+}
+.my-holdings-page .MuiTablePagination-selectIcon{
+    fill: white;
+    height: 25px;
+    width: 25px;
+
+}
+.need-help-card p:hover{
+    text-decoration: underline;
+}
+
+.need-help-card p{
+color: #2E384D;
+font-family:"Montserrat";
+font-weight: 500;
+font-size: 12px;
+font-style: normal;
+line-height: 22px;
+}
+.marketplace-table ::-webkit-scrollbar {
+    height: 5px;
+    
+  }  
+  /* Handle */
+  .marketplace-table ::-webkit-scrollbar-thumb {
+    background:#721965;  
+    border-bottom-left-radius: 5px;  
+    border-bottom-right-radius: 5px;  
+  }  
+  /* Handle on hover */
+  /* .marketplace-table ::-webkit-scrollbar-thumb:hover {
+    background:#fff; 
+  } */
+
+  .inventory-search-bar{
+      position: relative;
+      border-color: #80bdff !important;
+      font-size: 15px !important;
+      font-family: 'Montserrat' !important;
+  }
+  .inventory-search-bar ::placeholder{
+    color: #605260;
+    font-size: 15px !important;
+    font-family: 'Montserrat' !important;
+}
+  .inventory-search-icon{
+      position: absolute;
+
+  }
+  .search-area .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] {
+    padding: 0px !important;
+}
+.search-area .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] .MuiAutocomplete-input:first-child {
+    padding-left: 40px !important;
+}
+
+ .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #80bdff;
+}
+
+.table-link a{
+    color: #2E384D !important;
+    font-weight: 400;
+
+}
+.table-link a:hover {
+    color: #2E384D !important;
+  }
+
+
+  /* new marketplace design  */
+
+  .jorney-main-div{
+    padding: 110px 0px;
+    background: #E7E7E7;
+    border: 2px solid #BABABA;
+    border-radius: 16px;
+    margin-bottom: 20px;
+  }
+
+
+.marketplace-company-col-main {
+    background: #fff;
+    border: 1px solid #d7ced7;
+    border-radius: 8px;
+    padding: 10px;
+}
+.marketplace-company-col-main:hover {
+    background: #fff;
+    border: 1px solid #721B65;
+    border-radius: 8px;
+    padding: 10px;
+}
+.marketplace-Company-thumbnail {
+    height: 45px;
+}
+.marketplace-Company-thumbnail img {
+    max-width: 100%;
+    max-height: 100%;
+    min-height: fit-content;
+    /* max-height: 100%;
+    min-height: fit-content;
+    min-width: inherit;
+    max-width: fit-content; */
+}
+
+.marketplace-searchbutton .secondary-button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid #721B65;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #721B65;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 8px 15px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    width: 186px;
+}
+
+.marketplace-nolistingfound-section{
+    padding: 60px 0px;
+}
+.marketplace-nolistingfound-section h4{    
+    font-size: 22px !important;
+    color: #CFCBCF;
+    font-weight: 700 !important;
+}
+.marketplace-nolistingfound-section p{    
+    font-size: 14px !important;
+    color: #0D223C;
+    font-weight: 500 !important;
+}
+.marketplace-nolistingfound-section svg.MuiSvgIcon-root {    
+    margin: 10px;
+    margin-bottom: 12px;
+}
+
+.marketplace-NoCompanyfound-section{
+    padding: 60px 0px;
+}
+.marketplace-NoCompanyfound-section h4{    
+    font-size: 22px !important;
+    color: #CFCBCF;
+    font-weight: 700 !important;
+}
+.marketplace-NoCompanyfound-section p{    
+    font-size: 14px !important;
+    color: #0D223C;
+    font-weight: 500 !important;
+}
+
+.marketplace-TurnOnAlerts .primary-button{    
+    display: inline-block;    
+    white-space: nowrap;
+    width: 180px;
+
+}
+.marketplace-Chip-main .css-132vamb-MuiChip-root {    
+    background-color: #ffffff ;
+    border: 1px solid #A5A5A5;
+    border-radius: 54px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #2E384D;
+    cursor: pointer;
+}
+.marketplace-Chip-main .css-132vamb-MuiChip-root:hover {
+    background-color: #721b65;
+    border: 1px solid #721b65;
+    border-radius: 54px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.marketplace-card-heading{
+    font-size: 22px !important;
+    color: #CFCBCF;
+    font-weight: 700 !important;
+}
+
+.marketplace-tags h4{
+    color: #2E384D !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    margin-bottom: 2px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1;
+}
+.marketplace-card-listingid p{
+    color: #A5A5A5;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 3px !important;
+}
+.marketplace-card-listingid p span{
+    color: #2E384D;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.marketplace-horizontalrow {
+    height: 1px;
+    background: #000000;
+    opacity: 0.08;
+    margin: 10px -10px;
+}
+
+.marketplace-infoicon{
+    height: 50px;
+    width: 20px !important;
+    color: #2E384D;
+}
+.marketplace-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8px 0px;
+}
+.marketplace-tags .MuiChip-root {
+    color: #106D31 !important;
+    font-size: 11px;
+    height: 22px;
+    background: #D6E5DC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 11px 5px;
+    font-family: "Montserrat";
+    font-weight: 500;   
+}
+.marketplace-tags .css-6od3lo-MuiChip-label {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 6px;
+    padding-right: 6px;
+    white-space: nowrap;
+}
+.marketplace-tags .css-132vamb-MuiChip-root .MuiChip-icon {
+    color: #106D31;    
+}
+.marketplace-actions button.btn.btn-secoundary-default{
+    width: 100%;
+    margin: 0px 3px;
+    font-size: 14px !important;
+}
+.marketplace-actions button.btn.btn-secoundary-default p{
+    margin-left: 3px;
+    font-weight: 400;
+    font-size: 12px;
+}
+.filter-top-action h6{
+    font-weight: 700 !important;
+}
+.filter-top-action a{
+    font-weight: 700 !important;
+    text-decoration: underline !important;
+    color: #000000 !important;
+    font-size: 14px;
+}
+
+

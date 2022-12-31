@@ -1,0 +1,304 @@
+.tradereadystep7-main .css-spiq1o-MuiButtonBase-root-MuiAccordionSummary-root {
+  background-color: #fff;
+  height: 75px !important;
+  min-height: 44px;
+  border: none;
+  box-sizing: border-box;
+  border-radius: none;
+  border-bottom: none !important;
+  padding: 0px;
+  display: flex;
+}
+
+/* .tradereadystep7-main .css-spiq1o-MuiButtonBase-root-MuiAccordionSummary-root {
+  background-color: #fff;
+  height: 70px !important;
+  min-height: 70px;
+  border: none;
+  box-sizing: border-box;
+  border-radius: none;
+  border-bottom: none !important;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+} */
+.tradereadystep7-main .css-ta84vm-MuiAccordionDetails-root {
+  padding: 0px 9px;
+  padding-bottom: 5px;
+  border-top: none !important;
+}
+.bankdetail-main .css-spiq1o-MuiButtonBase-root-MuiAccordionSummary-root {
+  background-color: #fff ; 
+  /* height: 30px;
+    min-height: 30px; */
+  /* height: 75px !important;
+  min-height: 44px; */
+  border: none;
+  box-sizing: border-box;
+  border-radius: none;
+  border-bottom: none !important;
+  padding: 0px;
+  display: flex !important;
+  justify-content: space-between !important;
+}
+.bankdetail-main .css-ta84vm-MuiAccordionDetails-root {
+  padding: 0px 9px;
+  padding-bottom: 5px;
+  border-top: none !important;
+}
+.bankdetail-main .css-1fjvggn-MuiPaper-root-MuiAccordion-root{
+  border: none;
+}
+
+
+.makepayment-horizontalrow {
+  border-bottom: 1px solid #CFCBCF;
+  margin: 20px -25px;
+}
+
+.pyment_modal{
+  position: fixed;
+  background: white;
+  width: 100%;
+  max-width: 40%;
+  transform: translate(-50%,-50%);
+  border-radius: 10px !important
+}
+.paymentProcessing_modal_padding{
+  padding: 40px 105px !important;
+}
+.pymentSuccessful_modal_padding{
+  padding: 40px 55px !important;
+}
+
+.buynow-modal-link a{
+font-size: 12px;
+color: #721B65;
+font-weight: 600;
+text-decoration: none;
+font-family: "Montserrat";
+}
+.customNoLabelSelectInput{
+  font-family: 'Montserrat' !important;
+  font-size: 13px !important;
+  width: 100% !important;
+}
+.customNoLabelSelectInput legend{
+    font-size:0;
+    width: 0;
+}
+.customNoLabelSelectInput .MuiOutlinedInput-input {
+  padding: 7.5px 14px !important;
+}
+.paymentfaild-modal-icon{
+  color: #FF4D4F;
+  width: 35px !important;
+  height: 35px !important;
+}
+
+.paymentInprocess-modal-gif .MuiCircularProgress-colorPrimary{
+  color: #721B65 !important;
+}
+.paymentsuccessfull_main h6{
+  font-family: 'Montserrat' !important;
+  font-size: 14px !important;
+  font-weight: 500;
+  padding: 10px 0px;
+}
+.scaner-pic{
+  /* width: 150px;
+  height: 150px; */
+}
+
+/* .profile_widget_list .profile_widget_CompleteChip {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  padding: 0px 10px;
+  height: 25px;
+  color: #106D31 !important;
+  background-color: #D6E5DC !important;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-family: "Montserrat";
+}
+.profile_widget_list .css-1iz24ed-MuiChip-root .MuiChip-icon {
+  color: #106D31;
+  margin-left: 2px;
+}
+.profile_widget_list .css-6od3lo-MuiChip-label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: 3px;
+  white-space: nowrap;
+} */
+
+
+
+.custom-chip .css-6od3lo-MuiChip-label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 12px;
+  padding-right: 12px;
+  white-space: nowrap;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 13px;
+  text-align: right;
+  color: #106D31;
+}
+.custom-chip .css-1iz24ed-MuiChip-root .MuiChip-icon {
+  color: #106D31;
+  margin-left: 8px;
+}
+.custom-chip .css-1iz24ed-MuiChip-root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  background: #D6E5DC;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
+}
+
+.custom-Inprogress-chip .css-6od3lo-MuiChip-label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 12px;
+  padding-right: 12px;
+  white-space: nowrap;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 13px;
+  text-align: right;
+  color: #00679E;
+}
+.custom-Inprogress-chip .css-1iz24ed-MuiChip-root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  background: #DBEBF3;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
+}
+.theme-color{
+  color: #721B65;
+  font-weight: 500;
+}
+.green-highlighter{
+  color: #2DBE60;
+  font-weight: 600;
+}
+.red-highlighter{
+  color: #FF4D4F;
+  font-weight: 600;
+}
+.disabled-text{
+  color: #A5A5A5;
+}
+.content-img{
+  height: 20px;
+  width: 15px;
+}
+.virtual_acc_modal_padding{
+  padding: 30px 35px;
+}
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {  
+  border-radius: 10px !important;
+}
+.virtual-acc-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat';
+  font-style: normal;
+  color: #2E384D;
+  border-radius: 10px !important;
+}
+.virtual-account-created-padding{
+  padding: 30px 35px;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .virtual-acc-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    height: 100%;
+    font-family: Montserrat;
+    font-style: normal;
+    color: #2E384D;
+  }
+  .virtual_acc_modal_padding {
+    padding: 0px;
+}
+.virtual-account-created-padding {
+  padding: 0px 9px;
+}
+  .choosepayment_method_main .primary-button{
+    width: 100% ;
+  }
+  .paymentProcessing_modal_padding{
+    padding: 30px 15px !important;
+  }
+  .pymentSuccessful_modal_padding{
+    padding: 30px 15px !important;
+  }
+  .pyment_modal {
+    position: fixed;
+    background: white;
+    width: 100%;
+    max-width: 90%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px !important;
+}
+.makepayment-horizontalrow {
+  border-bottom: 1px solid #CFCBCF;
+  margin: 8px -11px;
+}
+
+
+}
+
+
+
+/* add bank account  */
+.disabled-field{
+  background-color: #f2f2f2 !important;
+}
+.profile-form_field input {
+  background-color: #fff;
+  border: 0.5px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  color: #000;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-family: 'Montserrat' !important;
+}
+.MuiBox-root {
+  padding: 15px;
+}
+
+.closeBtnAddMoneyModal {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1;
+  cursor: pointer;
+  opacity: 0.5;
+}
+.closeBtnAddMoneyModal:hover {
+  opacity: 1;
+}

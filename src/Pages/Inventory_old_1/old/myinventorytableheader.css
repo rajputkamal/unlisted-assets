@@ -1,0 +1,43 @@
+.tableArrow{
+    padding-left: 10%;
+    padding-top: 10%;
+}
+/* .Trade_Header_Name{
+    color: #721B65;
+    width:100px;
+} */
+a.add-stock-action img {
+    width: 30px;
+    margin-right: 8px;
+}
+a.add-stock-action span {
+    font-size: 12px;
+    text-decoration: none;
+}
+.add-stock-action:hover {
+    text-decoration: none !important;
+
+}
+.MuiTableCell-root {
+    font-family: 'Montserrat' !important;
+} 
+
+.forscroll_table{
+    position: -webkit-sticky;
+  position: sticky;
+  top: 35%;
+  background-color: yellow;
+  padding: 50px;
+  font-size: 20px;
+}
+
+.table_heading_qty{
+    margin-right: -45% !important;
+}
+.table_heading_action{
+    margin-right: -15% !important;
+}
+
+.table_heading_amount{
+    margin-right: -15% !important;
+}

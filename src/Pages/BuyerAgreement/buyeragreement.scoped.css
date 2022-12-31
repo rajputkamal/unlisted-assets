@@ -1,0 +1,255 @@
+.my-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #CFCBCF;
+    border-radius: 10px;
+    padding: 15px;
+}
+.buyeragreement_container{
+    border: 1px solid #CFCBCF;
+    border-radius: 6px;
+    margin: 10px;
+    padding: 10px;
+    height: 100%;
+}
+.buyeragreement_container1{
+    display: flex;
+}
+.aadhar-based {
+    display: flex;
+}
+.buyeragreement_main{
+    display: flex;
+}
+.buyeragreement_main2{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+.buyeragreement_sign_timer{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #721B65;
+    border-radius: 6px;
+    color: #721B65;
+}
+.buyeragreement_aadhar_input{
+    width: 100%;
+    border: 1px solid #CFCBCF;
+    border-radius: 6px;
+}
+.buyeragreement_bottom{
+    border: 1px solid #CFCBCF;
+    border-radius: 6px;
+    margin: 10px;
+    padding: 10px;
+}
+.download_agreement{
+    cursor: pointer;
+}
+.buyeragreement_upload{
+    display: flex;
+    background: #FBFBFF;
+    border: 2px dashed #CFCBCF;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+.buyeragreement_aware{
+    background: #2E384D;
+    border-radius: 10px;
+    display: flex;
+    color: #FFFFFF;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 11px;
+}
+.buyeragreement_button{
+    margin-top: 10px;
+    margin-left: 0px;
+}
+.adharnumber input {
+    border: 1px solid #721c65 !important;
+    height: 45px;
+    padding: 0px 10px;
+    font-weight: 600;
+}
+.text-small {
+    font-size: 13px;
+}
+.buyeragreement_left.my-card {
+    margin-top: 0px;
+}
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #721c65;
+    border-radius: 100%;
+    background: #fff;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #721c65;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    border-radius: 100%;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+p.custom-radio {
+    margin: 0;
+    border: 1px solid #721c65;
+    display: flex;
+    align-items: center;
+    padding: 5px 8px;
+    border-radius: 6px;
+}
+p.custom-radio label{
+    margin: 4px 0px;
+}
+.small-text {
+    font-size: 12px;
+}
+.text-primary-color {
+    color: #721c65;
+}
+.upload-sec {
+    padding: 30px;
+    display: flex;
+    border: 2px dashed #cecbcf;
+    border-radius: 8px;
+    background: #FBFBFF;
+}
+.buyeragreement_sign_timer-div{
+    padding: 0;
+}
+.BuyerAgreementSignup-Sec{
+    padding-bottom: 40px;
+}
+.uploadproof {
+    position: relative;
+    border: 2px dashed #721a65;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+    height:100px
+}
+.uploadproof input {
+    position:absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+.uploadproof img {
+    width: 50px;
+    margin: 10px 15px;
+}
+.adaharbased-sec button.btn-primary-default:hover{
+    /* color: #fff; */
+}
+.downloadIcon:hover{
+    color: #fff;
+}
+@media only screen and (max-width: 680px) {
+    .aadhar-based {
+        display: block !important;
+    }
+    .buyeragreement_sign_timer-div{
+        padding: 15px;
+    }
+    .BuyerAgreementSignup-Sec{
+        padding-bottom: 0px;
+    }
+    .my-card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: none;
+        border-radius: 10px;
+        padding: 0px;
+    }
+  }
+@media only screen and (max-width: 480) {
+    .buyeragreement_right.my-card {
+        margin-top: 15px;
+    }
+    .aadhar-based {
+        display: initial !important;
+        text-align: center;
+    }
+    .buyeragreement_main.download_agreement {
+        text-align: center;
+        justify-content: center;
+    }
+    .buyeragreement_seemore[data-v-ec937690] {
+        padding: 20px 0px;
+    }
+    .buyeragreement_left.my-card {
+        margin-top: 15px;
+    }
+    .buyeragreement_left .border-top {
+        border-top: 0px solid #dee2e6!important;
+    }
+    span.MuiStepLabel-labelContainer {
+        box-shadow: 0px 0px 3px 0px #dee2e6 !important;
+        border-radius: 3px;
+        padding: 10px 8px;
+    }
+    .buyeragreement_right.my-card .col-12 {
+        padding: 0;
+        border: none;
+    }
+    .steps-title {
+        border: 0px solid !important;
+    }
+    .steps-title {
+        border: none !important;
+    }
+  }

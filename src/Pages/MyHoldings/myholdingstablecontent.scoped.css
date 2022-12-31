@@ -1,0 +1,126 @@
+.company_cell{
+    display: flex;
+    align-items: center;
+    padding-left: 1%;
+
+}
+.company_details{
+    padding-left: 2%;
+    margin-left: 10%;
+}
+
+.Table_title{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    /* line-height: 27px; */
+}
+
+.text_limit {    
+    overflow: hidden !important;
+    white-space: nowrap;
+    text-overflow: ellipsis !important;
+    max-width: 170px;
+}
+.holdingtable-logo-img img {
+    /* width: 50px;
+    height: 50px !important;
+    border-radius: 50%;
+    border: 1px solid #e0e0e0 !important;
+    padding: 5px; */
+
+    height: 50px !important;
+    padding: 8px 5px;
+}
+
+.holdingtable-logo{
+    /* width: 150px; */
+    height: 50px !important;
+    padding: 5px;
+}
+button#add-holdings-button {
+    padding: 0px 30px;
+    height: 30px;
+    background: transparent;
+}
+
+.makeStyles-container-5 {
+    border: 0px solid #E5E5E5 !important;
+    border-radius: 10px !important;
+}
+.makeStyles-container-14 {
+    border: 0px solid #E5E5E5 !important;
+    border-radius: 10px !important;
+}
+#scroll-default::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#scroll-default::-webkit-scrollbar
+{
+	width: 5px;
+	background-color: #F5F5F5;
+}
+
+#scroll-default::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #721B65;
+}
+
+
+.search-area .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] .MuiAutocomplete-input:first-child {
+    padding-left: 40px !important;
+}
+
+/* .company_name{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1;
+    
+} */
+   
+
+
+@media only screen and (max-width: 600px) {
+    .Sell-table-section .MuiTableContainer-root{
+        border: none;
+    }
+    .Sell-table-section table tr td {
+        padding: 8px 8px;
+        font-size: 12px;
+    }
+    .Sell-table-section table tr th span{
+        font-size: 11px;
+    }
+    .Sell-table-section h6.company_name {
+        font-size: 13px;
+    }
+    .Sell-table-section .company_details1 p {
+        font-size: 10px !important;
+        white-space: nowrap;
+    }
+    .company-logo-img img {
+        width: 40px;
+        height: 40px !important;
+        padding: 3px;
+    }
+    
+  }
+  .holding-delete-model{
+      padding: 50px 30px 30px;
+      text-align: center;
+      background-color: #fff;      
+  }
+ 
+ 
+  

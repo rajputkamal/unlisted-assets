@@ -1,0 +1,11 @@
+.user-admin-section .MuiFab-primary {
+    color: #fff;
+    background-color: #721a65 !important;
+}
+.user-admin-section .MuiLinearProgress-barColorPrimary {
+    background-color: #4caf4f !important;
+}
+.user-admin-section span.MuiFab-label svg {
+    width: 30px !important;
+    height: 30px;
+}

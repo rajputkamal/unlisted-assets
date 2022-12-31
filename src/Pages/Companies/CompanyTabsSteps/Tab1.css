@@ -1,0 +1,88 @@
+
+.c_name h4 {
+  color: #2E384D;
+}
+.text-primary-default{
+  color: #721B65;
+}
+.AboutTab-section span a{
+  color: #721B65;
+}
+.desktop-none{
+  display: none;
+}
+.text-grey {
+  color: #8d8d8d;
+}
+.product-image-grid {
+  display: flex;
+  /* overflow-x: scroll; */
+  width: 100%;
+}
+.product-images {
+  margin: 0px 5px;
+}
+.product-images img {
+  width: 100px;
+  height: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+ 
+  .c_logo img {
+    padding: 5px !important;
+    margin: 8px 0px !important;
+}
+.c_name h4 {
+  font-size: 15px;
+  margin-top: 10px;
+}
+  .CorporateInformation-text.border-left {
+    border: none !important;
+}
+p.text-left.w-50.mobi-right-text {
+  text-align: right !important;
+}
+hr{
+  overflow-x: hidden;
+}
+.code{
+  margin-top: 15px !important;
+}
+.company-details-tabs .MuiTab-root {
+  min-width: 100px !important;
+}
+.c_name.mobi-block.desktop-none p {
+  padding: 7px 0px !important;
+}
+.c_inactive.m-3 {
+  margin: 8px 0!important;
+}
+}
+.AboutTab-img{
+  height: 192px;
+  padding: 7px 0px;
+  margin: 0px -6px;
+}
+.AboutTab-img img{
+  width: 100%;
+  height: 100%;
+  margin-left: 9px;
+}
+.Key-Milestones-text{
+  padding-right: 0px;
+}
+.Key-Milestones-text h5{
+  font-weight: 600;
+  font-size: 14px;
+}
+.Key-Milestones-text p{
+  font-weight: normal;
+  font-size: 12px;
+}
+.AboutTab-horizontalrow{
+  height: 8px;
+  background: #000000;
+  opacity: .04;
+  margin: 20px -24px;
+}

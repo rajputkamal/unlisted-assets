@@ -1,0 +1,28 @@
+.MuiStepLabel-label.MuiStepLabel-active {
+  color: rgb(114 28 101) !important;
+}
+span.text-primary-color {
+  color: #721c65;
+}
+.text-small-profile {
+  font-size: 11px !important;
+}
+.MuiStep-horizontal {
+  padding-left: 3px !important;
+  padding-right: 3px !important;
+}
+span.MuiStepLabel-labelContainer {
+  position: relative;
+}
+img.GreenCheck-icon {
+  position: absolute;
+  left: 46%;
+  top: -10px;
+  z-index: 999;
+}
+.Transaction2Image{
+  width: 170px;
+}
+.Transaction3Image{
+  width: 190px;
+}

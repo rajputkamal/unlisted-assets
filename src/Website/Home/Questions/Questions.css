@@ -1,0 +1,45 @@
+
+.QuestionsForUs-main .primary-button {    
+    width: 250px;
+}
+.QuestionsForUs-main .css-1punx67-MuiButtonBase-root-MuiAccordionSummary-root {    
+    background-color: #fff;   
+}
+.QuestionsForUs-main .css-a3krkh-MuiPaper-root-MuiAccordion-root {
+    background-color: #fff;    
+}
+.QuestionsForUs-accordion h5{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 0px;
+}
+.QuestionsForUs-accordion .accordion-para{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    padding-left: 15px;
+    color: #000000;
+}
+.accordion-MinimizeIcon{
+    color: red;
+    margin-top: 10px !important;
+}
+.QuestionsForUs-accordion .css-1punx67-MuiButtonBase-root-MuiAccordionSummary-root .MuiAccordionSummary-expandIconWrapper.Mui-expanded {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    margin-top: 9px;
+}
+.QuestionsForUs-accordion .css-yw020d-MuiAccordionSummary-expandIconWrapper {    
+    color: #0D223C;   
+}
+.QuestionsForUs-accordion svg.MuiSvgIcon-root {
+    width: 14px;
+    height: 14px;
+}
+
+.QuestionsForUs-accordion .css-1punx67-MuiButtonBase-root-MuiAccordionSummary-root{
+    height: 55px;
+}

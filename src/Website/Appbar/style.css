@@ -1,0 +1,114 @@
+
+.website-menulist {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+}
+.website-menulist li{
+font-size:14px;
+font-weight: 500;
+color:#fff;
+font-family: 'Montserrat', normal !important;
+padding: 0px 20px;
+}
+footer.styles-module_chatFooter__1yhZR button {
+    position: absolute;
+    right: 5px;
+}
+/* .website-menulist li:hover{
+    transition:0.5s;
+    border-top: 3px solid #fff;
+} */
+.website-menulist p{
+    font-family: 'Montserrat', normal !important;
+}
+.website-menulist li a{
+    font-size:14px;
+    font-weight: 500;
+    font-family: 'Montserrat', normal !important;
+}
+.appbar-default-margin{
+    margin: 0px 100px;
+}
+button.loginsign-btn {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 14px;
+    font-family: inherit;
+    padding: 8px 15px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+  .mobile-appbar-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    outline: 0;
+    display: grid !important;
+    justify-content: start !important;
+    padding-left: 15px !important;
+    padding-right: 30px !important;
+}
+@media only screen and (max-width: 600px) {
+    .appbar-default-margin{
+        margin: 0px 0px;
+    }
+    .AppBar-main .css-1lvtzne {
+        -webkit-box-flex: 1;
+        -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        margin-right: -50px;
+    }
+    .AppBar-main .company-logo-mobile-view{
+        width: 115px;
+    }
+    .AppBar-main .MuiButtonBase-root {
+        color: inherit;
+        border: 0;
+        cursor: pointer;
+        margin: 0;
+        display: flex;
+        outline: 0;
+        padding: 0;
+        position: relative;
+        align-items: center;
+        user-select: none;
+        border-radius: 0;
+        vertical-align: middle;
+        -moz-appearance: none;
+        justify-content: start;
+        text-decoration: none;
+        background-color: transparent;
+        -webkit-appearance: none;
+        -webkit-tap-highlight-color: transparent;
+        padding: 0px 15px;
+    }
+}
+
+.nav-item span {
+    text-align: center;
+    /*color: #fff;*/
+    font-size: 12px;
+    white-space: nowrap;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif; 
+    background: transparent;
+}
+
+
+.AppBar-main .MuiButtonBase-root{
+    border-radius: 0px !important;
+}
+header.AppBar-main{
+    box-shadow: none !important;
+}
+
+.website-menulist li:nth-last-child(1) {
+    display: none;
+}

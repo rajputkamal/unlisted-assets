@@ -1,0 +1,38 @@
+.title {
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.description {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.error-toast {
+    display: flex;
+    align-items: center;
+}
+
+.error-image {
+    width: 25px;
+    height: 25px;
+}
+.Toastify__toast-container--top-center {
+    top: 5em !important;
+    left: 50%;
+    padding: 16px !important;
+    transform: translateX(-50%);
+    width: 35%;
+  }
+  .Toastify__toast-body img {
+    margin-right: 10px;
+  }
+
+  @media(max-width: 600px){
+    .Toastify__toast-container--top-center {        
+        width: 100%;
+      }
+  }
+  

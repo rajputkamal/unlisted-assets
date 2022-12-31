@@ -1,0 +1,194 @@
+.balance-details {
+    /* border-bottom: 1px solid #cecbcf; */
+    display: flex;
+    font-size: 14px;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.virtual-withdraw-model {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500;
+    background-color: whitesmoke;
+    box-shadow: 24;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+.model-CloseIcon {
+    /* margin-top: -25px; */
+}
+
+/* ==== new design ==  */
+
+
+.virtual-account-main .heading {
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+.virtual-account-form input {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    padding: 10px 16px;
+    height: 37px;
+    background: #FFFFFF;
+    border: 1px solid #757575;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.virtual-account-card {
+    border: 1px solid #757575;
+    padding: 30px;
+}
+
+.virtual-account-card .about-heading {
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.virtual-account-card .about-title {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.virtual-account-card .about-links {
+    margin-bottom: 15px;
+}
+
+.virtual-account-modal .modal-height {
+    height: 350px !important;
+}
+
+.virtual-account-modal {
+    position: fixed;
+    background: white;
+    width: 100%;
+    max-width: 800px !important;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999999;
+    border-radius: 15px !important;
+}
+
+.virtual-modal-section-padding {
+    padding: 40px 45px;
+}
+
+.text-small2 {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.SelectedAssest-text {
+    font-weight: 700;
+    color: #721B65;
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.default_px-4 {
+    padding: 0px 30px;
+}
+
+@media only screen and (max-width: 678px) {
+    .balance-details {
+        display: block !important;
+    }
+
+    .virtual-withdraw-model {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        background-color: whitesmoke;
+        box-shadow: 24;
+        padding: 50px 20px !important;
+        border-radius: 15px;
+    }
+
+    .virtual-account-card .about-heading {
+        font-weight: 600;
+        font-size: 16px;
+        margin-top: 0px;
+    }
+
+    .virtual-account-card {
+        border: 1px solid #757575;
+        padding: 15px;
+    }
+
+    .default_px-4 {
+        padding: 0px;
+    }
+    .virtual-modal-section-padding {
+        padding: 15px 15px;
+    }
+    .virtual-account-modal {
+        width: 95%;
+    }
+    .virtual-account-modal .modal-height {
+        height: 300px !important;
+    }
+}
+
+.profile-tooltip-input button.profile-info-button-aadhar svg {
+    fill: grey;
+}
+
+.profile-info-button {
+    background-color: transparent !important;
+    text-transform: initial !important;
+    color: #212529 !important;
+}
+
+.company-link {
+    color: #2E384D !important;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 13px;
+    font-style: normal;
+    line-height: 22px;
+}
+
+.company-link:hover {
+    color: #721b65 !important;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+}
+
+.tradeready_question {
+    color: #2E384D !important;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 13px;
+    font-style: normal;
+    line-height: 22px;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.tradeready_question :hover {
+    text-decoration: underline;
+    color: #721b65;
+}

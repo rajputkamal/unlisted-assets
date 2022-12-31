@@ -1,0 +1,15 @@
+ul.users_menus {
+  list-style: none;
+  padding: 0;
+}
+ul.users_menus li {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 8px 0px;
+  color: #212629;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  cursor: pointer;
+}
+.transactiondetails-cmp {
+  text-align: left !important;
+}

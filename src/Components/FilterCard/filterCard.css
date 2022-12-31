@@ -1,0 +1,15 @@
+
+.filter-card-container {
+    flex: .15;
+}
+
+.filter-card {
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: transparent;
+    border-style: solid;
+    min-height: 300px;
+}
+#text-primary{
+    color: #721c65 !important;
+}

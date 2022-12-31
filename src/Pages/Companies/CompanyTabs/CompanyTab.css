@@ -1,0 +1,101 @@
+.company-details-tabs{
+  padding: 1px;
+  background: #fff;
+  border: 1px solid #EFEFEF;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 10px 10px 0px 0px;
+}
+.PrivateTabIndicator-colorPrimary-6 { 
+background-color: #721c65 !important;
+}
+.Company-details-tabs-section .MuiAppBar-colorDefault {
+color: #B6B9C1 !important;
+background-color: #ffffff !important;
+}
+.Company-details-tabs-section .Mui-selected span {
+color: #721c65 !important;
+}
+.Company-details-tabs-section .MuiPaper-elevation4 {
+box-shadow: none !important;
+}
+.Company-details-tabs-section .MuiButtonBase-root {
+border-bottom: 0px solid #bdc0c6 !important;
+}
+.Company-details-tabs-section .MuiTab-root {
+font-family: 'Montserrat' !important;
+padding: 5px 5px !important;
+font-size: 12px !important;
+font-weight: 600 !important;
+line-height: 1.75;
+letter-spacing: 0 !important;
+text-transform: capitalize !important;
+}
+.company-details-tabs .MuiTab-root {
+  min-width: 130px !important;
+}
+.Company-details-tabs-section .MuiTabs-scroller.MuiTabs-fixed .Mui-selected {
+  border-bottom: 2px solid #731c67 !important;
+}
+.PrivateTabIndicator-colorPrimary-8 {
+  background-color: #731c67 !important;
+}
+.Company-details-tabs-section .MuiTabs-scroller.MuiTabs-fixed button {
+border-bottom: 2px solid #c9ccd1 !important;
+}
+.tab-steps-list{
+display: flex;
+list-style: none;
+}
+@media only screen and (max-width: 768px) {
+  .Company-details-tabs-section .MuiTabs-flexContainer {
+  overflow-x: scroll;
+}
+.Company-details-tabs-section .MuiTabs-scroller.MuiTabs-fixed button {
+  border-bottom: 2px solid #c9ccd1 !important;
+  padding: 0 !important;
+  font-size: 12px !important;
+  line-height: 1;
+  min-width: 100px !important;
+}
+div#full-width-tabpanel-1 {
+margin-top: 15px;
+}
+#full-width-tabpanel-0 .p-4 {
+padding: 1rem !important;
+}
+.col-md-6.col-12.p-4 {
+padding: 1rem !important;
+}
+.MuiFormGroup-root.trade_ready_step_1_Choose_radio_group .MuiFormControlLabel-labelPlacementStart {
+margin-left: 16px;
+margin-right: 0px !important;
+flex-direction: row-reverse;
+}
+}
+@media only screen and (max-width: 1024px) {
+  .Company-details-tabs-section .MuiTabs-flexContainer {
+overflow-x: scroll;
+}
+}
+@media only screen and (max-width: 1150px) {
+
+  .Company-details-tabs-section .MuiTab-root {
+  padding: 5px 5px !important;
+  font-size: 10px !important;
+}
+.Company-details-tabs-section .MuiTab-root {
+min-width: 145px !important;
+}
+.profile_widget_row_label {
+font-size: 10px ;
+}
+}
+@media only screen and (max-width: 600px){
+  .trade-tabs-right {
+    padding: 1px;
+}
+.Company-details-tabs-section .MuiBox-root {
+  padding: 0px 10px !important;
+  overflow-x: hidden;
+}
+  }

@@ -1,0 +1,104 @@
+.addholding_container {
+  display: flex;
+  margin: 10px;   
+}
+
+.addholding_container > h1 {
+  width: 100%;
+}
+
+.addholding_container-inner {
+  border: 1px solid;
+  border: 0.5px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  background-color: #FFFFFF;
+}
+
+.addholding_right {
+  width: 100%;
+}
+
+.addholding_left {
+  border-radius: 22px;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  border: 1px solid #CFCBCF;
+  margin: 10px;
+  padding: 10px;
+  background-color: #FFFFFF;
+}
+
+
+
+.addholding_left-inner > div > p:first-child {
+  font-weight: bold;
+}
+
+.inline-validation-box {
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background: rgb(237, 41, 57, 0.05);
+}
+
+.inline-validation-box p {
+  color: #ed2939;
+  font-size: 12px;
+}
+
+.addholding-form label {
+  font-size: 14px;
+}
+
+.addholding-form p {
+  font-size: 14px;
+}
+
+.addholding-form div {
+  font-size: 14px;
+}
+.holding-play {
+  position: relative;
+}
+.holding-play .playvideo {
+  position: absolute;
+  left: 80px;
+  top: 50px;
+  cursor: pointer;
+}
+.scroll-default::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.scroll-default::-webkit-scrollbar
+{
+	width: 5px;
+	background-color: #F5F5F5;
+}
+
+.scroll-default::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #721B65;
+}
+@media(max-width: 600px){
+  .addholding_container-inner {
+    display: flex;
+    flex-direction: column; 
+  }
+  .addholding-form p {
+    font-size: 12px !important;
+}
+.holding-details-box{
+  padding: 10px !important;
+  margin-top: 30px;
+}
+}

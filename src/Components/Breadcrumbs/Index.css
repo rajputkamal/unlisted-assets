@@ -1,0 +1,8 @@
+.desktop-breadcrumb {
+    display: block;
+}
+@media only screen and (max-width: 600px) {
+    .desktop-breadcrumb {
+        display: none;
+    }
+  }

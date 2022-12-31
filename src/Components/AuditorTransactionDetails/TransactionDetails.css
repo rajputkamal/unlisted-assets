@@ -1,0 +1,90 @@
+.transation-detail-modal p{
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.transation-detail-pdf-modal {
+    position: fixed;
+    background: white;
+    width: 100%;
+    max-width: 800px !important;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 999999;
+    border-radius: 15px !important;
+    padding: 40px 45px;
+}
+.transation-detail-pdf-modal .default-modal-height {
+    height: 475px !important;
+}
+
+.pdf-loader .MuiCircularProgress-colorPrimary {
+    color: #721B65 !important;
+}
+
+button.btn.btn-primary-default {
+    font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  text-align: center;
+  border: 1px solid #721B65;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #721B65;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 8px 15px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+button.btn.btn-secondary-default {
+    font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  text-align: center;
+  border: 1px solid #721B65;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #721B65;
+  background-color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 8px 15px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.transactiontrial-icon {
+    margin: 5px 0px !important;
+}
+.transactiontrial-icon img{
+    width: 18px;
+    margin: 0px 3px;
+}
+.transactiontrial-hourglassBottomIcon{
+
+}
+.transactiontrial-hourglassBottomIcon svg {
+    fill: #fff !important;
+    width: 15px;
+}
+.transactiontrial-hourglassBottomIcon {
+    background-color: #f1c40f;
+    /* padding: 5px; */
+    border-radius: 50%;
+    /* height: 25px; */
+    width: 18px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 3px;
+
+}
+

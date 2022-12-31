@@ -1,0 +1,56 @@
+.custom-load-btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.custom-load-btn button {
+    width: 100%;
+    background: #2e394c !important;
+    border: #2e394c !important;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    padding: 8px 0px;
+    border-radius: 4px;
+    font-size: 13px;
+}
+.custom-load-btn button.primary-button:hover{
+    background: #2e394c !important;
+    border: #2e394c !important;
+    color: #fff !important;
+}
+.custom-load-btn .MuiCircularProgress-root {
+    position: absolute;
+    height: 25px !important;
+    width: 25px !important;
+}
+.custom-load-btn .MuiCircularProgress-colorPrimary {
+    color: #ffffff !important;
+}
+.custom-load-btn-small {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.custom-load-btn-small button {
+    width: 100%;
+    background: #2e394c !important;
+    border: #2e394c !important;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    padding: 8px 0px;
+    border-radius: 4px;
+    font-size: 13px;
+}
+.custom-load-btn-small .MuiCircularProgress-root {
+    position: absolute;
+    height: 25px !important;
+    width: 25px !important;
+}
+.custom-load-btn-small .MuiCircularProgress-colorPrimary {
+    color: #ffffff !important;
+}

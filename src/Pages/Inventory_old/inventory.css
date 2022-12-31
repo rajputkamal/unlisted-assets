@@ -1,0 +1,35 @@
+/* .unlisted-assests-logo-header{
+    margin-top: 11px;
+    margin-left: 32px;
+    margin-bottom: 11px;
+    width: 200px;
+    height: 42px;
+}
+ .dashboard{
+    height:calc(100vh - 64px)
+}
+.right{
+    width: 50%;
+}
+.left{
+    width:80%;
+} 
+
+.d-flex{
+    display: flex;
+} */
+
+.dashboard{
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    /* width: 100%; */
+}
+.dashboard_stepper_area{
+   width: 15%;
+   /* margin: 10px; */
+   padding-right: 10px;
+}
+.dashboard_table_area{
+    flex-grow: 1;
+}

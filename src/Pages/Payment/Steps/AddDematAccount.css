@@ -1,0 +1,104 @@
+.Trade_ready_step_3_text{
+    font-family: Montserrat;
+    font-style: normal;
+    /* color: #2E384D; */
+}
+/* .Trade_ready_step_2_Label{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+color: #2E384D;
+} */
+.Trade_ready_step_3_container{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+.Trade_ready_step_3_who_are_you{
+    font-weight: 600;
+}
+.Trade_ready_step_3_Choose_radio_group{
+    /* margin-top: 12px; */
+    font-weight: 500;
+    font-size: 14px;
+    color: #2E384D;
+}
+.Trade_ready_step_3_Choose_radio_border{
+    width: 596px;
+    height: 40px;
+    border: 1px solid #CFCBCF;
+    /* box-sizing: border-box; */
+    border-radius: 4px;
+
+}
+
+.Trade_ready_step_3_bank_image_area{
+    width: 187.23px;
+    
+    background: url(https://www.google.co.in/);
+    border-radius: 10px;
+    padding-bottom: 40px;
+}
+.Trade_ready_step_3_bank_image_container{
+    
+    border: 1px solid #CFCBCF;
+    height: fit-content;
+    filter: drop-shadow(0px 5px 50px #E5E9F3);
+    border-radius: 22px;
+    padding: 20px;
+
+}
+.Trade_ready_step_3_save_button{
+    display: flex;
+    /* width: 150px; */
+    margin-top: 30px;
+    margin-right: 20px;
+    align-items: center;
+    border-top: 1px solid #CFCBCF;
+    
+}
+.Trade_ready_step_3_Select_container{
+    width: 362px;
+    height: 40px;
+    border: 1px solid #CFCBCF;
+
+border-radius: 4px;
+margin-top: 12px;
+margin-bottom:7px ;
+margin-left:-3px;
+}
+.Trade_ready_step_3_previous_button{
+    height: 60vh;
+}
+.Trade_ready_step_3_selectbox{
+    /* margin-top: 15px; */
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #CFCBCF;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 0.5px solid rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    color: #000;
+    /* padding: 5px 10px; */
+    /* font-size: 14px; */
+}
+.DepositoryTab-form input {
+    height: 40px !important;    
+    border: 1px solid #b2b2b2;
+    border-radius: 5px;
+}
+
+@media(max-width: 768px){
+    .Trade_ready_step_3_container{
+        display: flex;
+        flex-direction: column;
+    }
+    #dbmn{
+        display: none;        
+    }
+    .add_demat_acc_btns .primary-button{
+        width: 100% !important;
+      }
+}

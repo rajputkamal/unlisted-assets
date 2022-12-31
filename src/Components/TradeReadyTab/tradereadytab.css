@@ -1,0 +1,326 @@
+.trade-tabs-right{
+    border: 1px solid rgb(207, 203, 207);
+    padding: 10px;
+    border-radius: 5px;
+    background: #fff;
+}
+.profile-right-sec .MuiStepConnector-root.MuiStepConnector-horizontal {
+  display: none;
+}
+.MuiStepIcon-root.MuiStepIcon-active {
+  color: #741e67 !important;
+}
+.profile-right-sec .MuiStepIcon-root.MuiStepIcon-completed {
+  color: #ffc82d !important;
+}
+/* .profile-right-sec .MuiStepLabel-label {
+  border-bottom: 2px solid #CFCBCF;
+  padding-bottom: 5px;
+}
+.profile-right-sec .MuiStepLabel-label.MuiStepLabel-active {
+  color: rgb(114 28 101) !important;
+  border-bottom: 2px solid #721c65;
+  padding-bottom: 5px;
+} */
+/* .profile-right-sec .MuiStepper-root {
+  padding: 0px !important;
+} */
+.Tradeready-tabs-section .MuiStepper-root {
+  padding: 0px 0px !important;
+  /* border-bottom: 1px solid #cecbcf; */
+  padding-top: 0px !important;
+}
+.profile-right-sec .MuiStepButton-root {
+  width: 100%;
+  padding: 10px 21px ;
+  /* padding: 10px 17px ; */
+  border-bottom: 3px solid #cecbcf ;
+}
+.profile-right-sec span.MuiTypography-root.MuiStepLabel-label.MuiTypography-body2.MuiTypography-displayBlock {
+  font-size: 12px !important;
+  font-weight: 600;
+}
+.MuiButton-containedPrimary {
+  background-color: #721c65 !important;
+}
+.PrivateTabIndicator-colorPrimary-6 {
+  background-color: #721c65 !important;
+}
+.MuiAppBar-colorDefault {
+  color: #B6B9C1 !important;
+  background-color: #ffffff !important;
+}
+.Mui-selected span {
+  color: #721c65 !important;
+}
+.MuiPaper-elevation4 {
+  box-shadow: none !important;
+}
+/* .MuiButtonBase-root {
+  border-bottom: 0px solid #bdc0c6 !important;
+} */
+.MuiTab-root {
+  font-family: 'Montserrat' !important;
+  padding: 5px 5px !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  line-height: 1.75;
+  letter-spacing: 0 !important;
+  
+}
+.MuiTabs-scroller.MuiTabs-fixed button {
+  border-bottom: 2px solid #c9ccd1 !important;
+}
+.tab-steps-list{
+  display: flex;
+  list-style: none;
+}
+.tradeready-action-button .primary-button{
+  width: 50%;
+  font-size: 12px;
+}
+.tradeready-action-button .secondary-button{
+  width: 50%;
+  font-size: 12px;
+}
+
+.tradeready-action-Alert .css-xilmwd-MuiPaper-root-MuiAlert-root {
+  border-radius: 0px !important;
+  border-left: 4px solid #25A9EF;
+  -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  /* border-radius: 4px; */
+  box-shadow: none;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+  background-color: #2E384D;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 14px 14px;
+  color: #FFFFFF;
+}
+.tradeready-action-Alert svg.MuiSvgIcon-root {
+  width: 24px;
+  height: 23px;
+  color: #323232;
+  background-color: #25A9EF;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-left: -10px;
+  padding: 3px;
+}
+
+.tradeready-save-mobilebutton{
+  position: absolute;
+  bottom: 15px;
+  left: 265px;
+  width: 50%;
+}
+.tradeready-save-mobilebutton button{
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  /* text-transform: uppercase !important; */
+  font-family: inherit !important;
+  box-shadow: 0px 3px 5px 0px #c1c0c0;
+  width: 100%;
+}
+.back-next-actions button:last-child{
+  background: #fff !important;
+  border: 1px solid #721a65;
+  box-shadow: none;
+  color: #721a65;
+  border-bottom: 1px solid #721a65 !important;
+}
+@media only screen and (max-width: 600px) {
+  .MuiTabs-flexContainer {
+    overflow-x: scroll;
+}
+  .MuiTabs-scroller.MuiTabs-fixed button {
+    border-bottom: 2px solid #c9ccd1 !important;
+    padding: 0 !important;
+    font-size: 10px !important;
+    line-height: 1;
+}
+.MuiBox-root-22 {
+  padding: 0px !important;
+}
+.MuiBox-root {
+  padding: 0px !important;
+}
+.MuiBox-root-34 {
+  padding: 0px !important;
+}
+.MuiBox-root-27 {
+  padding: 0px !important;
+}
+div#full-width-tabpanel-1 {
+  margin-top: 15px;
+}
+#full-width-tabpanel-0 .p-4 {
+  padding: 1rem !important;
+}
+.col-md-6.col-12.p-4 {
+  padding: 1rem !important;
+}
+.MuiFormGroup-root.trade_ready_step_1_Choose_radio_group .MuiFormControlLabel-labelPlacementStart {
+  margin-left: 16px;
+  margin-right: 0px !important;
+  flex-direction: row-reverse;
+}
+.tradeready-save-mobilebutton{
+  position: absolute;
+  bottom: 16px;
+}
+
+.profile_widget_list .css-1pe7n21-MuiStepConnector-root {
+  flex: 1 1 auto;
+  margin-left: 17px !important;
+  margin-top: -10px !important;
+  margin-bottom: -20px !important;
+}
+
+.profile_widget_list  .css-14sza3e-MuiStepLabel-root {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: left;
+  padding: 8px 10px !important;
+}
+
+.tradereadytab-para-nextpage{
+  
+  text-align: end;
+}
+.tradeready-action-Alert .css-xilmwd-MuiPaper-root-MuiAlert-root {  
+  font-size: 12px;
+}
+.tradeready-action-Alert .default-padding-mobileview{
+  padding-left: 5px;
+}
+
+.tradeready-action-Alert svg.MuiSvgIcon-root {
+  width: 24px;
+  height: 23px;
+  color: #323232;
+  background-color: #25A9EF;
+  border-radius: 50%;
+ margin: auto;
+  padding: 3px;
+}
+
+}
+@media only screen and (max-width: 1024px) {
+.MuiTabs-flexContainer {
+  overflow-x: scroll;
+}
+}
+@media only screen and (max-width: 1150px) {
+  /* .MuiTabs-flexContainer {
+    overflow-x: scroll;
+  } */
+  .MuiTab-root {
+    padding: 5px 5px !important;
+    font-size: 10px !important;
+}
+.MuiTab-root {
+  min-width: 145px !important;
+}
+.profile_widget_row_label {
+  font-size: 10px ;
+}
+  }
+
+  .MuiStepLabel-iconContainer {
+    display: flex;
+    flex-shrink: 0;
+    padding-right: 2px !important;
+  }
+
+
+  /* ================================================= */
+
+
+
+  .tradereadytab-mobilestepper .css-1be5mm1-MuiLinearProgress-root-MuiMobileStepper-progress {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    height: 4px;
+    z-index: 0;
+    background-color: rgba(114, 27, 101, 0.1) !important;
+    width: 100% !important;
+  }
+  .tradereadytab-mobilestepper .css-5xe99f-MuiLinearProgress-bar1 {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    -webkit-transition: -webkit-transform .4s linear;
+    transition: transform .4s linear;
+    transform-origin: left;
+    background-color: #721B65 !important;
+}
+  .tradereadytab-para{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #757575;
+    margin-bottom: 0px;
+  }
+  .tradereadytab-heading{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #0D223C;
+  }
+  .tradereadytab-para-nextpage{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A5A5A5;
+    margin-bottom: 0px;
+  }
+  .tradereadytab-heading-nextpage{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #A5A5A5;
+    text-align: end;
+  }
+ 
+  
+
+  .tradeready-action-button .MuiButton-root {
+    background-color: rgba(0, 0, 0, 0.04);
+    margin-right: 8px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-transform: capitalize !important;
+    width: 50%;
+    font-weight: 700;
+    color: #2E384D;
+}
+.tradready-tooltipicon{
+  margin-left: 5px;
+}
+.tradeready-horizontalrow{  
+  /* border-bottom: 3px solid #000000;  */
+  height: 8px;  
+  background: #000000;
+  opacity: 0.03;  
+  margin: 20px -25px;
+}
+
+
+

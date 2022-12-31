@@ -1,0 +1,54 @@
+.UserIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background: #f2f3f8;
+  border-radius: 50%;
+  border: 1px solid #cecbcf;
+}
+.UserIcon img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 1px;
+}
+.ActiveCurrentUser {
+  background: #721a65;
+  color: #fff !important;
+}
+tr.ActiveCurrentUser:hover{
+  background: #721a65 !important;
+  color: #fff;
+}
+.sender-table-container{
+  max-height: 500px;
+  width: border-box;
+  border:"1px solid #CFCBCF";
+  border-radius: "10px";
+}
+.money-transfer-modal-input label {
+  font-size: 12px;
+  margin-bottom: 2px;
+}
+.money-transfer-modal-link{
+  font-weight: 700;
+  color: #721B65;
+  font-size: 14px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.moneytransfertable-default-container {
+  max-height: 500px;
+  width: "border-box";
+  border: 1px solid #CFCBCF;
+  border-radius: 10px;
+}
+.relese-money-modal{
+  position: fixed;
+  background: white;
+  transform: translate(-50%,-50%);
+  border-radius: 15px !important;
+
+}

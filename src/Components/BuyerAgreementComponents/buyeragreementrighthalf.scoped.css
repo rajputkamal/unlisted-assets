@@ -1,0 +1,256 @@
+.buyeragreement_completetransactionsteps{
+    display: flex;
+    border-top: 1px solid #CFCBCF;
+    border-right: 1px solid #CFCBCF;
+    border-left: 1px solid #CFCBCF;
+    font-size: 16px;  
+    padding: 16px 0px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.steps-title{
+    display: flex;
+    padding: 10px;
+    background: rgb(251, 251, 255);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border: 1px solid rgb(207, 203, 207);
+    /* border-bottom: 0; */
+}
+.buyeragreement_radio{
+    width:40px;
+}
+.buyeragreement_radioContainer{
+    margin: 10px;
+}
+.custom-radios div {
+    display: inline-block;
+}
+.custom-radios input[type="radio"] {
+    display: none;
+}
+.custom-radios input[type="radio"] + label {
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 8px;
+    margin: 0;
+}
+.custom-radios input[type="radio"] + label span {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: 5px 10px 5px 10px;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 33%);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    line-height: 20px;
+}
+.custom-radios input[type="radio"] + label span img {
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+.custom-radios input[type="radio"]#color-1 + label span {
+    background-color: #2ecc71;
+}
+.custom-radios input[type="radio"]#color-2 + label span {
+    background-color: #3498db;
+}
+.custom-radios input[type="radio"]#color-3 + label span {
+    background-color: #f1c40f;
+}
+.custom-radios input[type="radio"]#color-4 + label span {
+    background-color: #e74c3c;
+}
+.custom-radios input[type="radio"]:checked + label span img {
+    opacity: 1;
+}
+
+.agreement-steps-unchecked {
+    line-height: 1;
+    margin: 0px;
+    font-size: 12px;   
+}
+.buyeragreement_completetransactionsteps:hover .agreement-steps-unchecked{
+    color: #721B65;
+    font-weight: 700 !important;  
+
+}
+.alert-icon{
+    background-color: #f1c40f;
+    border-radius: 50%;
+}
+.buyeragreement_completetransactionsteps:hover .agreement-Greenuncheck-icon{
+ background-color: #f1c40f;
+ border: currentColor;
+}
+#buyeragreementrighthalf-CircularProgress{
+    color: #721B65 !important;  
+}
+#steps-CircularProgress{
+    margin-left: -31;
+    margin-top: 4px;
+}
+.HourglassBottom-Icon {
+    background-color: #f1c40f;
+    /* padding: 5px; */
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    }
+.HourglassBottom-Icon svg {
+fill: #fff !important;
+/* background: #f1c40f;
+border-radius: 50%;
+width: 100%; */
+}
+
+.agreement-steps-checked{
+    line-height: 1 !important;
+    font-size: 12px !important;
+    font-weight: 700 !important;  
+    margin: 0px; 
+}
+.Buyer-Agreement-Signup{
+    background-color: #f2f3f9;
+    border-radius: 10px;
+}
+.buyagreementMobileSignup-progress{
+    border: 4px solid #f2f3f9 !important;
+}
+@media only screen and (max-width: 768px) {
+    .steps-title {
+        border: none !important;
+    }
+    .steps-title h6 {
+        font-size: 13px;
+    }
+    .buyagreementMobile-progress{
+        /* background: #f2f3f8; */
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .buyagreementMobile-progress{
+        /* background: #efd0ea; */
+  border-radius: 50%;
+  border: 4px solid #fff;
+  height: 65px;
+  width: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    }
+    .buyagreementMobile-progress .MuiCircularProgress-root.MuiCircularProgress-colorPrimary.MuiCircularProgress-determinate {
+        width: 55px !important;
+        height: 55px !important;
+      }
+      .buyagreementMobile-progress .MuiCircularProgress-colorPrimary {
+        color: #2cbd60 !important;
+      }
+      .buyagreementMobile-progress .MuiTypography-colorTextSecondary {
+        color: rgb(114 26 101);
+        font-weight: 700;
+        font-size: 15px;
+      }
+    .buyeragreement_right .stepper-sec{
+        margin-top: 5px;
+        margin-bottom: 5px;       
+    }
+    .Complete-Transaction-Steps{
+        font-size: 10px !important;
+        margin-bottom: 0px;
+    }
+    
+  }
+
+  @media only screen and (max-width: 600px) {
+    .phone-none{
+        display: none;
+    }
+    .steps-title2{        
+        border-radius: 10px;
+    }
+
+    .buyeragreement_left-card {
+        background: #FBFBFF;
+        border: 0.5px solid #CFCBCF;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .buyeragreement_left .heading1 {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        color: #0D223C;
+        padding: 0px;
+    }
+
+    .buyeragreement_left .heading2 {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        color: #721B65;
+        padding: 0px;
+    }
+    .buyeragreement_left .title {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        color: #757575;
+    }
+
+    
+
+    /* .MuiStepConnector-lineVertical {
+        min-height: 28px;
+        border-left-style: solid;
+        border-left-width: 1px;
+        margin-left: -4px !important;
+    } */
+
+    .stepper .MuiStepConnector-vertical {
+        padding: 0 0 8px;
+        margin-left: 8px !important;
+    }
+
+    .MuiStepConnector-line.MuiStepConnector-lineVertical {
+        min-height: 24px;
+        border-left-style: solid;
+        border-left-width: 1px;
+        margin-left: -4px !important;
+    }
+    
+  
+  }
+  
+
+  
+  /* const [TransactionStep, setTransactionStep] = useState(true)
+
+  const TransactionStepDone=()=> {
+       
+      if(TransactionStep==true){
+          setTransactionStep(false)
+      }
+      else if(TransactionStep==false){
+          setTransactionStep(true)  
+      }
+      // TransactionStep? setTransactionStep(false):setTransactionStep(true)    
+      
+    }
+
+
+    className={TransactionStep ? "agreement-steps-unchecked m-0" : "agreement-steps-checked m-0"} */
